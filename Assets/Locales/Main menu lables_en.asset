@@ -63,9 +63,13 @@ MonoBehaviour:
 
       <b>Render Pipeline:</b> Universal Render Pipeline (URP)
 
+      
 
+      
 
+      
 
+      
 
       <line-height=50%>
       </line-height>
@@ -80,9 +84,13 @@ MonoBehaviour:
 
       <b>MagicaVoxel</b> by ephtracy
 
+      
 
+      
 
+      
 
+      
 
       <line-height=50%>
       </line-height>
@@ -97,17 +105,22 @@ MonoBehaviour:
 
       <b>TextMeshPro</b> by Unity Technologies
 
-      <b>Unity Post-Processing
-      Stack</b> by Unity Technologies
+      <b>Unity
+      Post-Processing Stack</b> by Unity Technologies
 
-      <size=80%><color=#AAAAAA><i>All Unity
-      Asset Store assets are used under the
+      <size=80%><color=#AAAAAA><i>All
+      Unity Asset Store assets are used under the
 
-      Standard Unity Asset Store EULA.</i></color></size>
+      Standard Unity Asset Store
+      EULA.</i></color></size>
 
+      
 
+      
 
+      
 
+      
 
       <line-height=50%>
       </line-height>
@@ -126,9 +139,13 @@ MonoBehaviour:
       <size=80%><color=#AAAAAA><i>All fonts are
       used under the SIL Open Font License.</i></color></size>
 
+      
 
+      
 
+      
 
+      
 
       <line-height=50%>
       </line-height>
@@ -141,44 +158,66 @@ MonoBehaviour:
       <b>UI Elements (Wood & Gold)</b>
       - by upklyak / Freepik.com
 
-      <b>Horizontal Game Backgrounds</b> - by Free
-      Game Assets / CraftPix.net
-
       <b>Paper UI Pack</b> - by Lynda Mc Donald
       / Itch.io
 
+      
 
+      
 
+      
 
+      
 
       <line-height=50%> </line-height>
 
-      <size=140%><b><color=#FFD700>SPECIAL
-      THANKS</color></b></size>
+      <size=140%><b><color=#FFD700>MUSIC</color></b></size>
 
-      <b>Vertex Text Animation System</b>
+      <b>Towball''s
+      Crossing (Deluxe Edition)</b> - by Towball / Itch.io
 
-      based
-      on code by markv12 (Mark Villanueva)
+      
+
+      
+
+      
+
+      <line-height=50%>
+      </line-height>
+
+      <size=140%><b><color=#FFD700>SPECIAL THANKS</color></b></size>
+
+      <b>Vertex
+      Text Animation System</b>
+
+      based on code by markv12 (Mark Villanueva)
+
+      <b>Tunic
+      style dappled lighting Unity package</b>
+
+      based on Stone Baked Games
+      guide
 
       <b>Sarah</b> - Tester
 
-      <b>Alexei</b>
-      - Tester
+      <b>Alexei</b> - Tester
+
+      
+
+      
 
 
+      
 
+      <line-height=50%>
+      </line-height>
 
+      <size=160%><b><color=#FFD700>DEVELOPED BY</color></b></size>
 
-      <line-height=50%> </line-height>
+      <size=150%><b>Galyautdinov
+      Artur</b></size>
 
-      <size=160%><b><color=#FFD700>DEVELOPED
-      BY</color></b></size>
-
-      <size=150%><b>Galyautdinov Artur</b></size>
-
-      as
-      part of a Bachelor''s thesis at TU Darmstadt
+      as part of a Bachelor''s thesis at TU Darmstadt
 
       </align>'
     m_Metadata:
