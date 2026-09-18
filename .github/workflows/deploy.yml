@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        targetPlatform: [ StandaloneLinux64, StandaloneWindows64, Android ]
+        targetPlatform: [ StandaloneLinux64, StandaloneWindows64 ]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,7 +34,6 @@ jobs:
         with:
           unityVersion: auto
           targetPlatform: ${{ matrix.targetPlatform }}
-          androidExportType: ${{ matrix.targetPlatform == 'Android' && 'androidPackage' || '' }}
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
@@ -61,25 +60,16 @@ jobs:
           name: build-StandaloneWindows64
           path: build/StandaloneWindows64
 
-      - name: Download Android build
-        uses: actions/download-artifact@v4
-        with:
-          name: build-Android
-          path: build/Android
-
       - name: Package build artifacts
         run: |
           VERSION="${{ github.ref_name }}"
-          SAFE_NAME="${GAME_NAME// /-}"
+          SAFE_NAME="RiscvAdventure"
 
           tar -czf "${SAFE_NAME}.Linux.Build.${VERSION}.tar.gz" -C build/StandaloneLinux64 .
 
           cd build/StandaloneWindows64
           zip -r "../../${SAFE_NAME}.Windows.Build.${VERSION}.zip" .
           cd ../..
-
-          APK_PATH=$(find build/Android -iname "*.apk" | head -n 1)
-          cp "$APK_PATH" "./${SAFE_NAME}-Android.apk"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
@@ -90,7 +80,6 @@ jobs:
           files: |
             *.zip
             *.tar.gz
-            *.apk
 
   deploy:
     name: Publish to itch.io
@@ -105,9 +94,6 @@ jobs:
           - targetPlatform: StandaloneWindows64
             channel: windows
             label: Windows
-          - targetPlatform: Android
-            channel: android
-            label: Android
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v4
