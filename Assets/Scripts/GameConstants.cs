@@ -1,3 +1,4 @@
+// This class stores all "magic numbers"
 public static class GameConstants
 {
     public const string UnlockedLevelKey = "UnlockedLevelIndex";
