@@ -177,7 +177,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2188803023065088
-    m_Localized: Bearbeite den Befehl aus Register 3 korrekt und schreibe den Ergebnis
+    m_Localized: Bearbeite den Befehl aus Register A2 korrekt und schreibe den Ergebnis
       in RegisterFile
     m_Metadata:
       m_Items: []

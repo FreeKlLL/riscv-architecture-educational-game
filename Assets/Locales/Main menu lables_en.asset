@@ -67,10 +67,6 @@ MonoBehaviour:
 
       
 
-      
-
-      
-
       <line-height=50%>
       </line-height>
 
@@ -83,10 +79,6 @@ MonoBehaviour:
       (Patch/Plugin for GIMP)
 
       <b>MagicaVoxel</b> by ephtracy
-
-      
-
-      
 
       
 
@@ -118,12 +110,7 @@ MonoBehaviour:
 
       
 
-      
-
-      
-
-      <line-height=50%>
-      </line-height>
+      <line-height=50%> </line-height>
 
       <size=140%><b><color=#FFD700>FONTS</color></b></size>
 
@@ -138,10 +125,6 @@ MonoBehaviour:
 
       <size=80%><color=#AAAAAA><i>All fonts are
       used under the SIL Open Font License.</i></color></size>
-
-      
-
-      
 
       
 
@@ -198,14 +181,14 @@ MonoBehaviour:
       based on Stone Baked Games
       guide
 
-      <b>Sarah</b> - Tester
+      based on code by markv12 (Mark Villanueva)
+
+      <b>Sarah</b>
+      - Tester
 
       <b>Alexei</b> - Tester
 
       
-
-      
-
 
       
 
