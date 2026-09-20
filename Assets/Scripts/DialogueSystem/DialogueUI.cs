@@ -16,6 +16,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TMP_Text textField;
     [FormerlySerializedAs("charackterImage")] [FormerlySerializedAs("_charackterImage")] [SerializeField] private Image characterImage;
     [FormerlySerializedAs("_goNextQuoteButton")] [SerializeField] private Button goNextQuoteButton;
+    [SerializeField] private Button goPrevQuoteButton;
 
     [Header("Answer Options")]
     [SerializeField] private Transform buttonContainer;
@@ -32,6 +33,7 @@ public class DialogueUI : MonoBehaviour
     private Vector2 _basePortraitPos;
 
     public event Action OnNextRequested;
+    public event Action OnBackRequested;
     public event Action<int> OnSpecificPathRequested;
 
     // text animation variables
@@ -51,6 +53,8 @@ public class DialogueUI : MonoBehaviour
         firstAnswerButton.onClick.AddListener(() => OnSpecificPathRequested?.Invoke(1));
         secondAnswerButton.onClick.AddListener(() => OnSpecificPathRequested?.Invoke(2));
         thirdAnswerButton.onClick.AddListener(() => OnSpecificPathRequested?.Invoke(3));
+        
+        goPrevQuoteButton.onClick.AddListener(() => OnBackRequested?.Invoke());
     }
 
 
@@ -98,6 +102,9 @@ public class DialogueUI : MonoBehaviour
     public void SkipAnimationOfTyping() {
         _vertexAnimator.SkipToEndOfCurrentMessage();
     }
+    
+    public void SetBackAvailable(bool available) => goPrevQuoteButton.interactable = available;
+    
 
     public void HandleUserQuoteSkip()
     {
@@ -165,11 +172,9 @@ public class DialogueUI : MonoBehaviour
 
     private void OnDestroy()
     {
-        // kill all animations
-        //_meshUpdateTween?.Kill();
-
         // Clean up listeners to prevent memory leaks
         goNextQuoteButton.onClick.RemoveAllListeners();
+        goPrevQuoteButton.onClick.RemoveAllListeners();
         firstAnswerButton.onClick.RemoveAllListeners();
         secondAnswerButton.onClick.RemoveAllListeners();
         thirdAnswerButton.onClick.RemoveAllListeners();
