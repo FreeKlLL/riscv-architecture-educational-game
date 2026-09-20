@@ -45,6 +45,10 @@ MonoBehaviour:
       (TMP) 1
     m_Metadata:
       m_Items: []
+  - m_Id: 8265932806574080
+    m_Key: ingame.prev_quote_dialogue
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

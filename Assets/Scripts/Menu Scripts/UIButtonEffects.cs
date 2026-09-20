@@ -26,14 +26,16 @@ public class UIButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerExit
     [SerializeField] private float clickSquish   = 0.12f;
     [SerializeField] private float clickPressDur = 0.1f; // mobile
     [SerializeField] private float clickReleaseDur = 0.25f; // mobile
-    // [SerializeField] private float clickPunchDur = 0.22f; // desktop
     
     private Vector3 _initialScale;
     private Vector3 _initialRotation;
     private RectTransform _rectTransform;
     
     private static bool HasCursor => !Application.isMobilePlatform;
-    // private bool _isHovered;
+    
+    private bool _isHovered;
+    private bool _visualHovered; // in which state is image on button
+    private bool _busy; // if hover animation is active right now
 
     private void Awake()
     {
@@ -50,16 +52,8 @@ public class UIButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerExit
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (!HasCursor) return;
-        
-        // _isHovered = true;
-        // Kill any active tweens on this object to prevent conflict
-        _rectTransform.DOKill();
-
-        // Subtle punch rotation effect for 'juice'
-        _rectTransform.DOPunchRotation(new Vector3(0, 0, shakeStrength), shakeDuration, vibrato);
-
-        // Smooth scale up
-        _rectTransform.DOScale(_initialScale * hoverScale, 0.2f).SetEase(onEnterEase);
+        _isHovered = true;
+        RefreshHover();
     }
 
     /// <summary>
@@ -68,12 +62,35 @@ public class UIButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerExit
     public void OnPointerExit(PointerEventData eventData)
     {
         if (!HasCursor) return;
-        // _isHovered = false;
-        
-        _rectTransform.DOKill();
+        _isHovered = false;
+        RefreshHover();
+    }
+    
+    private void RefreshHover()
+    {
+        if (_busy || _isHovered == _visualHovered) return;
 
-        _rectTransform.DOScale(_initialScale, hoverDuration).SetEase(onExitEase);
-        _rectTransform.DOLocalRotate(_initialRotation, hoverDuration).SetEase(onExitEase);
+        _visualHovered = _isHovered;
+        _busy = true;
+
+        var seq = DOTween.Sequence().SetTarget(_rectTransform);
+
+        if (_visualHovered)
+        {
+            seq.Join(_rectTransform.DOPunchRotation(new Vector3(0, 0, shakeStrength), shakeDuration, vibrato));
+            seq.Join(_rectTransform.DOScale(_initialScale * hoverScale, hoverDuration).SetEase(onEnterEase));
+        }
+        else
+        {
+            seq.Join(_rectTransform.DOScale(_initialScale, hoverDuration).SetEase(onExitEase));
+            seq.Join(_rectTransform.DOLocalRotate(_initialRotation, hoverDuration).SetEase(onExitEase));
+        }
+
+        seq.OnComplete(() =>
+        {
+            _busy = false;
+            RefreshHover();
+        });
     }
     
     # region On Click (all platforms)
@@ -87,6 +104,7 @@ public class UIButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerExit
     public void OnPointerUp(PointerEventData eventData)
     {
         // var target = (HasCursor && _isHovered) ? _initialScale * hoverScale : _initialScale;
+        _busy = false;
  
         // _rectTransform.DOScale(target, hoverDuration * 0.5f).SetEase(onEnterEase);
         _rectTransform.DOScale(_initialScale, clickReleaseDur).SetEase(Ease.OutBack);
@@ -97,8 +115,11 @@ public class UIButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         // Kill animations if the object is disabled to prevent ghost tweens
         _rectTransform.DOKill();
-        
-        _rectTransform.localScale       = _initialScale;
+        _busy = false;
+        _isHovered = false;
+        _visualHovered = false;
+
+        _rectTransform.localScale = _initialScale;
         _rectTransform.localEulerAngles = _initialRotation;
     }
 }

@@ -188,7 +188,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2188803023065088
-    m_Localized: Process the instruction from Register 3 correctly and write the
+    m_Localized: Process the instruction from Register A2 correctly and write the
       result into RegisterFile
     m_Metadata:
       m_Items: []
