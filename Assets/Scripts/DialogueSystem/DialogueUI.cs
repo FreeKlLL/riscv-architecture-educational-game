@@ -99,6 +99,18 @@ public class DialogueUI : MonoBehaviour
         _vertexAnimator.SkipToEndOfCurrentMessage();
     }
 
+    public void HandleUserQuoteSkip()
+    {
+        if (_vertexAnimator.TextAnimating)
+        {
+            SkipAnimationOfTyping();
+        }
+        else if(goNextQuoteButton.gameObject.activeSelf)
+        {
+            OnNextRequested?.Invoke();
+        }
+    }
+
     /// <summary>
     /// Configures the visibility and text of the response buttons.
     /// </summary>

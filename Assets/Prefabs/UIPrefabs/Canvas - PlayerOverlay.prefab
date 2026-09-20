@@ -3878,8 +3878,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 5876736251295025778}
-          m_TargetAssemblyTypeName: DialogueUI, Assembly-CSharp
-          m_MethodName: SkipAnimationOfTyping
+          m_TargetAssemblyTypeName: DialogueUI, RISCadventure
+          m_MethodName: HandleUserQuoteSkip
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
