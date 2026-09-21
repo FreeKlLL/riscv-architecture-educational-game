@@ -41,9 +41,10 @@ The project is an educational mobile game designed to teach the fundamentals of 
 If you want to play the game without opening the project in Unity, you can find the pre-built versions (APK for Android, EXE for Windows etc.) here:
 
 <p>
- <a href="https://github.com/GGalya1/riscv-architecture-educational-game/tags"><img alt="Get it on GitHub" src="https://img.shields.io/github/v/tag/GGalya1/riscv-architecture-educational-game?label=Get%20it%20on%20GitHub&color=purple" height="60" align="middle"/></a>
+ <a href="https://flathub.org/apps/io.github.GGalya1.RiscvAdventure"><img alt="Get it on Flathub" src="https://flathub.org/api/badge?locale=en" height="40" align="middle"/></a>
  <a href="https://play.google.com/store/apps/details?id=com.edu.mehrtaktproz.sim&pcampaignid=web_share"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="60" align="middle"/></a>
  <a href="https://ggalya.itch.io/riscv-adventure"><img alt="Available on itch.io" src="https://github.com/user-attachments/assets/63cfd5ae-5ea4-4ca3-9aec-97d7d0fa605a" height="40" align="middle"/></a>
+ <a href="https://github.com/GGalya1/riscv-architecture-educational-game/tags"><img alt="Get it on GitHub" src="https://img.shields.io/github/v/tag/GGalya1/riscv-architecture-educational-game?label=Get%20it%20on%20GitHub&color=purple" height="60" align="middle"/></a>
 </p>
 
 ---
