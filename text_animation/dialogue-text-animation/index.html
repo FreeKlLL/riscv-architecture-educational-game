@@ -1,0 +1,1305 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../tech-stack/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Dialogue tags and vertex animation - RISC-V Adventure Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dialogue-tags-and-vertex-animation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RISC-V Adventure Documentation" class="md-header__button md-logo" aria-label="RISC-V Adventure Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RISC-V Adventure Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Dialogue tags and vertex animation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label=""  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label=""  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/GGalya1/riscv-architecture-educational-game" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RISC-V Adventure
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../general/overview/" class="md-tabs__link">
+          
+  
+  
+  General
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  About project
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../quickstart/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Quickstart
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../concept/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concept
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tech-stack/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Technology
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Text animation
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RISC-V Adventure Documentation" class="md-nav__button md-logo" aria-label="RISC-V Adventure Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    RISC-V Adventure Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/GGalya1/riscv-architecture-educational-game" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RISC-V Adventure
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    General
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../general/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../general/credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quickstart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tech-stack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Text animation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Text animation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dialogue tags and vertex animation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dialogue tags and vertex animation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dialogue-text-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue text format
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dialogue text format">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positions-refer-to-visible-characters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positions refer to visible characters
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-reveal-and-mesh-animation-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the reveal and mesh animation work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-a-new-parsed-tag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding a new parsed tag
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding a new parsed tag">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-an-animation-tag-or-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding an animation tag or type
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decoration-tags-versus-parsed-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decoration tags versus parsed tags
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-for-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist for changes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dialogue-text-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue text format
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dialogue text format">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positions-refer-to-visible-characters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positions refer to visible characters
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-reveal-and-mesh-animation-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the reveal and mesh animation work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-a-new-parsed-tag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding a new parsed tag
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding a new parsed tag">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-an-animation-tag-or-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding an animation tag or type
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decoration-tags-versus-parsed-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decoration tags versus parsed tags
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-for-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist for changes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Text animation
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="dialogue-tags-and-vertex-animation">Dialogue tags and vertex animation</h1>
+<p>The dialogue system separates <strong>what should happen while text is revealed</strong> from
+<strong>how TextMeshPro renders the text</strong>:</p>
+<ul>
+<li><code>DialogueUtility</code> parses the author-facing tags and turns them into timed
+  <code>DialogueCommand</code> objects.</li>
+<li><code>DialogueVertexAnimator</code> reveals the cleaned text character by character and
+  changes the TextMeshPro vertex mesh every frame.</li>
+</ul>
+<p>This division is important: service tags do not reach TextMeshPro, while normal
+TextMeshPro markup (for example, <code>&lt;b&gt;</code>, <code>&lt;color=red&gt;</code>, and <code>&lt;sprite&gt;</code>) remains in
+the final string and is rendered by TMP.</p>
+<h2 id="dialogue-text-format">Dialogue text format</h2>
+<p><code>DialogueUtility.ProcessInputString</code> receives the original line and returns two
+results:</p>
+<ol>
+<li><code>processedMessage</code> — the text after the system's service tags have been
+   removed. This is assigned to the <code>TMP_Text</code> component.</li>
+<li><code>List&lt;DialogueCommand&gt;</code> — instructions placed at the visible-character
+   position where each tag occurred.</li>
+</ol>
+<p>The supported tags are:</p>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;p:tiny&gt;</code>, <code>&lt;p:short&gt;</code>, <code>&lt;p:normal&gt;</code>, <code>&lt;p:long&gt;</code>, <code>&lt;p:read&gt;</code></td>
+<td>Pause before the next character for 0.1, 0.25, 0.666, 1, or 2 seconds respectively.</td>
+</tr>
+<tr>
+<td><code>&lt;sp:150&gt;</code></td>
+<td>Set the reveal speed to 150 characters per second. A value that cannot be parsed as a number falls back to 150.</td>
+</tr>
+<tr>
+<td><code>&lt;anim:SHAKE&gt;text&lt;/anim&gt;</code></td>
+<td>Apply the <code>SHAKE</code> vertex animation to <code>text</code>.</td>
+</tr>
+<tr>
+<td><code>&lt;anim:WAVE&gt;text&lt;/anim&gt;</code></td>
+<td>Apply the <code>WAVE</code> vertex animation to <code>text</code>.</td>
+</tr>
+</tbody>
+</table>
+<p>Animation names are case-insensitive because they are parsed as values of
+<code>TextAnimationType</code>. Every <code>&lt;anim:...&gt;</code> must have a corresponding <code>&lt;/anim&gt;</code>;
+the animator logs an editor error when the counts differ. Ranges are paired in
+their source order, so they should not be nested. Tags may be mixed with TMP
+formatting, for example:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&lt;sp:75&gt;&lt;color=yellow&gt;Warning:&lt;/color&gt; &lt;anim:SHAKE&gt;overflow!&lt;/anim&gt;&lt;p:short&gt;
+</span></code></pre></div>
+<h3 id="positions-refer-to-visible-characters">Positions refer to visible characters</h3>
+<p>Commands are not attached to a raw string offset. The parser calculates the
+number of visible characters before each tag with
+<code>VisibleCharactersUpToIndex</code>. TMP markup occupies characters in the source
+string but does not create a normal visible glyph, so it must not shift the
+moment at which a command runs. <code>&lt;sprite&gt;</code> is handled specially because a TMP
+sprite occupies a visible character slot even though it is written as markup.</p>
+<p>The handlers run in this order: pauses, speeds, animation starts, animation
+ends. Each handler records positions and then removes its own tags. This keeps
+the command indices aligned with the progressively cleaned text.</p>
+<h2 id="how-the-reveal-and-mesh-animation-work">How the reveal and mesh animation work</h2>
+<p><code>AnimateTextIn</code> first assigns <code>processedMessage</code> to the <code>TMP_Text</code> component
+and calls <code>ForceMeshUpdate()</code>. TMP then fills <code>textInfo</code> with metadata about
+characters and one or more mesh buffers.</p>
+<p>For every visible character, TextMeshPro represents its glyph as a <strong>quad</strong>:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>vertexIndex + 1  ─────  vertexIndex + 2
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>       │                   │
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>       │       glyph       │
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>vertexIndex + 0  ─────  vertexIndex + 3
+</span></code></pre></div>
+<p>Consequently, a visible character owns four adjacent entries in its mesh
+buffer. <code>TMP_CharacterInfo.vertexIndex</code> gives the first entry, and
+<code>materialReferenceIndex</code> selects the correct mesh buffer. The latter matters
+because TMP can use several materials, such as the main font material and a
+sprite/fallback material. Whitespace and other non-visible characters have no
+quad and are skipped via <code>charInfo.isVisible</code>; otherwise their zero vertex index
+could accidentally modify the first visible glyph.</p>
+<p>The animator keeps two snapshots of TMP's generated data:</p>
+<ul>
+<li><code>CopyMeshInfoVertexData()</code> provides the original four vertex positions for
+  each glyph.</li>
+<li><code>originalColors</code> preserves the four original vertex colours.</li>
+</ul>
+<p>Each frame, it loops through <code>characterInfo</code> and performs these operations for
+every visible glyph:</p>
+<ol>
+<li><strong>Visibility:</strong> before a character's reveal index is reached, all four of
+   its colours are set to transparent (<code>Clear</code>); after that, the original colour
+   is restored to all four vertices.</li>
+<li><strong>Pop-in:</strong> a newly revealed character grows from the centre of its quad to
+   its original size over <code>CHAR_ANIM_TIME</code> (0.07 seconds). Each source vertex
+   is moved towards the quad centre by the same scale factor, so the shape is
+   preserved.</li>
+<li><strong>Continuous effect:</strong> <code>GetAnimPosAdjustment</code> returns an offset for the
+   character's active animation range. That offset is added to all four
+   vertices, translating the whole glyph without deforming it. <code>SHAKE</code> uses two
+   Perlin-noise samples for changing X/Y offsets; <code>WAVE</code> uses a sine wave for a
+   vertical offset.</li>
+</ol>
+<p>Finally, <code>UpdateVertexData(Colors32)</code> uploads colour changes and
+<code>UpdateGeometry</code> uploads each mesh's changed vertex positions. The loop yields
+once per frame, so the reveal, pop-in, and active effects remain smooth.</p>
+<p>The text reveal itself is time-based and uses <code>Time.unscaledTime</code>: it is
+unaffected by <code>Time.timeScale</code>. At each visible-character index,
+<code>ExecuteCommandsForCurrentIndex</code> applies pending pause and speed commands,
+then the next character is scheduled and (optionally) its voice sound is
+played. <code>SkipToEndOfCurrentMessage</code> marks every remaining character as started
+and completes the reveal, while the coroutine continues to maintain the final
+mesh until its owner stops it.</p>
+<h2 id="adding-a-new-parsed-tag">Adding a new parsed tag</h2>
+<p>Add a parsed tag when the tag changes dialogue behaviour and should be removed
+before the text is sent to TMP. The implementation has four parts:</p>
+<ol>
+<li><strong>Define its syntax and regex in <code>DialogueUtility</code>.</strong> Reuse
+   <code>REMAINDER_REGEX</code> when the tag holds a value that ends at <code>&gt;</code> (or at the end
+   of the string). Named groups make extracting the value explicit.</li>
+<li><strong>Add a handler</strong> that enumerates <code>Regex.Matches</code>, creates a
+   <code>DialogueCommand</code> at <code>VisibleCharactersUpToIndex(processedMessage,
+   match.Index)</code>, and removes exactly those tags with <code>Regex.Replace</code>.</li>
+<li><strong>Add a command type and data field only if needed.</strong> Extend
+   <code>DialogueCommandType</code>; use <code>FloatValue</code>, <code>StringValue</code>, or a new strongly
+   typed field to carry the parsed value.</li>
+<li><strong>Consume the command in <code>DialogueVertexAnimator</code>.</strong> A timing command
+   belongs in <code>ExecuteCommandsForCurrentIndex</code>. A range animation needs start
+   and end commands, extraction in <code>SeparateOutTextAnimInfo</code>, and an effect in
+   <code>GetAnimPosAdjustment</code> (plus a new <code>TextAnimationType</code> value).</li>
+</ol>
+<p>For example, this regex follows the existing convention for an <code>&lt;amp:...&gt;</code>
+tag:</p>
+<div class="language-csharp highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">private</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">AMPLITUDE_REGEX_STRING</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="s">&quot;&lt;amp:(?&lt;amplitude&gt;&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">REMAINDER_REGEX</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;)&gt;&quot;</span><span class="p">;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">private</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">Regex</span><span class="w"> </span><span class="n">AmplitudeRegex</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Regex</span><span class="p">(</span><span class="n">AMPLITUDE_REGEX_STRING</span><span class="p">);</span>
+</span></code></pre></div>
+<p>Its handler should validate the <code>amplitude</code> group before adding a command. Do
+not merely add the regex: if the tag is removed but no command is created and
+consumed, the author-visible syntax silently has no effect. Conversely, if a
+tag has a command but is not removed, TMP receives an unknown tag and may render
+or report it incorrectly.</p>
+<h3 id="adding-an-animation-tag-or-type">Adding an animation tag or type</h3>
+<p>The current <code>&lt;anim:TYPE&gt;...&lt;/anim&gt;</code> syntax already handles new animation
+types. To add one, add the enum value and implement its vertex offset:</p>
+<div class="language-csharp highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">public</span><span class="w"> </span><span class="k">enum</span><span class="w"> </span><span class="n">TextAnimationType</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="p">{</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">NONE</span><span class="p">,</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="n">SHAKE</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="n">WAVE</span><span class="p">,</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="n">BOUNCE</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="p">}</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="c1">// In GetAnimPosAdjustment:</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="k">case</span><span class="w"> </span><span class="n">TextAnimationType</span><span class="p">.</span><span class="n">BOUNCE</span><span class="p">:</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="n">y</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">Mathf</span><span class="p">.</span><span class="n">Abs</span><span class="p">(</span><span class="n">Mathf</span><span class="p">.</span><span class="n">Sin</span><span class="p">((</span><span class="n">charIndex</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">1.5f</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="n">time</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">6</span><span class="p">)))</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">         </span><span class="o">*</span><span class="w"> </span><span class="n">fontSize</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">0.06f</span><span class="p">;</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">    </span><span class="k">break</span><span class="p">;</span>
+</span></code></pre></div>
+<p>Authors can then write <code>&lt;anim:BOUNCE&gt;important text&lt;/anim&gt;</code>. Prefer offsets
+relative to <code>fontSize</code> so the effect scales naturally with the text. If the
+effect should change a glyph's shape rather than move it, calculate a different
+new position for each of its four vertices; preserve the source snapshot as the
+baseline so offsets do not accumulate every frame.</p>
+<h3 id="decoration-tags-versus-parsed-tags">Decoration tags versus parsed tags</h3>
+<p>Use ordinary TMP tags for purely visual decoration that TextMeshPro already
+understands, such as <code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;u&gt;</code>, <code>&lt;color&gt;</code>, <code>&lt;size&gt;</code>, or <code>&lt;sprite&gt;</code>.
+They must stay in <code>processedMessage</code>, and <code>VisibleCharactersUpToIndex</code> must
+continue to treat them as non-visible markup (except visible <code>&lt;sprite&gt;</code>).</p>
+<p>Create a <code>DialogueUtility</code> regex only for project-specific decoration that TMP
+does not understand, or for decoration that must drive custom vertex behaviour.
+For a paired project-specific decoration tag, follow the same start/end pattern
+as <code>anim</code>: parse both tags, record their visible-character positions, remove
+them, and build a range used by the animator. When introducing a new TMP tag
+whose visible output is not a standard glyph, update
+<code>VisibleCharactersUpToIndex</code> as well so later commands do not drift.</p>
+<h2 id="checklist-for-changes">Checklist for changes</h2>
+<ul>
+<li>Test a tag at the beginning, middle, and end of a message.</li>
+<li>Test it beside TMP formatting and <code>&lt;sprite&gt;</code> tags.</li>
+<li>Check invalid values and unmatched start/end range tags.</li>
+<li>Confirm command positions still match the displayed characters.</li>
+<li>Verify that every mesh/material used by the string is updated, not only the
+  primary font mesh.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.instant", "navigation.tracking", "navigation.path", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
