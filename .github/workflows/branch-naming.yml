@@ -10,6 +10,7 @@ on:
 jobs:
   check-branch-name:
     runs-on: ubuntu-latest
+    if: ${{ !startsWith(github.head_ref, 'dependabot/') }}
     steps:
       - name: Validate branch name
         run: |
