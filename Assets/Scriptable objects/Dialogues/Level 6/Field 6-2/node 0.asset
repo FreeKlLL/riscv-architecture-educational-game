@@ -12,12 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 0
   m_EditorClassIdentifier: 
-  DialogueText: "Und hier sind jetzt schon <color=#48DBFB>alle 4 Eing\xE4nge</color>
-    im Einsatz!"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:358719196651e7c4aaaabf8f7677e331
+    m_TableEntryReference:
+      m_KeyId: 452740272128
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 2
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

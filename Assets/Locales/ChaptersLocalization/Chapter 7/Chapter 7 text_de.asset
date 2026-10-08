@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 7 text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: c6da5e72456f23d428a98d0c5ad5c931, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 43523002368
+    m_Localized: "Die erste Neuigkeit: Der <color=orange>Prozessor</color> ist so
+      riesig, dass das <color=yellow>Wunder-Feature</color> mit der <color=#48DBFB>Kamera-Steuerung</color>
+      zur\xFCck ist, damit du dir alles im Detail anschauen kannst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1078857584640
+    m_Localized: "Die zweite Neuigkeit: Es gibt ein <color=orange>neues Panel im
+      UI</color> (klick auf den <color=yellow>Pfeil rechts</color>, um es zu sehen).
+      Es gibt dir Hinweise, in welcher <color=yellow>Phase der Befehlsverarbeitung</color>
+      wir uns gerade befinden und was in diesem <color=yellow>Zustand</color> normalerweise
+      zu tun ist. Aber hey, du kannst das Panel nat\xFCrlich auch ignorieren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090916208640
+    m_Localized: "Ansonsten mein Tipp: \xDCberleg dir zuerst, welchen <color=orange>Befehl</color>
+      du gerade verarbeitest und was dieser eigentlich macht (etwas in den <color=orange>Speicher</color>
+      laden oder zwei Zahlen addieren?)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101422940160
+    m_Localized: "Denk danach dar\xFCber nach, wie du zur richtigen Instruktion kommst.
+      Und dann: In wie vielen Schritten wird diese Instruktion verarbeitet? Schau
+      dir daf\xFCr einfach den <color=orange>endlichen Automaten</color> an. So viele
+      <color=yellow>Zust\xE4nde</color> der Pfad hat, so viele <color=#48DBFB>Takte</color>
+      brauchst du f\xFCr die Verarbeitung."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117730394112
+    m_Localized: "Erschrick nicht, wenn die <color=yellow>Zustandsnummer</color>
+      hin und her springt. Das ist v\xF6llig normal. Schau dir den Automaten von
+      den <color=orange>Folien</color> an, dann siehst du, dass du einfach der Kette
+      folgst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128593641472
+    m_Localized: 'Und denk dran: Allein dass du es bis hierher geschafft hast, ist
+      eine <anim:wave><color=yellow>super Leistung</color></anim>. Ich bin stolz
+      auf dich!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1137661726720
+    m_Localized: "<anim:wave><color=yellow>Viel Gl\xFCck!</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1147979714560
+    m_Localized: "<anim:wave>Ich bin hier, um Kaugummi zu kauen und dir von den neuen
+      Leveln zu erz\xE4hlen...</anim> <anim:shake><color=red>und mein Kaugummi ist
+      alle</color></anim>. Also fangen wir wohl direkt mit dem Zweiten an."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1968050032640
+    m_Localized: "Diesem Befehl sind wir schon mal begegnet, aber nicht in seiner
+      normalen Form, sondern \u201Ein Einzelteilen\u201C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1993148747776
+    m_Localized: "Wei\xDFt du noch, wie wir das <color=orange>RegisterField</color>
+      angesprochen haben? Da brauchten wir doch nur die <color=yellow>Registeradressen</color>
+      und die Adresse des <color=yellow>Zielregisters</color>, oder? Tja, im Grunde
+      haben wir damit gerade die <color=orange>R-Type Instructions</color> Instructions
+      beschrieben. Ich denke also, du wirst mit diesem Level <anim:wave>absolut keine
+      Probleme haben!</anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137999036416
+    m_Localized: <anim:wave>Diesmal musst du dich etwas mehr anstrengen</anim>, bevor
+      du mit der Aufgabe beginnst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2175970070528
+    m_Localized: "Zuvor entsprach der <color=yellow>PC (Program Counter)</color>
+      direkt der Befehlsadresse, und man musste nicht viel tun (einfach den Wert
+      aus dem <color=yellow>PC</color> nehmen und in den <color=orange>Speicher</color>
+      \xFCbertragen)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185419837440
+    m_Localized: Aber wenn du jetzt in die <color=orange>Seitenpanel</color> schaust,
+      wirst du sehen, dass sie Fehlermeldungen anzeigt, weil sie den aktuellen Zustand
+      <color=red>nicht interpretieren</color> kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196564103168
+    m_Localized: "Das liegt daran, dass wir den <color=yellow>PC</color> auf die
+      <color=green>entsprechende Adresse</color> setzen m\xFCssen, bevor wir mit
+      der Verarbeitung des Befehls beginnen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2995251859456
+    m_Localized: <anim:wave><color=yellow>Wir wollen ja nicht nur Zahlen addieren
+      :D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3019507519488
+    m_Localized: Diesmal ist unser Ziel - einen Wert im Speicher zu speichern!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3168002658304
+    m_Localized: Wie du vielleicht bemerkt hast, gibt es in <color=#48DBFB>Assembler</color>
+      kein klassisches <color=orange>if-Statement</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3268468822016
+    m_Localized: Alle <color=#48DBFB>Verzweigungen</color> werden durch den Vergleich
+      von <color=yellow>Registerwerten</color> realisiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3290212093952
+    m_Localized: "Ein <color=orange>Branch-Befehl</color> l\xE4sst den Prozessor
+      zu einer bestimmten <color=yellow>Adresse</color> springen (oder zu einem <color=yellow>Label</color>,
+      das einen Offset darstellt)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3304703414272
+    m_Localized: Damit dieser Sprung <anim:wave><color=yellow>"intelligent"</color></anim>
+      ist und nur unter bestimmten Bedingungen erfolgt, nutzen wir <color=orange>bedingte
+      Sprungbefehle</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3323774914560
+    m_Localized: "Wei\xDFt du, wie bedingte Verzweigungen in <color=yellow>RISC-V</color>
+      funktionieren?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3346516430848
+    m_Localized: In <color=yellow>RISC-V</color> ist die <color=#48DBFB>"Wenn...
+      dann..." Logik</color> direkt in den Befehl integriert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3359501996032
+    m_Localized: 'Hier sind ein paar Beispiele:
+
+      - <color=orange>beq</color>
+      (Branch if Equal): Springe, wenn beide Zahlen <anim:shake><color=green>gleich</color></anim>
+      sind.
+
+      - <color=orange>blt</color> (Branch if Less Than): Springe, wenn
+      die erste Zahl <anim:shake><color=green>kleiner</color></anim> ist.
+
+      -
+      <color=orange>bne</color> (Branch if Not Equal): Springe, wenn die Zahlen <anim:shake><color=red>ungleich</color></anim>
+      sind.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3383929622528
+    m_Localized: "Das l\xE4sst sich so interpretieren:\r\n- <color=orange>beq</color>:
+      Wenn <color=#48DBFB>x1 - x3 == 0</color>, erfolgt der Sprung.\r\n- <color=orange>blt</color>:
+      Wenn <color=#48DBFB>x1 - x3 < 0</color>, erfolgt der Sprung.\r\n- <color=orange>bne</color>:
+      Wenn das Ergebnis <color=red>nicht null</color> ist, erfolgt der Sprung."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3396407676928
+    m_Localized: "Und so wird es geschrieben:\r\n<color=orange>beq</color> <color=yellow>x1,
+      x3, target</color>  <color=green># Wenn x1 == x3, springe zu \"target\"</color>\r\n<color=orange>addi</color>
+      <color=yellow>x1, x1, 1</color>      <color=green># Wird ausgef\xFChrt, falls
+      x1 != x3</color>\r\n<color=yellow>target:</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3408650850304
+    m_Localized: "<anim:wave><color=yellow>Viel Erfolg !</color></anim>\r\n\r\n\xDCberleg
+      dir gut, unter welcher Bedingung dieser <color=orange>Branch</color> ausgef\xFChrt
+      werden muss !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4528467103744
+    m_Localized: "Oh, diese Operation ist <anim:wave><color=yellow>absolut notwendig</color></anim>,
+      wenn du <color=#48DBFB>Unterprogramme (Methoden)</color> in deinem Assembler-Code
+      schreiben m\xF6chtest!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4562109616128
+    m_Localized: "Sie f\xFChrt einen <color=orange>Sprung</color> zu einer Adresse
+      aus (\xE4hnlich wie ein Branch), speichert aber gleichzeitig die <color=yellow>Adresse
+      der n\xE4chsten Zeile</color>, um nach der Ausf\xFChrung der Methode <color=green>zur\xFCckkehren</color>
+      und fortfahren zu k\xF6nnen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4571332890624
+    m_Localized: Mehr Details dazu wurden wahrscheinlich in der Vorlesung besprochen,
+      aber behalte dieses Konzept im Hinterkopf, wenn du die <color=orange>Controlbits</color>
+      steuerst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4580174483456
+    m_Localized: <anim:wave><color=yellow>Viel Erfolg!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11314720952320
+    m_Localized: Steckst du fest? Ja, ich verstehe - diese <color=yellow>Schaltung</color>
+      ist wirklich <anim:shake><color=red>riesig</color></anim>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11431301632000
+    m_Localized: Rechts an der Seite ist ein <color=yellow>Pfeil</color>. Wenn du
+      darauf klickst, erscheint ein <color=#48DBFB>Hinweis</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11444664684544
+    m_Localized: "Dort wird der aktuelle <color=yellow>Zustand des Prozessors</color>
+      beschrieben: was die Aufgabe dieses Zustands ist und welche <color=#48DBFB>Signale</color>
+      gesetzt werden m\xFCssen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11454047342592
+    m_Localized: "Nur eine Sache: Die <color=#48DBFB>Signale</color> bedeuten nicht
+      immer exakt das, was in den Hinweisen steht (genau so wie in Folien oder Hilfsblatt
+      der Klausur).\r\nZum Beispiel ist <color=#48DBFB>AluOp = 00</color> keine Addition,
+      sondern eine <color=yellow>Rechenoperation (Typ I)</color> gem\xE4\xDF der
+      <color=yellow>RISC-V Referenz</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11465208385536
+    m_Localized: Aber wenn du das alles beachtest, bin ich mir sicher, dass du es
+      <anim:wave><color=yellow>schaffen wirst :D</color></anim>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112043287859200
+    m_Localized: Bearbeite den Wert aus Data/Instruction Memory an die Adresse 4
+      korrekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112083737726976
+    m_Localized: Bearbeite den Wert aus Data/Instruction Memory an die Adresse 0
+      korrekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112092491239424
+    m_Localized: Bearbeite den Wert aus Data/Instruction Memory an die Adresse 8
+      korrekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112102146527232
+    m_Localized: Bearbeite den Wert aus Data/Instruction Memory an die Adresse 0
+      korrekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112110765821952
+    m_Localized: Bearbeite den Wert aus Data/Instruction Memory an die Adresse 12
+      korrekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112124065959936
+    m_Localized: Bearbeite den Wert aus Data/Instruction Memory an die Adresse 12
+      korrekt.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

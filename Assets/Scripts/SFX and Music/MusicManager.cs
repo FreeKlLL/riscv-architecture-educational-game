@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class MusicManager : MonoBehaviour
 {
     public static MusicManager Instance { get; private set; }
+    public event Action<bool> OnMusicStatusChanged;
 
     [SerializeField] private AudioMixerGroup musicMixerGroup;
     [SerializeField] private AudioSource sourceA;
@@ -184,6 +186,7 @@ public class MusicManager : MonoBehaviour
         if (_isMusicEnabled == isEnabled) return;
 
         _isMusicEnabled = isEnabled;
+        OnMusicStatusChanged?.Invoke(isEnabled);
 
         if (_toggleRoutine != null) StopCoroutine(_toggleRoutine);
         _toggleRoutine = StartCoroutine(ToggleMusicRoutine(isEnabled, fadeDuration));

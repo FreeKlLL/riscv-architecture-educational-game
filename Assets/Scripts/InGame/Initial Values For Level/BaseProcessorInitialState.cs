@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.Localization;
 using UnityEngine.Serialization;
 
 public abstract class BaseProcessorInitialState : ScriptableObject
 {
     [Header("Level Target Description")]
-    public string levelTarget;
+    public LocalizedString levelTarget;
 
     [Header("Program Counter")]
     public int pcRegisterInitialValue;

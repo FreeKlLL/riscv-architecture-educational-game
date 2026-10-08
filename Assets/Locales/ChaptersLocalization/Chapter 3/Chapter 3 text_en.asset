@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 3 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f76c707db27a34340adaa1b3eb8e72d8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5602299904
+    m_Localized: Look at that, we've already reached the <color=orange>ALU</color>!
+      That's surely a familiar component for you too. So, should I give you a little
+      lecture, or do you already know what's up?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192202690560
+    m_Localized: Then off into battle! But don't be scared of the <color=#48DBFB>big
+      Four</color> - it doesn't actually do anything, it just passes the value <color=#48DBFB>4</color>
+      on to the <color=orange>Bus</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238419726336
+    m_Localized: The <color=orange>ALU</color> is the <color=orange>Arithmetic Logic
+      Unit</color>. That means it can perform <color=#48DBFB>arithmetic operations</color>
+      (addition and subtraction) as well as <color=#48DBFB>logic operations</color>
+      (logical OR and logical AND).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283768541184
+    m_Localized: Do you have any questions about that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327846481920
+    m_Localized: <anim:wave>Great that you're asking!</anim> These are the basic
+      logic operations. Every number in our computer is stored as a sequence of <color=#48DBFB>zeros</color>
+      and <color=#48DBFB>ones</color>. It doesn't matter at all whether it's an integer
+      or a floating-point number!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372289327104
+    m_Localized: "These two operations are called <color=orange>\u201Ebitwise\u201C</color>,
+      because they work directly with the zeros and ones - i.e. the <color=#48DBFB>bits</color>.
+      And they always compare just one bit at a time. That means they go through
+      the number \u201Efrom right to left\u201C one after another. And they're called
+      <color=orange>\u201Elogical\u201C</color> because they're used to build formulas
+      and so on."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 415058644992
+    m_Localized: 'To understand which number comes out in the end, for example with
+      <color=#48DBFB>3 & 16 = ???</color>, you need to write out both numbers as
+      <color=#48DBFB>zeros</color> and <color=#48DBFB>ones</color>. Then write them
+      right-aligned one below the other and apply the following:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480452038656
+    m_Localized: In order for it to do that, it's sent one of four <color=yellow>control
+      signals</color>:\n<color=#48DBFB>00</color> - Addition\n<color=#48DBFB>01</color>
+      - Subtraction\n<color=#48DBFB>10</color> - logical bitwise AND\n<color=#48DBFB>11</color>
+      - logical bitwise OR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534692777984
+    m_Localized: 'When we use <color=yellow>& (AND)</color>  : A <color=#48DBFB>one</color>
+      only comes out if there''s a 1 on top <anim:shake><color=yellow>AND</color></anim>
+      a 1 on the bottom.\nWhen we use <color=yellow>| (OR)</color> : A <color=#48DBFB>one</color>
+      always comes out, <anim:shake><color=yellow>except</color></anim> when there
+      are two <color=red>zeros</color> there.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 648488439808
+    m_Localized: I still know exactly how it works.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834849755136
+    m_Localized: Why not? Let's go over it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 918081523712
+    m_Localized: Nope, all clear!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973299535872
+    m_Localized: And what exactly is this logical (and also bitwise) AND and OR?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1054937468928
+    m_Localized: But how do you understand what comes out as the result?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117763948544
+    m_Localized: Okey-doke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1321091223552
+    m_Localized: Well, that was actually pretty easy, wasn't it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1399747006464
+    m_Localized: Well, let's see how serious you are about that. You did claim that
+      you know everything about <color=orange>logic AND</color> and <color=orange>logic
+      OR</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440834408448
+    m_Localized: Alright, let's <anim:wave><color=yellow>shed some light on this</color></anim>!
+      Let's take the number <color=#48DBFB>5</color> as an example.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1496983556096
+    m_Localized: 'To apply <color=orange>AND</color>, we simply write one number
+      above the other and take a close look:
+
+      If <anim:shake><color=yellow>both
+      bits</color></anim> in a column are a <color=yellow>one</color>, the result
+      is also <color=yellow>one</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1535130750976
+    m_Localized: 'Here''s an example:
+
+      11001
+
+      10101
+
+      -----
+
+      <color=green>1</color>000<color=green>1</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1868762468352
+    m_Localized: "With <color=orange>OR</color> it's exactly the opposite:\r\nIf
+      <anim:shake><color=yellow>at least one</color></anim> number in the column
+      is a <color=yellow>one</color> \u2014 then the result is also a <color=yellow>one</color>!\r\n11001\r\n10101\r\n-----\r\n<color=green>111</color>0<color=green>1</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2017790283776
+    m_Localized: Time for a little <anim:wave><color=yellow>warm-up</color></anim>!
+      I've prepared a simple case for you. Let's see if you know what to do.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2093845598208
+    m_Localized: <anim:wave><color=yellow>Ok, good luck!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2423652110336
+    m_Localized: Come on, don't keep me in suspense!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2542820675584
+    m_Localized: Hmm, I don't remember saying that...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2676115656704
+    m_Localized: '<anim:wave>So, how did it go?</anim>
+
+      Did you notice that
+      the last task could be solved with both <color=orange>AND</color> and <color=orange>OR</color>?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2795569434624
+    m_Localized: Well, yeah. The chance of getting it right through pure guessing
+      was a <color=yellow>whopping 50 %</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2844693123072
+    m_Localized: Sooo, now let's set the abstract numbers aside and look at something
+      closer to reality.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2896467611648
+    m_Localized: This time you'll get a rough idea of how the update process of the
+      <color=orange>PC register</color> works.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2939786383360
+    m_Localized: '<anim:wave><color=yellow>Glad you''re asking! :D</color></anim>
+
+      <color=orange>PC</color>
+      stands for <color=orange>Program Counter</color> - that''s the <anim:wave>register</anim>
+      that stores the <anim:wave>address</anim> of the current line in the program.
+      So at the start it points to where the program begins, and after that it keeps
+      incrementing to fetch new lines of <color=orange>program code</color> from
+      memory.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3080257818624
+    m_Localized: 'And of course we all remember exactly: If the current <color=orange>PC
+      address</color> is 16, then the next address is... <anim:wave>weeeeell... ????</anim>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237993009152
+    m_Localized: <anim:shake><color=yellow>Ah-ah! The correct answer is 20.</color></anim>
+      That's because every line, every <color=orange>assembly instruction</color>,
+      is stored in one <color=yellow>WORD</color>. That means we need <color=#48DBFB>4
+      bytes</color> to store a single instruction of our code.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3357484535808
+    m_Localized: 'That in turn means: to move on from the current instruction, which
+      starts at address <color=#48DBFB>16</color>, we have to skip the <color=#48DBFB>4
+      bytes</color> that contain the current instruction.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3413486882816
+    m_Localized: Alright, you're ready for the <anim:wave>next level</anim>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758064128
+    m_Localized: So what is a PC?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3589714759680
+    m_Localized: Cool... ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171453830254592
+    m_Localized: If you can't find anything in common in the <color=#48DBFB>binary
+      notation</color>, there's always the option of simply trying out all the <color=yellow>ALU
+      operations</color> one after another and checking the result <anim:wave><color=yellow>:D</color></anim> 
+      You can reset the <color=orange>clock cycles</color> at any time, after all!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170347028926464
+    m_Localized: 'Think about it: what do these two <color=yellow>numbers</color>
+      have in common?
+
+
+
+      If nothing comes to mind, try writing them out in
+      <color=#48DBFB>binary notation</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171761117548544
+    m_Localized: 'If you can''t find anything in common in the <color=#48DBFB>binary
+      notation</color>, there''s always the option of simply trying out all the <color=yellow>ALU
+      operations</color> one after another and checking the result <anim:wave><color=yellow>:D</color></anim>
+
+
+
+      You
+      can reset the <color=orange>clock cycles</color> at any time, after all!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171790016303104
+    m_Localized: 'There are many ways to solve this level, but here''s the <color=yellow>simplest
+      tip</color>: first you need to get a <color=#48DBFB>0</color> in the <color=yellow>register</color>,
+      and then add <color=#48DBFB>4</color> <color=#48DBFB>twice</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2208935208308736
+    m_Localized: 'Goal: \r\nWrite value 8 to Register 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209008386330624
+    m_Localized: 'Goal: \r\nWrite value 1 to Register 3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209018133893120
+    m_Localized: 'Goal: \r\nWrite value 7 to Register 3'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

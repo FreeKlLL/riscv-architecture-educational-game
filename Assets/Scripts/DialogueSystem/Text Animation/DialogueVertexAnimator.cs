@@ -9,6 +9,8 @@ public class DialogueVertexAnimator
     private bool _textAnimating;
     private bool _stopAnimating;
 
+    public bool TextAnimating => _textAnimating;
+
     private readonly TMP_Text _textBox;
     private readonly float _textAnimationScale;
     /* private readonly AudioSourceGroup audioSourceGroup;

@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Chapter 3 text Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Chapter 3 text
+  m_TableCollectionNameGuidString: f76c707db27a34340adaa1b3eb8e72d8
+  m_Entries:
+  - m_Id: 5602299904
+    m_Key: level3-1.node-0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192202690560
+    m_Key: level3-1.node-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238419726336
+    m_Key: level3-1.node-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283768541184
+    m_Key: level3-1.node-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327846481920
+    m_Key: level3-1.node-4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372289327104
+    m_Key: level3-1.node-5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 415058644992
+    m_Key: level3-1.node-6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480452038656
+    m_Key: level3-1.node-7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534692777984
+    m_Key: level3-1.node-8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 648488439808
+    m_Key: level3-1.node-0.answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834849755136
+    m_Key: level3-1.node-0.answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 918081523712
+    m_Key: level3-1.node-3.answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973299535872
+    m_Key: level3-1.node-3.answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1054937468928
+    m_Key: level3-1.node-5.answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117763948544
+    m_Key: level3-1.node-8.answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1321091223552
+    m_Key: level3-2.node-0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1399747006464
+    m_Key: level3-2.node-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440834408448
+    m_Key: level3-2.node-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1496983556096
+    m_Key: level3-2.node-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1535130750976
+    m_Key: level3-2.node-4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1868762468352
+    m_Key: level3-2.node-5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2017790283776
+    m_Key: level3-2.node-6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2093845598208
+    m_Key: level3-2.node-7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2423652110336
+    m_Key: level3-2.node-1.answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2542820675584
+    m_Key: level3-2.node-1.answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2676115656704
+    m_Key: level3-3.node-0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2795569434624
+    m_Key: level3-3.node-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2844693123072
+    m_Key: level3-3.node-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2896467611648
+    m_Key: level3-3.node-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2939786383360
+    m_Key: level3-3.node-4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3080257818624
+    m_Key: level3-3.node-5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237993009152
+    m_Key: level3-3.node-6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3357484535808
+    m_Key: level3-3.node-7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3413486882816
+    m_Key: level3-3.node-8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758064128
+    m_Key: level3-3.node-3.answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3589714759680
+    m_Key: level3-3.node-3.answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170347028926464
+    m_Key: hint_chapter3-1.node0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171453830254592
+    m_Key: hint_chapter3-1.node1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171761117548544
+    m_Key: hint_chapter3-2.node0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171790016303104
+    m_Key: hint_chapter3-3.node0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2208935208308736
+    m_Key: quest_text_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209008386330624
+    m_Key: quest_text_2-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209018133893120
+    m_Key: quest_text_2-2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4435817601931149314
+  references:
+    version: 2
+    RefIds:
+    - rid: 4435817601931149314
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1788010553385

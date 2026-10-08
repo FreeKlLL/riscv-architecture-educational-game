@@ -13,10 +13,21 @@ MonoBehaviour:
   m_Name: Memory Write
   m_EditorClassIdentifier: 
   titel: 'S5: Memory Write'
-  stateInfo: Den Wert aus einem Register direkt in den Speicher schreiben.
+  stateInfo:
+    m_TableReference:
+      m_TableCollectionName: GUID:36ead3ba0172d674fbd87ab89757ed05
+    m_TableEntryReference:
+      m_KeyId: 257797410816
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   stateSignals: 'ResultSrc = 00
 
     AdrSrc = 1
 
     MemWrite'
   doesHaveChoice: 0
+  references:
+    version: 2
+    RefIds: []

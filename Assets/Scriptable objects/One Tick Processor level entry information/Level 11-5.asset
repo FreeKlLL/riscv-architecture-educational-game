@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc593a5aeb7b454a83afc74f8663a068, type: 3}
   m_Name: Level 11-5
   m_EditorClassIdentifier: Assembly-CSharp::OneTickProcessorInitialState
-  levelTarget: Bearbeite den Wert aus Instruction Memory an die Adresse 12 korrekt.
+  levelTarget:
+    m_TableReference:
+      m_TableCollectionName: GUID:93f6bf3b27ccfbe489a979e40cca16e1
+    m_TableEntryReference:
+      m_KeyId: 2183319201271808
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   pcRegisterInitialValue: 12
   aufgabeTyp: 3
   registerFieldAddressAnswer: 1
@@ -30,3 +38,6 @@ MonoBehaviour:
   secondDataWord: 0
   thirdDataWord: 0
   fourthDataWord: 0
+  references:
+    version: 2
+    RefIds: []

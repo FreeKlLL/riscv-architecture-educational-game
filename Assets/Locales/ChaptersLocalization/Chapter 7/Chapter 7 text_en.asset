@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 7 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c6da5e72456f23d428a98d0c5ad5c931, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 43523002368
+    m_Localized: 'The first bit of news: the <color=orange>processor</color> is so
+      huge that the <color=yellow>miracle feature</color> with <color=#48DBFB>camera
+      control</color> is back, so you can take a detailed look at everything.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1078857584640
+    m_Localized: 'The second bit of news: there''s a <color=orange>new panel in the
+      UI</color> (click the <color=yellow>arrow on the right</color> to see it).
+      It gives you hints about which <color=yellow>phase of instruction processing</color>
+      we''re currently in and what''s normally supposed to happen in this <color=yellow>state</color>.
+      But hey, of course you can also just ignore the panel.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090916208640
+    m_Localized: 'Otherwise, my tip: first think about which <color=orange>instruction</color>
+      you''re currently processing and what it actually does (load something into
+      <color=orange>memory</color> or add two numbers?).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101422940160
+    m_Localized: 'Then think about how you get to the right instruction. And then:
+      in how many steps is this instruction processed? Just take a look at the <color=orange>finite
+      state machine</color> for that. As many <color=yellow>states</color> as the
+      path has, that''s how many <color=#48DBFB>clock cycles</color> you need for
+      processing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117730394112
+    m_Localized: Don't be alarmed if the <color=yellow>state number</color> jumps
+      back and forth. That's completely normal. Take a look at the state machine
+      from the <color=orange>slides</color>, then you'll see that you're just following
+      the chain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128593641472
+    m_Localized: 'And remember: just making it this far is a <anim:wave><color=yellow>great
+      achievement</color></anim>. I''m proud of you!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1137661726720
+    m_Localized: <anim:wave><color=yellow>Good luck!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1147979714560
+    m_Localized: <anim:wave>I'm here to chew bubble gum and tell you about the new
+      levels...</anim> <anim:shake><color=red>and I'm all out of gum</color></anim>.
+      So I guess we'll go straight to the second one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1968050032640
+    m_Localized: "We've already come across this instruction before, but not in its
+      normal form - rather \u201Ein individual pieces\u201C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1993148747776
+    m_Localized: Do you remember how we addressed the <color=orange>RegisterFile</color>?
+      We only needed the <color=yellow>register addresses</color> and the address
+      of the <color=yellow>target register</color>, right? Well, basically that's
+      exactly what we just described for <color=orange>R-Type Instructions</color>
+      Instructions. So I think you'll have <anim:wave>absolutely no problems</anim>
+      with this level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137999036416
+    m_Localized: <anim:wave>This time you'll have to work a bit harder</anim> before
+      you start the task.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2175970070528
+    m_Localized: Before, the <color=yellow>PC (Program Counter)</color> directly
+      matched the instruction address, and there wasn't much to do (just take the
+      value from the <color=yellow>PC</color> and transfer it to <color=orange>memory</color>).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185419837440
+    m_Localized: But if you now look at the <color=orange>side panel</color>, you'll
+      see that it's showing error messages because it <color=red>can't interpret</color>
+      the current state.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196564103168
+    m_Localized: That's because we have to set the <color=yellow>PC</color> to the
+      <color=green>corresponding address</color> before we start processing the instruction!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2995251859456
+    m_Localized: <anim:wave><color=yellow>We don't just want to add numbers, after
+      all :D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3019507519488
+    m_Localized: This time our goal is - to store a value in memory!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3168002658304
+    m_Localized: As you may have noticed, there's no classic <color=orange>if statement</color>
+      in <color=#48DBFB>Assembly</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3268468822016
+    m_Localized: All <color=#48DBFB>branches</color> are implemented by comparing
+      <color=yellow>register values</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3290212093952
+    m_Localized: A <color=orange>branch instruction</color> makes the processor jump
+      to a specific <color=yellow>address</color> (or to a <color=yellow>label</color>
+      that represents an offset).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3304703414272
+    m_Localized: So that this jump is <anim:wave><color=yellow>"intelligent"</color></anim>
+      and only happens under certain conditions, we use <color=orange>conditional
+      jump instructions</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3323774914560
+    m_Localized: Do you know how conditional branches work in <color=yellow>RISC-V</color>?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3346516430848
+    m_Localized: In <color=yellow>RISC-V</color> the <color=#48DBFB>"if... then..."
+      logic</color> is built directly into the instruction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3359501996032
+    m_Localized: 'Here are a few examples:
+
+      - <color=orange>beq</color> (Branch
+      if Equal): Jump if both numbers are <anim:shake><color=green>equal</color></anim>.
+
+      -
+      <color=orange>blt</color> (Branch if Less Than): Jump if the first number is
+      <anim:shake><color=green>smaller</color></anim>.
+
+      - <color=orange>bne</color>
+      (Branch if Not Equal): Jump if the numbers are <anim:shake><color=red>not equal</color></anim>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3408650850304
+    m_Localized: <anim:wave><color=yellow>Good luck!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4528467103744
+    m_Localized: Oh, this operation is <anim:wave><color=yellow>absolutely essential</color></anim>
+      if you want to write <color=#48DBFB>subroutines (methods)</color> in your assembly
+      code!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4562109616128
+    m_Localized: It performs a <color=orange>jump</color> to an address (similar
+      to a branch), but at the same time stores the <color=yellow>address of the
+      next line</color>, so you can <color=green>return</color> and continue after
+      the method has been executed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4571332890624
+    m_Localized: More details about this were probably covered in the lecture, but
+      keep this concept in mind when you're controlling the <color=orange>control
+      bits</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4580174483456
+    m_Localized: <anim:wave><color=yellow>Good luck!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3383929622528
+    m_Localized: 'This can be interpreted as follows:
+
+      - <color=orange>beq</color>:
+      If <color=#48DBFB>x1 - x3 == 0</color>, the jump happens.
+
+      - <color=orange>blt</color>:
+      If <color=#48DBFB>x1 - x3 < 0</color>, the jump happens.
+
+      - <color=orange>bne</color>:
+      If the result is <color=red>not zero</color>, the jump happens.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3396407676928
+    m_Localized: 'And here''s how it''s written:
+
+      <color=orange>beq</color>
+      <color=yellow>x1, x3, target</color>  <color=green># If x1 == x3, jump to "target"</color>
+
+      <color=orange>addi</color>
+      <color=yellow>x1, x1, 1</color>      <color=green># Executed if x1 != x3</color>
+
+      <color=yellow>target:</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11314720952320
+    m_Localized: Stuck? Yeah, I understand - this <color=yellow>circuit</color> really
+      is <anim:shake><color=red>huge</color></anim>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11431301632000
+    m_Localized: On the right side there's an <color=yellow>arrow</color>. If you
+      click on it, a <color=#48DBFB>hint</color> appears!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11444664684544
+    m_Localized: 'There the current <color=yellow>state of the processor</color>
+      is described: what this state''s job is and which <color=#48DBFB>signals</color>
+      need to be set!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11454047342592
+    m_Localized: 'Just one thing: the <color=#48DBFB>signals</color> don''t always
+      mean exactly what it says in the hints (just like in the slides or the exam''s
+      reference sheet).
+
+      For example, <color=#48DBFB>AluOp = 00</color> isn''t
+      addition, but an <color=yellow>arithmetic operation (Type I)</color> according
+      to the <color=yellow>RISC-V reference</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11465208385536
+    m_Localized: But if you keep all that in mind, I'm sure you'll <anim:wave><color=yellow>manage
+      it :D</color></anim>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112043287859200
+    m_Localized: Process the value from Data/Instruction Memory at address 4 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112083737726976
+    m_Localized: Process the value from Data/Instruction Memory at address 0 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112092491239424
+    m_Localized: Process the value from Data/Instruction Memory at address 8 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112102146527232
+    m_Localized: Process the value from Data/Instruction Memory at address 0 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112110765821952
+    m_Localized: Process the value from Data/Instruction Memory at address 12 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2112124065959936
+    m_Localized: Process the value from Data/Instruction Memory at address 12 correctly.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

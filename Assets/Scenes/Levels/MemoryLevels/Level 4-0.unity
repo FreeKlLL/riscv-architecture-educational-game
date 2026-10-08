@@ -1800,8 +1800,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df282be4f27e134da31700c5cb21851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTargetDescription: 'Ziel: \r\nSchreibe in Speicher zwei Werte an Adressen
-    0 und 12.\nWobei Wert an Adresse 0 muss kleiner sein als an Adresse 12.'
+  levelTargetDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:6828bc66724c19840bf8d9ffec9abe7e
+    m_TableEntryReference:
+      m_KeyId: 2209561954766848
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   managedInteractable:
   - {fileID: 970035351}
   - {fileID: 1846687519}
@@ -1824,12 +1831,6 @@ MonoBehaviour:
   fallenTries: 0
   busController: {fileID: 1109257075}
   isProcessing: 0
-  multiplexerVisualizer: {fileID: 50915094}
-  registerSrcAVisualizer: {fileID: 1846687519}
-  registerSrcBVisualizer: {fileID: 970035351}
-  registerOutputVisualizer: {fileID: 1710913206}
-  aluVisualizer: {fileID: 620231735}
-  numberBlinker: {fileID: 1425758661}
   buses:
     pcToMemAddr: {fileID: 203119610}
     pcToAdrMux: {fileID: 917754483}
@@ -1839,6 +1840,15 @@ MonoBehaviour:
     muxToAdder: {fileID: 1226422104}
     constFourToAdder: {fileID: 1719315176}
     adderToSrcA: {fileID: 785921907}
+  multiplexerVisualizer: {fileID: 50915094}
+  registerSrcAVisualizer: {fileID: 1846687519}
+  registerSrcBVisualizer: {fileID: 970035351}
+  registerOutputVisualizer: {fileID: 1710913206}
+  aluVisualizer: {fileID: 620231735}
+  numberBlinker: {fileID: 1425758661}
+  references:
+    version: 2
+    RefIds: []
 --- !u!1001 &1195439388
 PrefabInstance:
   m_ObjectHideFlags: 0

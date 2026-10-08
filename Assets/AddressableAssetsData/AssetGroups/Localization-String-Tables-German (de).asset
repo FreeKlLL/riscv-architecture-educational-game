@@ -15,8 +15,68 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-German (de)
   m_GUID: 2b4b88b723e472040a31dbc8e081cf54
   m_SerializeEntries:
+  - m_GUID: 0b860a6d18b12654bab47aca260a042e
+    m_Address: Chapter 6 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e5822b2633f8044bb8f2003f6baedc8
+    m_Address: Chapter 7 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 410b8daba8cb11f49bb6a1e009f0b086
+    m_Address: Chapter 8 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c4108ff2f1dc824982b74879718e5c2
+    m_Address: Processor States text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7f13842ef4288274c87601ffba3e9cac
     m_Address: Main menu lables_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ec5904d2f30a644b92427347941ddd8
+    m_Address: Chapter 4 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a05213b5a643e6d4a8d2a1557a0ec518
+    m_Address: Chapter 2 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b237bb3e016e47140905c827ca8e5688
+    m_Address: Chapter 1 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0e740b0f941b0349aa6909433f08db9
+    m_Address: Chapter 3 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d96519df44997b249a31b9002fb074d2
+    m_Address: Chapter 5 text_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e524e4378d9ea034d8c2bf943b98e7e2
+    m_Address: Ingame menu labels_de
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-de

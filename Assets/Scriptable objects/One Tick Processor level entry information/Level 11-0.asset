@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc593a5aeb7b454a83afc74f8663a068, type: 3}
   m_Name: Level 11-0
   m_EditorClassIdentifier: Assembly-CSharp::OneTickProcessorInitialState
-  levelTarget: Bearbeite den Wert aus Instruction Memory an die Adresse 0 korrekt.
+  levelTarget:
+    m_TableReference:
+      m_TableCollectionName: GUID:93f6bf3b27ccfbe489a979e40cca16e1
+    m_TableEntryReference:
+      m_KeyId: 2183191941894144
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   pcRegisterInitialValue: 0
-  firstInstructionWord: 4391699
-  secondInstructionWord: 0
-  thirdInstructionWord: 0
-  fourthInstructionWord: 0
-  firstDataWord: 1
-  secondDataWord: 2
-  thirdDataWord: 3
-  fourthDataWord: 4
   aufgabeTyp: 0
   registerFieldAddressAnswer: 6
   registerFieldValueAnswer: 12
@@ -30,3 +30,14 @@ MonoBehaviour:
   pcValueAnswer: 0
   customDialogueGraph: {fileID: 11400000, guid: cd196c00a82834f4d94b2ff06f976a32, type: 2}
   nextSceneInitial: {fileID: 11400000, guid: 3d279397006fb3b4480f38b5f65b7747, type: 2}
+  firstInstructionWord: 4391699
+  secondInstructionWord: 0
+  thirdInstructionWord: 0
+  fourthInstructionWord: 0
+  firstDataWord: 1
+  secondDataWord: 2
+  thirdDataWord: 3
+  fourthDataWord: 4
+  references:
+    version: 2
+    RefIds: []

@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 1
   m_EditorClassIdentifier: 
-  DialogueText: "Sie f\xFChrt einen <color=orange>Sprung</color> zu einer Adresse
-    aus (\xE4hnlich wie ein Branch), speichert aber gleichzeitig die <color=yellow>Adresse
-    der n\xE4chsten Zeile</color>, um nach der Ausf\xFChrung der Methode <color=green>zur\xFCckkehren</color>
-    und fortfahren zu k\xF6nnen."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:c6da5e72456f23d428a98d0c5ad5c931
+    m_TableEntryReference:
+      m_KeyId: 4562109616128
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 4
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

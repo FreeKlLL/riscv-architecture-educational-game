@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 6 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 358719196651e7c4aaaabf8f7677e331, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 452740272128
+    m_Localized: And now here all <color=#48DBFB>4 inputs</color> are already in
+      use!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489381711872
+    m_Localized: We set <color=yellow>addresses</color> (numbers from <color=#48DBFB>0
+      to 15</color>) to read out the values of <color=#48DBFB>Registers 2 and 8</color>,
+      and at the same time we read out address <color=yellow>A3</color>. This address
+      determines <anim:shake><color=orange>WHICH REGISTER</color></anim> the new
+      data gets written to.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502178533376
+    m_Localized: "This <color=#48DBFB>\u201Enew data\u201C</color> arrives at input
+      <color=yellow>WD3</color>. During the write operation, close attention is then
+      paid to which address is currently present at <color=yellow>A3</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509602451456
+    m_Localized: If anything's unclear - just call me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 545363087360
+    m_Localized: <anim:shake><color=red>BEHOLD IT!</color></anim> Your last stage
+      before the <color=orange>multi-cycle processor</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579022376960
+    m_Localized: Remember what I explained to you (or what you <anim:wave>skipped</anim>...)
+      and decide which value you pass on to the <color=orange>Multiplexer</color>
+      next. Think about which <color=yellow>type</color> our instruction is and which
+      <color=yellow>operands</color> are needed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 592452538368
+    m_Localized: If you really want to make life hard for yourself, try not to overwrite
+      <color=red>any unnecessary data</color>, but only the <color=green>target register</color>
+      (and specifically in exactly the <color=#48DBFB>clock cycle</color> where that's
+      actually supposed to happen!).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3889469083648
+    m_Localized: 'And there it is: the last building block of our processor - the
+      <color=orange>RegisterFile</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3930296438784
+    m_Localized: 'Here all <color=#48DBFB>16 registers</color> are gathered (from
+      the <color=#48DBFB>0th to the 15th</color>). The name of a register, for example
+      <color=#48DBFB>r0</color>, doesn''t just stand for its <color=#48DBFB>number</color>,
+      but also directly for its <color=yellow>address</color>.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3939742011392
+    m_Localized: 'What do I mean by that? It''s simple: if we want to read a value
+      from register <color=#48DBFB>r0</color> or write one into it, we have to specify
+      its address at the input - in this case that''s <color=#48DBFB>0</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3948633935872
+    m_Localized: So we need to transmit numbers from <color=#48DBFB>0 to 15</color>
+      to access one specific register in the <color=orange>RegisterFile</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3957806878720
+    m_Localized: "Speaking of \u201Etransmit\u201C... Do you actually know how many
+      inputs the <color=orange>RegisterFile</color> has and what they're good for?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3966740746240
+    m_Localized: <anim:wave>Well, greeeat!</anim> Then let's get started with the
+      second-to-last chapter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3975032885248
+    m_Localized: 'You''ve got a point there too. But let''s take a quick look at
+      them anyway: there are a total of <color=#48DBFB>4 inputs</color> and <color=#48DBFB>2
+      outputs</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4714727755776
+    m_Localized: "The inputs <color=yellow>A1</color> and <color=yellow>A2</color>
+      take in the <color=yellow>register addresses</color> from the instruction (Command).
+      That means for <color=#48DBFB>\u201Eadd r0, r1, r2\u201C</color> it would be
+      <color=yellow>A1</color> = <color=#48DBFB>1</color> and <color=yellow>A2</color>
+      = <color=#48DBFB>2</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725737803776
+    m_Localized: The input <color=yellow>A3</color> tells us which address the result
+      of the calculation should be written to. So here too a <color=yellow>register
+      address</color> from <color=#48DBFB>0 to 15</color> is passed in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4736609439744
+    m_Localized: <color=yellow>WD3</color> then transmits the actual <color=green>value</color>
+      that gets stored at address <color=yellow>A3</color>. This value was usually
+      calculated by the <color=orange>ALU</color> beforehand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4745279066112
+    m_Localized: 'And what about the <color=yellow>outputs</color>? They simply output
+      the values of the registers located at addresses <color=yellow>A1</color> and
+      <color=yellow>A2</color>.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4754682695680
+    m_Localized: What happens if there's no second register, meaning address A2 doesn't
+      exist, or we don't need the value? Then we usually ignore the second output
+      with a <color=orange>Multiplexer</color> (that doesn't exist in this task yet,
+      but you'll see it later).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4763658506240
+    m_Localized: In this level and the next one we only use the first two inputs
+      - <color=yellow>A1</color> and <color=yellow>A2</color>. That means we simply
+      read out the <color=yellow>register addresses</color> and fetch their <color=#48DBFB>values</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66710772928512
+    m_Localized: Sure, there aren't that many.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66822416912384
+    m_Localized: Who's going to bother counting those?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80043882336256
+    m_Localized: 'Think carefully about which <color=yellow>inputs</color> are responsible
+      for what:
+
+
+
+      The <color=#48DBFB>top two</color> accept the <color=yellow>register
+      number</color>.
+
+      The <color=#48DBFB>third</color> accepts the <color=yellow>register
+      address</color> that is to be <color=green>overwritten</color> with the value
+      from the fourth input.
+
+      The <color=#48DBFB>fourth</color> accepts the
+      <color=yellow>value</color> that gets stored at the address of the third input.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80086148337664
+    m_Localized: 'What exactly is the instruction from <color=yellow>Register A2</color>
+      supposed to do?
+
+      How many <color=yellow>operands</color> does it have,
+      and which ones?
+
+      How many <color=yellow>clock cycles</color> are needed
+      to fully process this instruction?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188748664885248
+    m_Localized: Write the sum of r7 and r6 into Register 3.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188793124507648
+    m_Localized: Use the register values to calculate the sum. Write this sum to
+      the address of A3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188803023065088
+    m_Localized: Process the instruction from Register A2 correctly and write the
+      result into RegisterFile
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

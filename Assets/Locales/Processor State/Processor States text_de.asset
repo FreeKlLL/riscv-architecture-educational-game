@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Processor States text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 36ead3ba0172d674fbd87ab89757ed05, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 307327946752
+    m_Localized: "Es hat etwas falsch gelaufen oder du musst PC erstmal auf die richtige
+      Adresse setzen.\n\nBevor man mit Fetch beginnt, soll PC auf eine g\xFCltige
+      Adresse im Speicher zeigen (vielfaches von 4). "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279796535296
+    m_Localized: Die gelesenen Daten im Zielregister speichern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257797410816
+    m_Localized: Den Wert aus einem Register direkt in den Speicher schreiben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240319746048
+    m_Localized: Die Daten an der berechneten Adresse aus dem Speicher lesen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189044379648
+    m_Localized: "Die Zieladresse im Speicher aus dem \xFCbergebenen Basiswert und
+      Offset berechnen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167233998848
+    m_Localized: "Zur neuen Adresse springen und die R\xFCcksprungadresse f\xFCr
+      sp\xE4ter speichern (diese Adresse wird nach der Ausf\xFChrung des Unterprogramms
+      benutzt)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153631870976
+    m_Localized: "Befehl aus dem Speicher laden und den PC auf die n\xE4chste Zeile
+      setzen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135512477696
+    m_Localized: "Eine Operation mit zwei Registerwerte aus dem Befehl ausf\xFChren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112477360128
+    m_Localized: "Eine Operation mit einem Register und einer Zahl aus dem Befehl
+      ausf\xFChren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93984673792
+    m_Localized: "Den Befehl verstehen und die Hardware auf die Ausf\xFChrung vorbereiten."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50938531840
+    m_Localized: Zwei Zahlen vergleichen. Bei Gleichheit springt das Programm an
+      eine andere Stelle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19372199936
+    m_Localized: "Das Rechenergebnis der ALU zur\xFCck in das Zielregister schreiben."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

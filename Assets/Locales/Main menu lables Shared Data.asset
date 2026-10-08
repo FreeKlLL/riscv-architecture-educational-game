@@ -47,6 +47,18 @@ MonoBehaviour:
     m_Key: mainMenu.creditsContents
     m_Metadata:
       m_Items: []
+  - m_Id: 50074862725386240
+    m_Key: mainMenu.adventure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50079322881150976
+    m_Key: mainMenu.comingSoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50099892779765760
+    m_Key: mainMenu.musicVolume
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

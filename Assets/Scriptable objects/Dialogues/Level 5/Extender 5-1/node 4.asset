@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 4
   m_EditorClassIdentifier: 
-  DialogueText: "Das hei\xDFt, der <color=orange>Extender</color> wird <anim:shake><color=red>gar
-    nicht benutzt</color></anim>, wenn wir auf diesen Befehlstyp treffen. Und wie
-    erkennt man ihn? <color=yellow>Beide Operanden sind Register.</color>\r\nZum
-    Beispiel: <color=#48DBFB>add r0, r1, r2</color>"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:8427a32ff3bcb2d41885e97aef6ec3b2
+    m_TableEntryReference:
+      m_KeyId: 90738282496
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 2
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

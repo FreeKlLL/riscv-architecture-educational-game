@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 2 text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: a5bb5af46e1a93049a27de5601edfda4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 37546119168
+    m_Localized: "<anim:wave><color=yellow>Pam-pam-paaam!</color></anim> Es ist Zeit
+      f\xFCr eine neue Komponente! Und das iiiiist - der <color=orange>Multiplexer</color>!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133683761152
+    m_Localized: "Vielleicht hast du ihn schon in <color=#48DBFB>Digitaltechnik</color>
+      getroffen (falls du dieses Modul nat\xFCrlich schon hattest). Aber so oder
+      so \u2014 m\xF6chtest du wiederholen, wie er funktioniert?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182392213504
+    m_Localized: "<anim:wave>Sehr gut!</anim> Im Grunde ist er wie eine Durchgangsschleuse.
+      Er hat mehrere Eing\xE4nge, die Signale liefern, aber er l\xE4sst nur <color=yellow>eines</color>
+      davon durch! Und welches genau das ist, entscheidest <anim:shake><color=red>du!</color></anim>
+      Um das erste Signal durchzulassen - setze eine <color=#48DBFB>00</color>. F\xFCr
+      das zweite - eine <color=#48DBFB>01</color>. Und f\xFCr das dritte - eine <color=#48DBFB>10</color>
+      (das ist die Zwei im Dezimalsystem)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248104374272
+    m_Localized: 'Man muss sich auch merken, dass der <color=orange>Multiplexer</color>
+      eine <color=orange>kombinatorische</color> Komponente ist. Und das bedeutet:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314915442688
+    m_Localized: <anim:wave>Aber neeein!</anim> Das bedeutet, dass er keine Signale
+      zwischen den Takten speichert, sondern den Wert einfach nur durchreicht <anim:wave><color=yellow>:D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366673154048
+    m_Localized: Absolut richtig!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431668088832
+    m_Localized: "Ich glaube, du bist bereit f\xFCr das n\xE4chste Level! )))"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 831368482816
+    m_Localized: "Ja, ich wei\xDF noch alles, alles gut!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 960532074496
+    m_Localized: "Der Name kommt mir bekannt vor, aber ich bin mir nicht sicher,
+      ob ich es noch genau wei\xDF... Lass es uns wiederholen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1037120065536
+    m_Localized: Er speichert keine Werte zwischen den Takten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119097737216
+    m_Localized: Er ist sehr teuer in der Herstellung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1196398759936
+    m_Localized: "\xDCbung macht den Meister."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1296009285632
+    m_Localized: Wiederholung ist die Mutter der Weisheit. Nur damit ich sichergehen
+      kann, dass du den Umgang mit dem <color=orange>Multiplexer</color> mittlerweile
+      draufhast!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324731879424
+    m_Localized: <anim:wave>Und noch eins</anim>.\nIch wollte hier nur zeigen, dass
+      man sie miteinander verbinden kann, aber das Signal bleibt trotzdem nur in
+      den <color=orange>Registern</color> gespeichert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105413864083456
+    m_Localized: Na, schauen wir mal. Ein <color=orange>Multiplexer</color> hat mehrere
+      <color=yellow>Eingangswerte</color> und seine Aufgabe ist es, zu entscheiden,
+      welchen dieser Werte er <color=yellow>weiterleitet</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105448173490176
+    m_Localized: "Wenn wir <color=#48DBFB>00</color> setzen, l\xE4sst er den Wert
+      des <color=yellow>ersten Busses</color> durch und <anim:shake><color=red>ignoriert</color></anim>
+      den Rest.\r\n\r\nIm Spiel wird der aktive <color=yellow>Bus (Weg)</color> <color=#48DBFB>hellblau</color>
+      leuchten, damit du dir den <color=yellow>aktuellen Pfad</color> nicht merken
+      musst!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105827695087616
+    m_Localized: <color=yellow>Multiplexer</color> selbst speichern <anim:shake><color=red>keine
+      Werte</color></anim>, sie leiten sie nur weiter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105868249812992
+    m_Localized: "Deine Aufgabe ist es also, den ben\xF6tigten Wert einfach von <color=yellow>links</color>
+      bis zum <color=yellow>Register</color> auf der rechten Seite durchzuschleusen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2216188128808960
+    m_Localized: 'Ziel: \r\nSchreibe in Register 3 den Wert 4'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2216214666170368
+    m_Localized: 'Ziel: \r\nSchreibe in Register 3 den Wert 2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2216223272882176
+    m_Localized: Schreib 12 in "Register 1"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

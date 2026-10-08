@@ -12,13 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 0
   m_EditorClassIdentifier: 
-  DialogueText: "<anim:wave>Du kommst ja schnell voran!</anim> Das letzte Feature,
-    von dem ich dir erz\xE4hle, ist <color=yellow>Write Enable</color>. Oder wei\xDFt
-    du schon, wie das funktioniert???"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 32668623065088
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 8
-  firstAnswer: "Ja, ich wei\xDF bereits."
-  secondAnswer: "Ich w\xFCrde gerne nochmal wiederholen, was das ist und wie es funktioniert."
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 33277220769792
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 33313426001920
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 2
   secondOption: 1
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

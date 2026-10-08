@@ -12,15 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: hNode 3
   m_EditorClassIdentifier: 
-  DialogueText: "Nur eine Sache: Die <color=#48DBFB>Signale</color> bedeuten nicht
-    immer exakt das, was in den Hinweisen steht (genau so wie in Folien oder Hilfsblatt
-    der Klausur).\r\nZum Beispiel ist <color=#48DBFB>AluOp = 00</color> keine Addition,
-    sondern eine <color=yellow>Rechenoperation (Typ I)</color> gem\xE4\xDF der <color=yellow>RISC-V
-    Referenz</color>."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:c6da5e72456f23d428a98d0c5ad5c931
+    m_TableEntryReference:
+      m_KeyId: 11454047342592
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 4
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 7
   m_EditorClassIdentifier: 
-  DialogueText: "Das l\xE4sst sich so interpretieren:\n- <color=orange>beq</color>:
-    Wenn <color=#48DBFB>x1 - x3 == 0</color>, erfolgt der Sprung.\n\n- <color=orange>blt</color>:
-    Wenn <color=#48DBFB>x1 - x3 < 0</color>, erfolgt der Sprung.\n\n- <color=orange>bne</color>:
-    Wenn das Ergebnis <color=red>nicht null</color> ist, erfolgt der Sprung."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:c6da5e72456f23d428a98d0c5ad5c931
+    m_TableEntryReference:
+      m_KeyId: 3383929622528
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 10
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

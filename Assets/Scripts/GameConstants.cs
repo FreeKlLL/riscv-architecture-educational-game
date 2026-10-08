@@ -1,3 +1,4 @@
+// This class stores all "magic numbers"
 public static class GameConstants
 {
     public const string UnlockedLevelKey = "UnlockedLevelIndex";
@@ -8,4 +9,7 @@ public static class GameConstants
     
     public const string PrevTicksKey = "TotalPrevTicks";
     public const int TargetAchievementTicks = 50;
+    
+    public const string MucicParam = "MusicVolume";
+    public const string SfxParam = "SFXVolume";
 }

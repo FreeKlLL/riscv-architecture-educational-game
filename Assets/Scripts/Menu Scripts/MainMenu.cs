@@ -17,12 +17,20 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private CanvasGroup loadingOverlay;
     [SerializeField] private float transitionDuration = 1f;
     private bool _isLoadingOverlayNotNull;
+    
+    [Header("WebGL Quit Button")]
+    [SerializeField] private Button quitButton;
 
     private void Awake()
     {
         SetFrameRate();
 
         UpdateLevelButtons();
+        
+        #if UNITY_WEBGL
+            if (quitButton != null)
+            quitButton.gameObject.SetActive(false);
+        #endif
 
         if (loadingOverlay == null) return;
         loadingOverlay.alpha = 1f;
@@ -120,7 +128,7 @@ public class MainMenu : MonoBehaviour
     #if UNITY_ANDROID || UNITY_IOS
         Application.targetFrameRate = 60;
     #else
-        Application.targetFrameRate = -1; 
+        Application.targetFrameRate = -1; // for webGL, linux and windows
     #endif
     }
 }

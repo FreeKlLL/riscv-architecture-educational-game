@@ -12,13 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 1
   m_EditorClassIdentifier: 
-  DialogueText: "Na, dann pr\xFCfen wir mal, wie ernst du es meinst. Du hast doch
-    behauptet, dass du alles \xFCber <color=orange>logic AND</color> und <color=orange>logic
-    OR</color> wei\xDFt."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f76c707db27a34340adaa1b3eb8e72d8
+    m_TableEntryReference:
+      m_KeyId: 1399747006464
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 5
-  firstAnswer: Na los, spann mich nicht auf die Folter!
-  secondAnswer: Hmm, ich kann mich nicht erinnern, das gesagt zu haben...
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:f76c707db27a34340adaa1b3eb8e72d8
+    m_TableEntryReference:
+      m_KeyId: 2423652110336
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:f76c707db27a34340adaa1b3eb8e72d8
+    m_TableEntryReference:
+      m_KeyId: 2542820675584
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 7
   secondOption: 3
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

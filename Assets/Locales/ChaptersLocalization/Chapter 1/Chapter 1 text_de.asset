@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 1 text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 0d03143d230fc7b43acb3bfd84232be1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 38162681856
+    m_Localized: "Hi! Gl\xFCckwunsch zum Start deines Abenteuers."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160527306752
+    m_Localized: "Lass uns mit einer kleinen Wiederholung anfangen und schauen, wie
+      das hier alles funktioniert und wo man \xFCberall draufklicken kann! <anim:wave><color=yellow>:D</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172439130112
+    m_Localized: Unten links siehst du zwei Pfeile und eine Zahl. Damit kannst du
+      die Takte steuern!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185353392128
+    m_Localized: "In der <anim:wave><color=yellow>echten Welt</color></anim> laufen
+      Takte nur vorw\xE4rts, und es gibt <anim:shake><color=red>keine</color></anim>
+      M\xF6glichkeit, die Zeit zur\xFCckzudrehen oder Daten wiederherzustellen. Aber
+      da wir hier in einem Videospiel sind, ist alles m\xF6glich!\\n\\nHab keine
+      Angst vor Fehlern, du kannst jederzeit zur\xFCckspulen. <anim:wave><color=yellow>:D</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197844029440
+    m_Localized: "Wir beginnen beim <color=yellow>Takt 0</color> und z\xE4hlen hoch.
+      Die Daten werden zwischen zwei <color=orange>sequentiellen</color> Bestandteilen
+      \xFCber <color=orange>kombinatorische</color>  Bestandteile \xFCbertragen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208438841344
+    m_Localized: "Wei\xDFt du noch, welche Teile <color=orange>sequentiell</color>
+      und welche <color=orange>kombinatorisch</color> sind?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 222162604032
+    m_Localized: "Gar kein Problem, wir frischen dein Ged\xE4chtnis kurz auf!\\n\\n<color=orange>Sequentiell:</color>
+      <color=#48DBFB>Register</color>, <color=#48DBFB>RegisterFile</color>, <color=#48DBFB>DataMemory</color>\\n\\n<color=orange>Kombinatorisch:</color>
+      <color=#48DBFB>MUX</color>, <color=#48DBFB>ALU</color>, <color=#48DBFB>Extender</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233067794432
+    m_Localized: "Alles klar. Dann lass uns ein bisschen \xFCben und die erste Aufgabe
+      erledigen. Um herauszufinden, wo sich <color=#48DBFB>Register 3</color> befindet
+      und welche Werte dort gespeichert sind \u2013 klick einfach auf das Objekt.
+      <anim:wave><color=yellow>Viel Erfolg!</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32295061573632
+    m_Localized: "Gl\xFCckwunsch zur ersten abgeschlossenen Aufgabe! <anim:wave><color=yellow>Das
+      hast du super gemacht!</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337273049088
+    m_Localized: "Du kannst die Takte nicht nur zur\xFCcksetzen, sondern auch die
+      Zeit <color=#48DBFB>beschleunigen</color> oder <color=#48DBFB>verlangsamen</color>.
+      So kannst du auf ein <color=yellow>laufendes Signal</color> klicken und sehen,
+      welchen Wert es gerade \xFCbertr\xE4gt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32357628006400
+    m_Localized: Wenn du den <color=orange>Schieberegler</color> ganz nach links
+      bewegst, kannst du die Zeit sogar <anim:shake><color=red>komplett anhalten!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32367404929024
+    m_Localized: Wollen wir es mal ausprobieren?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32668623065088
+    m_Localized: "<anim:wave>Du kommst ja schnell voran!</anim> Das letzte Feature,
+      von dem ich dir erz\xE4hle, ist <color=yellow>Write Enable</color>. Oder wei\xDFt
+      du schon, wie das funktioniert???"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32698369069056
+    m_Localized: 'Kurz gesagt: Du kannst selbst entscheiden, in welchen Bestandteil
+      gerade ein Signal geschrieben werden darf und in welchen nicht.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32714210955264
+    m_Localized: "Wenn <color=yellow>Write Enable</color> auf <color=#48DBFB>0</color>
+      steht, leitet der sequentielle Teil das Signal einfach vom Eingang zum Ausgang
+      weiter (das hei\xDFt, es wird nichts gespeichert). Wenn <color=yellow>Write
+      Enable</color> aber auf <color=#48DBFB>1</color> steht, wird der aktuelle Wert
+      \u201Eeingefroren\u201C und bleibt auch im n\xE4chsten Takt im Register gespeichert!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32727351709696
+    m_Localized: "Na dann \u2013 probier doch mal ein bisschen mit dem <color=yellow>WE</color>
+      herum!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33063378374656
+    m_Localized: Hmm, ich glaube, wir sollten diesen Teil lieber nochmal wiederholen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33177761239040
+    m_Localized: "Ich bin mir sicher, dass ich das noch wei\xDF!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33277220769792
+    m_Localized: "Ja, ich wei\xDF bereits."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33313426001920
+    m_Localized: "Ich w\xFCrde gerne nochmal wiederholen, was das ist und wie es
+      funktioniert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139461751754752
+    m_Localized: "Denk mal dar\xFCber nach, wie ein <color=yellow>Register</color>
+      funktioniert: Er speichert den Wert f\xFCr <color=#48DBFB>einen Takt</color>
+      zwischen. Falls <color=yellow>WE (Write Enable)</color> gleich <color=#48DBFB>1</color>
+      ist (also wenn kein <anim:shake><color=red>STOP</color></anim> sichtbar ist),
+      dann wird er im n\xE4chsten Takt den Wert vom <color=yellow>Eingang</color>
+      \xFCbernehmen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139559101550592
+    m_Localized: "Es ist \xFCberhaupt nicht schlimm, wenn du <anim:shake>Schwierigkeiten</color>
+      hast! Nur durch Probleme lernt man <anim:wave><color=yellow>etwas Neues! :D</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2249321758871552
+    m_Localized: 'Ziel: \r\nSchreibe in Register 3 den Wert 4'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2249355342663680
+    m_Localized: 'Ziel: \r\nSchreibe in Register 3 den Wert 42'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2249364972785664
+    m_Localized: 'Ziel: \r\nSchreibe in Register 3 den Wert -12'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

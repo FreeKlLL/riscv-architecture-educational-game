@@ -12,12 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 4
   m_EditorClassIdentifier: 
-  DialogueText: "Wei\xDFt du, wie bedingte Verzweigungen in <color=yellow>RISC-V</color>
-    funktionieren?"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:c6da5e72456f23d428a98d0c5ad5c931
+    m_TableEntryReference:
+      m_KeyId: 3323774914560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 8
-  firstAnswer: Sir, yes sir!
-  secondAnswer: Lass es uns lieber wiederholen.
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 9
   secondOption: 5
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 12
   m_EditorClassIdentifier: 
-  DialogueText: "In diesem und im n\xE4chsten Level benutzen wir nur die ersten beiden
-    Eing\xE4nge - <color=yellow>A1</color> und <color=yellow>A2</color>. Das hei\xDFt,
-    wir lesen einfach nur die <color=yellow>Registeradressen</color> aus und holen
-    uns ihre <color=#48DBFB>Werte</color>."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:358719196651e7c4aaaabf8f7677e331
+    m_TableEntryReference:
+      m_KeyId: 4763658506240
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

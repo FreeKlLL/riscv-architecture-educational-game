@@ -1487,14 +1487,6 @@ MonoBehaviour:
   spherePrefab: {fileID: 6425462522399718016, guid: 1d0544c75d85507478621a5dee2e0bd8, type: 3}
   movementSpeed: 7
   poolPreWarmCount: 2
-  busSegments:
-  - {fileID: 203119610}
-  - {fileID: 1215245610}
-  - {fileID: 934957545}
-  - {fileID: 1226422104}
-  - {fileID: 662357675}
-  - {fileID: 1719315176}
-  - {fileID: 1567109333}
 --- !u!114 &1109257077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1507,8 +1499,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10516727c5ae2a49b6c126a76de6e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTargetDescription: 'Ziel: \r\nExtende alle Werte aus dem Speicher korrekt
-    und lege in Register 3.'
+  levelTargetDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:8427a32ff3bcb2d41885e97aef6ec3b2
+    m_TableEntryReference:
+      m_KeyId: 2201459222138880
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   managedInteractable:
   - {fileID: 970035351}
   - {fileID: 659021389}
@@ -1532,13 +1531,6 @@ MonoBehaviour:
   fallenTries: 0
   busController: {fileID: 1109257075}
   isProcessing: 0
-  registerSrcAVisualizer: {fileID: 1846687519}
-  registerSrcBVisualizer: {fileID: 970035351}
-  registerOutputVisualizer: {fileID: 659021389}
-  memoryVisualizer: {fileID: 1307351389}
-  aluVisualizer: {fileID: 1753783360}
-  extenderVisualizer: {fileID: 608457877}
-  blinkerNumber: {fileID: 8704097733372050112}
   buses:
     pcToMemAddr: {fileID: 203119610}
     pcToBtaAdder: {fileID: 662357675}
@@ -1547,6 +1539,16 @@ MonoBehaviour:
     adderToSrcB: {fileID: 1567109333}
     instrRegToExtend: {fileID: 934957545}
     extendToMux: {fileID: 1226422104}
+  registerSrcAVisualizer: {fileID: 1846687519}
+  registerSrcBVisualizer: {fileID: 970035351}
+  registerOutputVisualizer: {fileID: 659021389}
+  memoryVisualizer: {fileID: 1307351389}
+  aluVisualizer: {fileID: 1753783360}
+  extenderVisualizer: {fileID: 608457877}
+  blinkerNumber: {fileID: 8704097733372050112}
+  references:
+    version: 2
+    RefIds: []
 --- !u!1001 &1120415451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2085,7 +2087,6 @@ MonoBehaviour:
   scrollSensitivity: 25
   minHeight: 1.5
   maxHeight: 6
-  zoomSmoothness: 0.3
   minX: -4
   maxX: 4.7
   minZ: -8

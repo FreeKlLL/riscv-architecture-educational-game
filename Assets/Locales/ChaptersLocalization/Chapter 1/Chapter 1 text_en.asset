@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 1 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0d03143d230fc7b43acb3bfd84232be1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 38162681856
+    m_Localized: Hi! Congratulations on starting your adventure.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160527306752
+    m_Localized: Let's start with a little recap and see how everything here works
+      and where you can click! <anim:wave><color=yellow>:D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172439130112
+    m_Localized: In the bottom left you can see two arrows and a number. You can
+      use them to control the clock cycles!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185353392128
+    m_Localized: In the <anim:wave><color=yellow>real world</color></anim> clock
+      cycles only move forward, and there's <anim:shake><color=red>no</color></anim>
+      way to turn back time or recover data. But since we're in a video game here,
+      anything is possible!\n\nDon't be afraid of mistakes, you can rewind at any
+      time. <anim:wave><color=yellow>:D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197844029440
+    m_Localized: We start at <color=yellow>clock cycle 0</color> and count up. Data
+      is transferred between two <color=orange>sequential</color> components via
+      <color=orange>combinational</color>  components.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208438841344
+    m_Localized: Do you remember which parts are <color=orange>sequential</color>
+      and which are <color=orange>combinational</color>?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 222162604032
+    m_Localized: No problem at all, let's quickly refresh your memory!\n\n<color=orange>Sequential:</color>
+      <color=#48DBFB>Register</color>, <color=#48DBFB>RegisterFile</color>, <color=#48DBFB>DataMemory</color>\n\n<color=orange>Combinational:</color>
+      <color=#48DBFB>MUX</color>, <color=#48DBFB>ALU</color>, <color=#48DBFB>Extender</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233067794432
+    m_Localized: "Alright. Let's practice a bit and complete the first task. To find
+      out where <color=#48DBFB>Register 3</color> is located and what values are
+      stored there \u2013 just click on the object. <anim:wave><color=yellow>Good
+      luck!</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32295061573632
+    m_Localized: Congratulations on completing your first task! <anim:wave><color=yellow>You
+      did a great job!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32337273049088
+    m_Localized: You can not only reset the clock cycles, but also <color=#48DBFB>speed
+      up</color> or <color=#48DBFB>slow down</color> time. This way you can click
+      on a <color=yellow>running signal</color> and see which value it's currently
+      carrying.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32357628006400
+    m_Localized: If you move the <color=orange>slider</color> all the way to the
+      left, you can even <anim:shake><color=red>stop time completely!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32367404929024
+    m_Localized: Shall we give it a try?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32668623065088
+    m_Localized: <anim:wave>You're making quick progress!</anim> The last feature
+      I'll tell you about is <color=yellow>Write Enable</color>. Or do you already
+      know how it works???
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32698369069056
+    m_Localized: 'In short: You can decide for yourself which component a signal
+      is allowed to be written to and which not.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32714210955264
+    m_Localized: "If <color=yellow>Write Enable</color> is set to <color=#48DBFB>0</color>,
+      the sequential part simply passes the signal from the input to the output (meaning
+      nothing is stored). But if <color=yellow>Write Enable</color> is set to <color=#48DBFB>1</color>,
+      the current value is \u201Efrozen\u201C and stays stored in the register on
+      the next clock cycle too!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32727351709696
+    m_Localized: "Well then \u2013 go ahead and experiment a bit with <color=yellow>WE</color>!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33063378374656
+    m_Localized: Hmm, I think we'd better go over this part again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33177761239040
+    m_Localized: I'm sure I still remember that!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33277220769792
+    m_Localized: Yes, I already know.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33313426001920
+    m_Localized: I'd like to go over what it is and how it works again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139461751754752
+    m_Localized: 'Think about how a <color=yellow>register</color> works: it temporarily
+      stores the value for <color=#48DBFB>one clock cycle</color>. If <color=yellow>WE
+      (Write Enable)</color> equals <color=#48DBFB>1</color> (i.e. if no <anim:shake><color=red>STOP</color></anim>
+      is visible), then on the next clock cycle it will take over the value from
+      the <color=yellow>input</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139559101550592
+    m_Localized: It's not a problem at all if you're <anim:shake>having trouble</color>!
+      You only learn <anim:wave><color=yellow>something new! :D</color></anim> through
+      problems.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2249321758871552
+    m_Localized: 'Goal: \r\nWrite value 4 to Register 3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2249355342663680
+    m_Localized: 'Goal: \r\nWrite value 42 to Register 3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2249364972785664
+    m_Localized: 'Goal: \r\nWrite value -12 to Register 3'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

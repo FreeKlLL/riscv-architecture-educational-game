@@ -12,15 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 2
   m_EditorClassIdentifier: 
-  DialogueText: "Na gut, dann bringen wir mal <anim:wave><color=yellow>Licht ins
-    Dunkel</color></anim>! Nehmen wir zum Beispiel die Zahl <color=#48DBFB>5</color>.\r\nIn
-    Bin\xE4rschreibweise sieht das so aus: <color=#48DBFB>0101</color>.\r\nDiese
-    Zahl zeigt uns, welche <color=orange>Zweierpotenzen</color> wir benutzen: <color=#48DBFB>1
-    + 0 * 2 + 4 + 0 * 8</color>"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f76c707db27a34340adaa1b3eb8e72d8
+    m_TableEntryReference:
+      m_KeyId: 1440834408448
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 4
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

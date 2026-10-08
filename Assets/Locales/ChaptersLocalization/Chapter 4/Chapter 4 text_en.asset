@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 4 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 6828bc66724c19840bf8d9ffec9abe7e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 108530520064
+    m_Localized: 'This is a game for the whole family, so let''s set the bitter reality
+      aside: in our <color=orange>memory</color> there are only <color=#48DBFB>4
+      addresses</color>! <anim:wave><color=yellow>:D</color></anim>  But even so
+      - with us, every <color=yellow>word</color> is stored in <color=#48DBFB>4 bytes</color>.
+      Remember one thing: to write information correctly into <color=orange>memory</color>,
+      the address must be an <anim:shake><color=orange>integer multiple of 4</color></anim>!!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210284335104
+    m_Localized: Should I tell you a bit about <color=orange>memory</color>?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291788050432
+    m_Localized: 'In the real world, <color=orange>memory</color> works like this:
+      theoretically we have an infinite number (well, actually just a very, very
+      large number) of <color=yellow>bytes</color> in memory. A <color=yellow>byte</color>
+      is the smallest addressable unit of memory. But on its own it''s too small
+      to store anything meaningful. That''s why we use <color=#48DBFB>4 bytes</color>
+      together to store information. A group of 4 bytes like that is called a <color=yellow>word</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367839170560
+    m_Localized: Since there are so many bytes (and words), we need a starting point
+      to work with. We use the <color=yellow>base address</color> for that. That's
+      simply a number we set as our starting point. From there we count either in
+      the positive or the negative direction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 419127119872
+    m_Localized: And we count, as you surely remember, in <anim:wave><color=#48DBFB>steps
+      of 4</color></anim>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 467483250688
+    m_Localized: That means we add <color=#48DBFB>+4, +8, +12</color> to our starting
+      point, or subtract <color=#48DBFB>-4, -8, -12</color>. This way we don't have
+      to search through the whole <color=orange>memory</color>, but <color=#48DBFB>jump</color>
+      straight to where we need to go and look for the data locally.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523162636288
+    m_Localized: Would you like to review the inputs and outputs of the <color=orange>hardware
+      component</color> again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598211317760
+    m_Localized: 'The hardware component has <color=#48DBFB>three inputs</color>: 
+      Which <color=yellow>address</color> we want to fetch from memory.  Which <color=yellow>value</color>
+      we want to write to memory.  <color=yellow>WriteEnable</color> (you set this
+      yourself in the game!). It decides whether something gets written to memory
+      or not.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 637742632960
+    m_Localized: The <color=yellow>address input</color> is located <color=orange>top
+      left</color>. The <color=yellow>input for new values</color> is <color=orange>bottom
+      left</color>. And the <color=yellow>output</color> is <color=orange>top right</color>
+      - that's where the data comes out that we read at the given address.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692293750784
+    m_Localized: 'That means: at the input we enter a <color=#48DBFB>NUMBER</color>
+      that has to be an <color=yellow>integer multiple of 4</color>. In our game
+      that can only be <color=#48DBFB>0, 4, 8 or 12</color>2. If the number is anything
+      else, the data is read <anim:shake><color=red>incompletely</color></anim>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 740247228416
+    m_Localized: <anim:wave><color=yellow>Good luck with the level!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 897667846144
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 959303143424
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012113625088
+    m_Localized: Yes, gladly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1031206096896
+    m_Localized: Enough theory, I want to get to the level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1259552395264
+    m_Localized: "<anim:wave><color=yellow>All tip-top!</color></anim> And we've
+      already arrived at the \u201Ewrong\u201C address for our memory - time to take
+      a look at the very last address."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1333468614656
+    m_Localized: If you want to do everything by the book, you have to think carefully
+      about when and where you turn on <color=yellow>WE</color> (<color=yellow>WriteEnable</color>),
+      so you don't lose <anim:shake><color=red>any</color></anim> data from <color=orange>memory</color>
+      or the <color=orange>registers</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1380209938432
+    m_Localized: <anim:wave><color=yellow>This match will get red hot!</color></anim>
+      And begin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1494592802816
+    m_Localized: Well, what would life be if we couldn't write to <color=orange>memory</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1530802229248
+    m_Localized: And you thought everything would run so simply and smoothly, huh?
+      <anim:wave>Well? Welll?</anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1539090173952
+    m_Localized: 'Okay, I''m just kidding. But seriously: here you''ll need to work
+      properly with <color=yellow>WE</color> (<color=yellow>WriteEnable</color>)
+      and think carefully about which <color=#48DBFB>path</color> you choose.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1549039063040
+    m_Localized: I believe in you, <anim:wave><color=yellow>you've got this!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1808955887616
+    m_Localized: I don't fear the one who has solved 100 exercise tasks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838316015616
+    m_Localized: I fear the one who has written a value to memory 100 times! <anim:wave><color=yellow>:D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848118104064
+    m_Localized: Here we have different <color=#48DBFB>addresses</color>, but the
+      logic stays the same. Mull over <color=yellow>WE</color> a little.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167525805838336
+    m_Localized: 'If you''ve forgotten which <color=yellow>type</color> is responsible
+      for what, just try out all the <color=yellow>Extender operations</color> one
+      after another and look at the <color=red>result</color> <anim:wave><color=yellow>:D</color></anim>
+
+
+
+      You
+      can still reset the <color=#48DBFB>clock cycles</color> after all!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167562757656576
+    m_Localized: First you need to set everything up so that the <color=yellow>register</color>
+      runs through all the <color=yellow>memory addresses</color> from <color=#48DBFB>0</color>
+      to <color=#48DBFB>12</color>. (Think about which <color=yellow>ALU operation</color>
+      you need to choose for that!)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167603182358528
+    m_Localized: 'And if you''ve forgotten which <color=orange>type</color> is responsible
+      for what, just try out all the <color=yellow>Extender operations</color> one
+      after another and look at the <color=red>result</color> <anim:wave><color=yellow>:D</color></anim>
+
+
+
+      Don''t
+      forget: you can reset the <color=#48DBFB>clock cycles</color> at any time!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206330176425984
+    m_Localized: 'Goal: \r\nWrite value 66 to Register 2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206377911799808
+    m_Localized: 'Goal: \r\nWrite value 128 to Register 2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209544812646400
+    m_Localized: 'Goal: \r\nWrite two values into memory at addresses 0 and 8.\r\nWhere
+      value at address 0 must be smaller than at address 8.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209561954766848
+    m_Localized: 'Goal: \r\nWrite two values into memory at addresses 0 and 12.\r\nWhere
+      value at address 0 must be smaller than at address 12.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

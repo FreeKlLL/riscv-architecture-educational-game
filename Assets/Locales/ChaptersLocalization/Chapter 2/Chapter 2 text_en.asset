@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 2 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a5bb5af46e1a93049a27de5601edfda4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 37546119168
+    m_Localized: <anim:wave><color=yellow>Pam-pam-paaam!</color></anim> It's time
+      for a new component! And it iiiiist - the <color=orange>Multiplexer</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133683761152
+    m_Localized: "Maybe you've already come across it in <color=#48DBFB>Digital Technology</color>
+      (if you've already taken that module, of course). But either way \u2014 would
+      you like to review how it works?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182392213504
+    m_Localized: <anim:wave>Very good!</anim> Basically it's like a passage gate.
+      It has several inputs delivering signals, but it only lets <color=yellow>one</color>
+      of them through! And which one exactly is decided by <anim:shake><color=red>you!</color></anim>
+      To let the first signal through - set <color=#48DBFB>00</color>. For the second
+      - <color=#48DBFB>01</color>. And for the third - <color=#48DBFB>10</color>
+      (that's two in the decimal system).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248104374272
+    m_Localized: 'You also need to remember that the <color=orange>Multiplexer</color>
+      is a <color=orange>combinational</color> component. And that means:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314915442688
+    m_Localized: <anim:wave>But noooo!</anim> That means it doesn't store any signals
+      between clock cycles, it just passes the value straight through <anim:wave><color=yellow>:D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366673154048
+    m_Localized: Absolutely correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431668088832
+    m_Localized: I think you're ready for the next level! )))
+    m_Metadata:
+      m_Items: []
+  - m_Id: 831368482816
+    m_Localized: Yes, I still remember everything, all good!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 960532074496
+    m_Localized: The name sounds familiar, but I'm not sure I still know it exactly...
+      Let's go over it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1037120065536
+    m_Localized: It doesn't store values between clock cycles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119097737216
+    m_Localized: It's very expensive to manufacture.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1196398759936
+    m_Localized: Practice makes perfect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1296009285632
+    m_Localized: Repetition is the mother of wisdom. Just so I can make sure you've
+      got the hang of working with the <color=orange>Multiplexer</color> by now!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324731879424
+    m_Localized: <anim:wave>And one more thing</anim>.\nI just wanted to show here
+      that you can connect them together, but the signal still only gets stored in
+      the <color=orange>Registers</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105413864083456
+    m_Localized: Well, let's see. A <color=orange>Multiplexer</color> has several
+      <color=yellow>input values</color>, and its job is to decide which of these
+      values it <color=yellow>passes on</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105448173490176
+    m_Localized: 'If we set <color=#48DBFB>00</color>, it lets the value of the <color=yellow>first
+      bus</color> through and <anim:shake><color=red>ignores</color></anim> the rest.
+
+
+
+      In
+      the game the active <color=yellow>bus (path)</color> will light up <color=#48DBFB>light
+      blue</color>, so you don''t have to memorize the <color=yellow>current path</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105827695087616
+    m_Localized: <color=yellow>Multiplexers</color> themselves don't store <anim:shake><color=red>any
+      values</color></anim>, they just pass them on!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105868249812992
+    m_Localized: So your task is simply to route the needed value from <color=yellow>left</color>
+      through to the <color=yellow>register</color> on the right side!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2216188128808960
+    m_Localized: 'Goal: \r\nWrite value 4 to Register 3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2216214666170368
+    m_Localized: 'Goal: \r\nWrite value 2 to Register 3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2216223272882176
+    m_Localized: Write 12 to "Register 1"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

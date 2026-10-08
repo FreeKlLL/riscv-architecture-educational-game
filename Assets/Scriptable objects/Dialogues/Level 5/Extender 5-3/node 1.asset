@@ -12,21 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 1
   m_EditorClassIdentifier: 
-  DialogueText: '<color=#48DBFB>Zusammenkneifen</color> - die Kamera <color=yellow>zoomt
-    raus</color>.
-
-    <color=#48DBFB>Auseinanderziehen</color> - die Kamera <color=yellow>zoomt
-    ran</color>.
-
-    Eins noch: Um die Kamera <color=orange>nach oben, unten, links
-    oder rechts</color> zu bewegen, musst du deinen Finger auf etwas anderes als
-    die Komponenten setzen.
-
-'
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:8427a32ff3bcb2d41885e97aef6ec3b2
+    m_TableEntryReference:
+      m_KeyId: 6772499435520
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 8
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

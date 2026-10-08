@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 8 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 93f6bf3b27ccfbe489a979e40cca16e1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 111713996800
+    m_Localized: <anim:wave><color=yellow>Welcome to the new chapter!</color></anim>.
+      Here everything revolves around your first processor - the single-cycle processor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140197515264
+    m_Localized: Unfortunately the dialogues for this chapter aren't quite finished
+      yet :(\nBut don't worry, I'm already working hard on it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150624555008
+    m_Localized: 'The good news is: all the levels of this chapter are already playable
+      and solvable. Right now you just unfortunately have to get by without hints
+      and explanations.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160497946624
+    m_Localized: In the "Multi-cycle processor" chapter, on the other hand, everything
+      is already completely finished!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183191941894144
+    m_Localized: Process the value from Instruction Memory at address 0 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183264188780544
+    m_Localized: Process the value from Instruction Memory at address 0 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183290549981184
+    m_Localized: Process the value from Instruction Memory at address 8 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183300763111424
+    m_Localized: Process the value from Instruction Memory at address 0 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183309646647296
+    m_Localized: Process the value from Instruction Memory at address 12 correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183319201271808
+    m_Localized: Process the value from Instruction Memory at address 12 correctly.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

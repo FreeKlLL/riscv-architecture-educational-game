@@ -12,17 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5745a4e36bb6c8e45841be2c75420794, type: 3}
   m_Name: Level 10-3
   m_EditorClassIdentifier: 
-  levelTarget: Bearbeite den Wert aus Data/Instruction Memory an die Adresse 0 korrekt.
+  levelTarget:
+    m_TableReference:
+      m_TableCollectionName: GUID:c6da5e72456f23d428a98d0c5ad5c931
+    m_TableEntryReference:
+      m_KeyId: 2112102146527232
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  pcRegisterInitialValue: 0
+  aufgabeTyp: 1
+  registerFieldAddressAnswer: 0
+  registerFieldValueAnswer: 0
+  memoryAddressAnswer: 4
+  memoryValueAnswer: 5
+  pcValueAnswer: 0
+  customDialogueGraph: {fileID: 11400000, guid: f4775adb7830619408964eb9856200b5, type: 2}
+  nextSceneInitial: {fileID: 11400000, guid: 7bfcf92658e3d7846b0ef1c241fc31fd, type: 2}
   firstMemoWord: 4464803
   secondMemoWord: 0
   thirdMemoWord: 0
   fourthMemoWord: 0
-  pcRegisterInitialValue: 0
-  _aufgabeTyp: 1
-  RegisterFieldAdressAnswer: 0
-  RegisterFieldValueAnswer: 0
-  MemoryAdressAnswer: 4
-  MemoryValueAnswer: 5
-  pcValueAnswer: 0
-  customDialogueGraph: {fileID: 11400000, guid: f4775adb7830619408964eb9856200b5, type: 2}
-  nextSceneInitial: {fileID: 11400000, guid: 7bfcf92658e3d7846b0ef1c241fc31fd, type: 2}
+  references:
+    version: 2
+    RefIds: []

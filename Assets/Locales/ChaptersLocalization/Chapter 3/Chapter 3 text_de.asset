@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 3 text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: f76c707db27a34340adaa1b3eb8e72d8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5602299904
+    m_Localized: "Schau an, wir sind schon bei der <color=orange>ALU</color> angekommen!
+      Das ist doch sicher auch eine bekannte Komponente f\xFCr dich. Na, soll ich
+      dir eine kleine Vorlesung halten oder wei\xDFt du schon, was Sache ist?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192202690560
+    m_Localized: "Dann ab in den Kampf! Aber erschreck dich nicht vor der <color=#48DBFB>gro\xDFen
+      Vier</color> - sie tut eigentlich nichts und gibt einfach nur den Wert <color=#48DBFB>4</color>
+      an den <color=orange>Bus</color> weiter."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238419726336
+    m_Localized: "Die <color=orange>ALU</color> ist das <color=orange>arithmetisch-logische
+      Werk</color>. Das bedeutet, sie kann <color=#48DBFB>arithmetische Operationen</color>
+      (Addition und Subtraktion) sowie <color=#48DBFB>logische Operationen</color>
+      (logisches ODER und logisches UND) ausf\xFChren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283768541184
+    m_Localized: Hast du Fragen dazu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327846481920
+    m_Localized: "<anim:wave>Super, dass du fragst!</anim> Das sind die grundlegenden
+      logischen Operationen. Alle Zahlen in unserem Computer sind als eine Folge
+      von <color=#48DBFB>Nullen</color> und <color=#48DBFB>Einsen</color> gespeichert.
+      Dabei ist es v\xF6llig egal, ob es eine Ganzzahl oder eine Gleitkommazahl ist!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372289327104
+    m_Localized: "Diese beiden Operationen hei\xDFen <color=orange>\u201Ebitweise\u201C</color>,
+      weil sie direkt mit den Nullen und Einsen - also den <color=#48DBFB>Bits</color>
+      - arbeiten. Und sie vergleichen immer nur ein Bit nach dem anderen. Das hei\xDFt,
+      sie gehen die Zahl nacheinander \u201Evon rechts nach links\u201C durch. Und
+      <color=orange>\u201Elogisch\u201C</color> hei\xDFen sie, weil sie zum Aufbau
+      von Formeln und so weiter genutzt werden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 415058644992
+    m_Localized: "Um zu verstehen, welche Zahl am Ende herauskommt, zum Beispiel
+      bei <color=#48DBFB>3 & 16 = ???</color>, muss man beide Zahlen als <color=#48DBFB>Nullen</color>
+      und <color=#48DBFB>Einsen</color> ausschreiben. Dann schreibt man sie rechtsb\xFCndig
+      untereinander und wendet Folgendes an:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480452038656
+    m_Localized: Damit sie das tun kann, wird ihr einer von vier <color=yellow>Steuersignalen</color>
+      gesendet:\n<color=#48DBFB>00</color> - Addition\n<color=#48DBFB>01</color>
+      - Subtraktion\n<color=#48DBFB>10</color> - logisches bitweises UND\n<color=#48DBFB>11</color>
+      - logisches bitweises ODER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534692777984
+    m_Localized: "Wenn wir <color=yellow>& (UND)</color>  benutzen: Eine <color=#48DBFB>Eins</color>
+      kommt nur raus, wenn oben eine 1 <anim:shake><color=yellow>UND</color></anim>
+      unten eine 1 steht.\\nWenn wir <color=yellow>| (ODER)</color> benutzen: Eine
+      <color=#48DBFB>Eins</color> kommt immer raus, <anim:shake><color=yellow>au\xDFer</color></anim>
+      wenn dort zwei <color=red>Nullen</color> stehen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 648488439808
+    m_Localized: "Ich wei\xDF noch ganz genau, wie sie funktioniert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834849755136
+    m_Localized: Warum eigentlich nicht? Lass es uns wiederholen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 918081523712
+    m_Localized: "N\xF6, alles klar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973299535872
+    m_Localized: Und was genau ist dieses logische (und dann auch noch bitweise)
+      UND und ODER?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1054937468928
+    m_Localized: Aber wie versteht man was als Ergebnis kommt?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117763948544
+    m_Localized: Okeks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1321091223552
+    m_Localized: Tja, das war doch eigentlich ziemlich einfach, nicht wahr?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1399747006464
+    m_Localized: "Na, dann pr\xFCfen wir mal, wie ernst du es meinst. Du hast doch
+      behauptet, dass du alles \xFCber <color=orange>logic AND</color> und <color=orange>logic
+      OR</color> wei\xDFt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440834408448
+    m_Localized: "Na gut, dann bringen wir mal <anim:wave><color=yellow>Licht ins
+      Dunkel</color></anim>! Nehmen wir zum Beispiel die Zahl <color=#48DBFB>5</color>.\r\nIn
+      Bin\xE4rschreibweise sieht das so aus: <color=#48DBFB>0101</color>.\r\nDiese
+      Zahl zeigt uns, welche <color=orange>Zweierpotenzen</color> wir benutzen: <color=#48DBFB>1
+      + 0 * 2 + 4 + 0 * 8</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1496983556096
+    m_Localized: "Um <color=orange>AND</color> anzuwenden, schreiben wir einfach
+      eine Zahl \xFCber die andere und schauen genau hin:\r\nWenn <anim:shake><color=yellow>beide
+      Bits</color></anim> in einer Spalte eine <color=yellow>Eins</color> sind, ist
+      das Ergebnis auch <color=yellow>Eins</color>.\r\nIst aber auch nur eines davon
+      eine <color=red>Null</color> - dann ist das Ergebnis ebenfalls <color=red>Null</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1535130750976
+    m_Localized: 'Hier ist ein Beispiel:
+
+      11001
+
+      10101
+
+      -----
+
+      <color=green>1</color>000<color=green>1</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1868762468352
+    m_Localized: "Bei <color=orBei <color=orange>ODER</color> ist es genau umgekehrt:\r\nWenn
+      <anim:shake><color=yellow>mindestens eine</color></anim> Zahl in der Spalte
+      eine <color=yellow>Eins</color> ist \u2014 dann ist das Ergebnis auch eine
+      <color=yellow>Eins</color>!\r\n11001\r\n10101\r\n-----\r\n<color=green>111</color>0<color=green>1</color>nge>ODER</color>
+      ist es genau umgekehrt:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2017790283776
+    m_Localized: "Zeit f\xFCr ein kleines <anim:wave><color=yellow>Warm-up</color></anim>!
+      Ich hab da einen einfachen Fall f\xFCr dich vorbereitet. Mal sehen, ob du wei\xDFt,
+      was zu tun ist."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2093845598208
+    m_Localized: "<anim:wave><color=yellow>Ok, viel Gl\xFCck!</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2423652110336
+    m_Localized: Na los, spann mich nicht auf die Folter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2542820675584
+    m_Localized: Hmm, ich kann mich nicht erinnern, das gesagt zu haben...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2676115656704
+    m_Localized: "<anim:wave>Und, wie lief's?</anim>\r\nHast du gemerkt, dass man
+      die letzte Aufgabe sowohl mit <color=orange>AND</color> als auch mit <color=orange>OR</color>
+      l\xF6sen konnte?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2795569434624
+    m_Localized: Na ja, schon. Die Chance, das durch pures Raten richtig zu machen,
+      lag bei <color=yellow>stolzen 50 %</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2844693123072
+    m_Localized: "Sooo, jetzt lassen wir die abstrakten Zahlen mal beiseite und schauen
+      uns etwas an, das n\xE4her an der Realit\xE4t ist."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2896467611648
+    m_Localized: "Dieses Mal siehst du in etwa, wie der Aktualisierungsprozess des
+      <color=orange>PC-Registers</color> abl\xE4uft."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2939786383360
+    m_Localized: "<anim:wave><color=yellow>Freut mich, dass du fragst! :D</color></anim>\r\n<color=orange>PC</color>
+      steht f\xFCr <color=orange>Program Counter</color> - das ist das <anim:wave>Register</anim>,
+      das die <anim:wave>Adresse</anim> der aktuellen Zeile im Programm speichert.
+      Am Anfang zeigt er also, wo das Programm startet, und danach erh\xF6ht er sich
+      immer weiter, um neue Zeilen <color=orange>Programmcode</color> aus dem Speicher
+      zu fischen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3080257818624
+    m_Localized: "Und nat\xFCrlich wissen wir alle noch ganz genau: Wenn die aktuelle
+      <color=orange>PC-Adresse</color> 16 ist, dann ist die n\xE4chste Adresse...
+      <anim:wave>tjaaaaaa... ????</anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237993009152
+    m_Localized: "<anim:shake><color=yellow>Ah-ah! Die richtige Antwort ist 20.</color></anim>
+      Und zwar deshalb, weil jede Zeile, jede <color=orange>Assembler-Instruktion</color>,
+      in einem <color=yellow>WORT</color> gespeichert wird. Das hei\xDFt, um einen
+      einzigen Befehl unseres Codes zu speichern, brauchen wir <color=#48DBFB>4 Byte</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3357484535808
+    m_Localized: "Das bedeutet wiederum: Um vom aktuellen Befehl, der bei Adresse
+      <color=#48DBFB>16</color> startet, weiterzugehen, m\xFCssen wir die <color=#48DBFB>4
+      Byte</color> \xFCberspringen, die den aktuellen Befehl enthalten."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3413486882816
+    m_Localized: "Alles klar, du bist bereit f\xFCr das <anim:wave>n\xE4chste Level</anim>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3550758064128
+    m_Localized: Was ist denn ein PC?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3589714759680
+    m_Localized: Cool... ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171453830254592
+    m_Localized: "Falls du in der <color=#48DBFB>Bin\xE4rdarstellung</color> nichts
+      Gemeinsames findest, gibt es immer die Option, einfach nacheinander alle <color=yellow>ALU-Operationen</color>
+      auszuprobieren und das Ergebnis zu pr\xFCfen <anim:wave><color=yellow>:D</color></anim> 
+      Du kannst ja jederzeit die <color=orange>Takte</color> zur\xFCcksetzen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170347028926464
+    m_Localized: "\xDCberleg mal: Was haben diese beiden <color=yellow>Zahlen</color>
+      gemeinsam?\r\n\r\nFalls dir nichts einf\xE4llt, schreib sie dir mal in der
+      <color=#48DBFB>Bin\xE4rdarstellung</color> auf!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171761117548544
+    m_Localized: "Falls du in der <color=#48DBFB>Bin\xE4rdarstellung</color> nichts
+      Gemeinsames findest, gibt es immer die Option, einfach nacheinander alle <color=yellow>ALU-Operationen</color>
+      auszuprobieren und das Ergebnis zu pr\xFCfen <anim:wave><color=yellow>:D</color></anim>\r\n\r\nDu
+      kannst ja jederzeit die <color=orange>Takte</color> zur\xFCcksetzen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171790016303104
+    m_Localized: "Es gibt viele Wege, dieses Level zu l\xF6sen, aber hier ist der
+      <color=yellow>einfachste Tipp</color>: Zuerst musst du eine <color=#48DBFB>0</color>
+      im <color=yellow>Register</color> erhalten und danach <color=#48DBFB>zweimal</color>
+      die <color=#48DBFB>4</color> addieren!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2208935208308736
+    m_Localized: 'Ziel: \r\nSchreibe in Register 1 den Wert 8'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209008386330624
+    m_Localized: 'Ziel: \r\nSchreibe in Register 3 den Wert 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209018133893120
+    m_Localized: 'Ziel: \r\nSchreibe in Register 3 den Wert 7'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

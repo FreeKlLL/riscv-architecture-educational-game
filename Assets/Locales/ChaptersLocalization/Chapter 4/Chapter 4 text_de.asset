@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 4 text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 6828bc66724c19840bf8d9ffec9abe7e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 108530520064
+    m_Localized: "Wir haben hier ein Spiel f\xFCr die ganze Familie, deshalb lassen
+      wir die bittere Realit\xE4t mal beiseite: In unserem <color=orange>Speicher</color>
+      gibt es nur <color=#48DBFB>4 Adressen</color>! <anim:wave><color=yellow>:D</color></anim> 
+      Aber auch wenn das so ist - bei uns wird jedes <color=yellow>Wort</color> in
+      <color=#48DBFB>4 Bytes</color> gespeichert. Merk dir eins: Um Informationen
+      richtig in den <color=orange>Speicher</color> zu schreiben, muss die Adresse
+      ein <anim:shake><color=orange>ganzzahliges Vielfaches von 4</color></anim>
+      sein!!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210284335104
+    m_Localized: "Soll ich dir ein bisschen was \xFCber den <color=orange>Speicher</color>
+      erz\xE4hlen?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291788050432
+    m_Localized: "In der echten Welt funktioniert der <color=orange>Speicher</color>
+      so: Wir haben theoretisch unendlich viele (na ja, eigentlich einfach nur sehr,
+      sehr viele) <color=yellow>Bytes</color> im Speicher. Ein <color=yellow>Byte</color>
+      ist die kleinste adressierbare Speichereinheit. Aber f\xFCr sich allein ist
+      es zu klein, um etwas Sinnvolles zu speichern. Deshalb nutzen wir direkt <color=#48DBFB>4
+      Bytes</color> zusammen, um Informationen zu sichern. So ein Verbund aus 4 Bytes
+      nennt man <color=yellow>Wort</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367839170560
+    m_Localized: "Da es so viele Bytes (und W\xF6rter) gibt, brauchen wir einen Startpunkt,
+      um damit zu arbeiten. Wir nutzen daf\xFCr die <color=yellow>Basisadresse</color>.
+      Das ist einfach eine Zahl, die wir als Ausgangspunkt festlegen. Von dort aus
+      rechnen wir entweder in positive oder in negative Richtung."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 419127119872
+    m_Localized: "Und wir z\xE4hlen, wie du dich sicher erinnerst, in <anim:wave><color=#48DBFB>4er-Schritten</color></anim>!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 467483250688
+    m_Localized: "Das hei\xDFt, wir addieren zu unserem Startpunkt <color=#48DBFB>+4,
+      +8, +12</color> oder subtrahieren <color=#48DBFB>-4, -8, -12</color>. Auf diese
+      Weise m\xFCssen wir nicht den ganzen <color=orange>Speicher</color> durchsuchen,
+      sondern <color=#48DBFB>springen</color> direkt dorthin, wo wir hinm\xFCssen,
+      und suchen die Daten lokal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523162636288
+    m_Localized: "M\xF6chtest du noch die Ein- und Ausg\xE4nge der <color=orange>Hardware-Komponente</color>
+      wiederholen?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598211317760
+    m_Localized: "Die Hardware-Komponente hat <color=#48DBFB>drei Eing\xE4nge</color>: 
+      Welche <color=yellow>Adresse</color> wir aus dem Speicher abrufen wollen. 
+      Welchen <color=yellow>Wert</color> wir in den Speicher schreiben wollen.  <color=yellow>WriteEnable</color>
+      (im Spiel setzt du das selbst!). Es entscheidet dar\xFCber, ob etwas in den
+      Speicher geschrieben wird oder nicht."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 637742632960
+    m_Localized: "Der <color=yellow>Eingang f\xFCr die Adresse</color> befindet sich
+      <color=orange>oben links</color>. Der <color=yellow>Eingang f\xFCr neue Werte</color>
+      <color=orange>unten links</color>. Und der <color=yellow>Ausgang</color> ist
+      <color=orange>oben rechts</color> - dort kommen die Daten heraus, die wir unter
+      der angegebenen Adresse gelesen haben."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692293750784
+    m_Localized: "Das hei\xDFt: Wir geben am Eingang eine <color=#48DBFB>ZAHL</color>
+      ein, die ein <color=yellow>ganzzahliges Vielfaches von 4</color> sein muss.
+      In unserem Spiel kann das nur die <color=#48DBFB>0, 4, 8 oder 12</color>2 sein.
+      Wenn die Zahl eine andere ist, werden die Daten <anim:shake><color=red>unvollst\xE4ndig</color></anim>
+      gelesen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 740247228416
+    m_Localized: <anim:wave><color=yellow>Viel Erfolg mit dem Level!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 897667846144
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 959303143424
+    m_Localized: Nein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012113625088
+    m_Localized: Ja, gerne!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1031206096896
+    m_Localized: Genug Theorie, ich will zum Level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1259552395264
+    m_Localized: "<anim:wave><color=yellow>Alles tiptop!</color></anim> Und schon
+      sind wir bei der \u201Efalschen\u201C Adresse f\xFCr unseren Speicher angelangt
+      - Zeit, mal einen Blick auf die allerletzte Adresse zu werfen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1333468614656
+    m_Localized: "Wenn du alles nach Vorschrift machen willst, musst du dir genau
+      \xFCberlegen, wann und wo du das <color=yellow>WE</color> (<color=yellow>WriteEnable</color>)
+      einschaltest, damit du <anim:shake><color=red>keine</color></anim> Daten aus
+      dem <color=orange>Speicher</color> oder den <color=orange>Registern</color>
+      verlierst!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1380209938432
+    m_Localized: <anim:wave><color=yellow>This match will get red hot!</color></anim>
+      And begin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1494592802816
+    m_Localized: "Tja, was w\xE4re das Leben schon, wenn wir nicht in den <color=orange>Speicher</color>
+      schreiben k\xF6nnten!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1530802229248
+    m_Localized: Und du dachtest, alles liefe so einfach und reibungslos ab, was?
+      <anim:wave>Na? Naaa?</anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1539090173952
+    m_Localized: "Okay, ich mache nur Spa\xDF. Aber mal im Ernst: Hier musst du ordentlich
+      mit dem <color=yellow>WE</color> (<color=yellow>WriteEnable</color>) arbeiten
+      und dir genau \xFCberlegen, welchen <color=#48DBFB>Pfad</color> du w\xE4hlst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1549039063040
+    m_Localized: Ich glaub an dich, <anim:wave><color=yellow>du packst das!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1808955887616
+    m_Localized: "Ich f\xFCrchte nicht denjenigen, der 100 Aufgaben aus den \xDCbungen
+      gel\xF6st hat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838316015616
+    m_Localized: "Ich f\xFCrchte denjenigen, der einen Wert 100-mal in den Speicher
+      geschrieben hat! <anim:wave><color=yellow>:D</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848118104064
+    m_Localized: "Hier haben wir andere <color=#48DBFB>Adressen</color>, aber die
+      Logik bleibt gleich. Gr\xFCbel mal ein bisschen \xFCber das <color=yellow>WE</color>
+      nach."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167525805838336
+    m_Localized: "Falls du vergessen hast, welcher <color=yellow>Typ</color> wof\xFCr
+      zust\xE4ndig ist, probiere einfach nacheinander alle <color=yellow>Extender-Operationen</color>
+      aus und schau dir das <color=red>Ergebnis</color> an <anim:wave><color=yellow>:D</color></anim>\r\n\r\nDu
+      kannst ja immer noch die <color=#48DBFB>Takte</color> zur\xFCcksetzen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167562757656576
+    m_Localized: "Zuerst musst du alles so einstellen, dass das <color=yellow>Register</color>
+      alle <color=yellow>Speicheradressen</color> von <color=#48DBFB>0</color> bis
+      <color=#48DBFB>12</color> durchl\xE4uft. (\xDCberleg mal, welche <color=yellow>ALU-Operation</color>
+      du daf\xFCr w\xE4hlen musst!)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167603182358528
+    m_Localized: "Und falls du vergessen hast, welcher <color=orange>Typ</color>
+      wof\xFCr zust\xE4ndig ist, probiere einfach nacheinander alle <color=yellow>Extender-Operationen</color>
+      aus und schau dir das <color=red>Ergebnis</color> an <anim:wave><color=yellow>:D</color></anim>\r\n\r\nVergiss
+      nicht: Du kannst jederzeit die <color=#48DBFB>Takte</color> zur\xFCcksetzen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206330176425984
+    m_Localized: 'Ziel: \r\nSchreibe in Register 2 den Wert 66'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206377911799808
+    m_Localized: 'Ziel: \r\nSchreibe in Register 2 den Wert 128'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209544812646400
+    m_Localized: 'Ziel: \r\nSchreibe in Speicher zwei Werte an Adressen 0 und 8.\nWobei
+      Wert an Adresse 0 muss kleiner sein als an Adresse 8.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209561954766848
+    m_Localized: 'Ziel: \r\nSchreibe in Speicher zwei Werte an Adressen 0 und 12.\nWobei
+      Wert an Adresse 0 muss kleiner sein als an Adresse 12.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 4351435946110473743}
   - component: {fileID: 4055865579873123430}
   - component: {fileID: 3737198840351352174}
+  - component: {fileID: 4277214442810322768}
   m_Layer: 5
   m_Name: ClickDown
   m_TagString: Untagged
@@ -397,6 +398,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &4277214442810322768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499217069261706929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &637712505605245412
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 0.3
   hiddenPosition: {x: 0, y: -1000}
+  optionsPanelTargetPosition: {x: 0, y: 200}
   bgGroup: {fileID: 8094594883588728864}
   levelPanelGroup: {fileID: 8347424818691982160}
   levelPanelRectTransform: {fileID: 1624245053596072214}
@@ -657,6 +671,177 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &750413350643969012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2246963810401831525}
+  - component: {fileID: 7250541341119481859}
+  - component: {fileID: 2556922375056629426}
+  - component: {fileID: 5132886771192251302}
+  - component: {fileID: 9120600177558645479}
+  - component: {fileID: 4860542605162269700}
+  - component: {fileID: 3255666778506058943}
+  m_Layer: 5
+  m_Name: ChangeLanguageButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2246963810401831525
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750413350643969012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999883, y: 0.9999883, z: 0.9999883}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4342680618487541520}
+  m_Father: {fileID: 1624245053596072214}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000049591, y: 166}
+  m_SizeDelta: {x: 185.309, y: 105.277}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7250541341119481859
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750413350643969012}
+  m_CullTransparentMesh: 1
+--- !u!114 &2556922375056629426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750413350643969012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 58e8f2ef12962654abfc313bf5d0ab60, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5132886771192251302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750413350643969012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2556922375056629426}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &9120600177558645479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750413350643969012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab228c7883d7bbb45a5315125c3edb70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 0.5
+  shakeStrength: 0.5
+  vibrato: 10
+  hoverScale: 1.1
+  onEnterEase: 6
+  onExitEase: 6
+  hoverDuration: 0.2
+  clickSquish: 0.12
+  clickPressDur: 0.1
+  clickReleaseDur: 0.25
+--- !u!114 &4860542605162269700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750413350643969012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80074149a20192449b1efd320c3d4310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LanguageCycleButton
+  label: {fileID: 4583223206973312309}
+--- !u!114 &3255666778506058943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750413350643969012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &788706828929263705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1403,216 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2416065485210353156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6414837733074856536}
+  - component: {fileID: 5665061494546955235}
+  - component: {fileID: 8394214715543972146}
+  - component: {fileID: 919804510220637900}
+  - component: {fileID: 2527935109967997375}
+  - component: {fileID: 6258513757451599803}
+  - component: {fileID: 9038354205316582848}
+  m_Layer: 5
+  m_Name: GoPrevQuoteButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6414837733074856536
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416065485210353156}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3334611725738246199}
+  m_Father: {fileID: 2801393932919237663}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 372, y: -417.93}
+  m_SizeDelta: {x: 166.511, y: 49.307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5665061494546955235
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416065485210353156}
+  m_CullTransparentMesh: 1
+--- !u!114 &8394214715543972146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416065485210353156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c542d08861bc40a48822689629652855, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &919804510220637900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416065485210353156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8394214715543972146}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5876736251295025778}
+        m_TargetAssemblyTypeName: DialogueUI, Assembly-CSharp
+        m_MethodName: StopAnimatingText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2527935109967997375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416065485210353156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab228c7883d7bbb45a5315125c3edb70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 0.3
+  shakeStrength: 2
+  vibrato: 10
+  hoverScale: 1.05
+  onEnterEase: 6
+  onExitEase: 6
+  hoverDuration: 0.2
+  clickSquish: 0.12
+  clickPressDur: 0.1
+  clickReleaseDur: 0.25
+--- !u!114 &6258513757451599803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416065485210353156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
+--- !u!114 &9038354205316582848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416065485210353156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a77b2ce73e571644dbdd82737fee509a
+    m_TableEntryReference:
+      m_KeyId: 8265932806574080
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5223504607433414211}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &2878972912774258296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,8 +1872,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.520874, y: 2.467041}
-  m_SizeDelta: {x: -28.7337, y: -14.0247}
+  m_AnchoredPosition: {x: -4.985, y: 2.467041}
+  m_SizeDelta: {x: -31.6619, y: -14.0247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1405608720771840884
 CanvasRenderer:
@@ -1593,6 +1988,8 @@ GameObject:
   - component: {fileID: 7175557806718851606}
   - component: {fileID: 521919753873483442}
   - component: {fileID: 5154614730654556130}
+  - component: {fileID: 2509826976774772083}
+  - component: {fileID: 7206139551350554137}
   m_Layer: 5
   m_Name: SkipDialogueButton
   m_TagString: Untagged
@@ -1617,8 +2014,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -776, y: -417.93}
-  m_SizeDelta: {x: 147.4431, y: 46.9924}
+  m_AnchoredPosition: {x: -744.82117, y: -417.93}
+  m_SizeDelta: {x: 178.622, y: 49.307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7465520075203542440
 CanvasRenderer:
@@ -1748,6 +2145,58 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &2509826976774772083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099712645560514854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
+--- !u!114 &7206139551350554137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099712645560514854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a77b2ce73e571644dbdd82737fee509a
+    m_TableEntryReference:
+      m_KeyId: 422608392192
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7801378231754540114}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &3146848211502832707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,6 +2349,143 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3601926419524508829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3334611725738246199}
+  - component: {fileID: 2681182925587740453}
+  - component: {fileID: 5223504607433414211}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3334611725738246199
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3601926419524508829}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6414837733074856536}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -4.985, y: 2.467041}
+  m_SizeDelta: {x: -31.6619, y: -14.0247}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2681182925587740453
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3601926419524508829}
+  m_CullTransparentMesh: 1
+--- !u!114 &5223504607433414211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3601926419524508829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Back
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 00e0883632a245941b2a8a91840f80a5, type: 2}
+  m_sharedMaterial: {fileID: -8886886851723050866, guid: 00e0883632a245941b2a8a91840f80a5, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30.8
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3713192412102625561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,6 +2499,7 @@ GameObject:
   - component: {fileID: 1173117572368394027}
   - component: {fileID: 8180377413740040968}
   - component: {fileID: 4391782681461745566}
+  - component: {fileID: 287987373152934358}
   m_Layer: 5
   m_Name: HintButton
   m_TagString: Untagged
@@ -2055,6 +2642,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &287987373152934358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3713192412102625561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &3961860818378135168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,6 +2728,7 @@ RectTransform:
   - {fileID: 2575434861256457712}
   - {fileID: 864004139365273703}
   - {fileID: 3306492710568576890}
+  - {fileID: 6414837733074856536}
   - {fileID: 4904055830098691724}
   - {fileID: 6105313966900468281}
   m_Father: {fileID: 1071937378880760924}
@@ -2214,6 +2814,7 @@ MonoBehaviour:
   ui: {fileID: 5876736251295025778}
   activeGraph: {fileID: 11400000, guid: 3a41cc342816f194883a67b51c2e7955, type: 2}
   hintGraph: {fileID: 11400000, guid: 33f8ac70f4144a14bbf89595ccbbd9c9, type: 2}
+  instantTextOnBack: 1
 --- !u!114 &5876736251295025778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2229,6 +2830,7 @@ MonoBehaviour:
   textField: {fileID: 5520731770267693847}
   characterImage: {fileID: 8567820564812990201}
   goNextQuoteButton: {fileID: 5486004499340622508}
+  goPrevQuoteButton: {fileID: 919804510220637900}
   buttonContainer: {fileID: 6105313966900468281}
   firstAnswerButton: {fileID: 2905917624278926882}
   secondAnswerButton: {fileID: 6431651907571602652}
@@ -2288,6 +2890,7 @@ GameObject:
   - component: {fileID: 810763079612163307}
   - component: {fileID: 4886306924749402651}
   - component: {fileID: 7581136133173560660}
+  - component: {fileID: 695181277655629098}
   m_Layer: 5
   m_Name: GameSettingButton
   m_TagString: Untagged
@@ -2418,6 +3021,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &695181277655629098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4328162555807262370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &4344925357014675952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2468,6 +3083,7 @@ GameObject:
   - component: {fileID: 6280286422806257282}
   - component: {fileID: 2595924570745299961}
   - component: {fileID: 2811143993522647393}
+  - component: {fileID: 41737771584554629}
   m_Layer: 5
   m_Name: VolumeButton
   m_TagString: Untagged
@@ -2613,6 +3229,18 @@ MonoBehaviour:
   targetImage: {fileID: 8299578979626349406}
   musicOnSprite: {fileID: 21300000, guid: e4b9c9a03abd3404f812596ff3cfc43c, type: 3}
   musicOffSprite: {fileID: 21300000, guid: 5686424761ae74249b726e9027cf1e0d, type: 3}
+--- !u!114 &41737771584554629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427916763601783689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &4483803885501657126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,6 +3329,7 @@ GameObject:
   - component: {fileID: 3512496124874173310}
   - component: {fileID: 1078497650022361849}
   - component: {fileID: 8659905418659498036}
+  - component: {fileID: 4578345097357676792}
   m_Layer: 5
   m_Name: RestartLevelButton
   m_TagString: Untagged
@@ -2843,6 +3472,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &4578345097357676792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4509921426526729834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &4953821162504883404
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,6 +3559,7 @@ RectTransform:
   - {fileID: 5702345199216683801}
   - {fileID: 6364175271763473163}
   - {fileID: 6756108740944662387}
+  - {fileID: 2246963810401831525}
   m_Father: {fileID: 1071937378880760924}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3063,6 +3705,7 @@ GameObject:
   - component: {fileID: 3126263813411167363}
   - component: {fileID: 4726071861763494020}
   - component: {fileID: 3476912694019745123}
+  - component: {fileID: 6611688431000461704}
   m_Layer: 5
   m_Name: MenuUIButton
   m_TagString: Untagged
@@ -3205,6 +3848,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &6611688431000461704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504492708570048827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &5760312268584627110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,6 +3873,8 @@ GameObject:
   - component: {fileID: 6358693605061704786}
   - component: {fileID: 1777059275155867123}
   - component: {fileID: 2313295604697199872}
+  - component: {fileID: 1524922894171393794}
+  - component: {fileID: 577105509935380396}
   m_Layer: 5
   m_Name: NextLevelButton
   m_TagString: Untagged
@@ -3361,6 +4018,58 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &1524922894171393794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5760312268584627110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
+--- !u!114 &577105509935380396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5760312268584627110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a77b2ce73e571644dbdd82737fee509a
+    m_TableEntryReference:
+      m_KeyId: 2107208650752
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3895182242258442115}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &5770395054905436333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3519,8 +4228,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 5876736251295025778}
-          m_TargetAssemblyTypeName: DialogueUI, Assembly-CSharp
-          m_MethodName: SkipAnimationOfTyping
+          m_TargetAssemblyTypeName: DialogueUI, RISCadventure
+          m_MethodName: HandleUserQuoteSkip
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3543,6 +4252,8 @@ GameObject:
   - component: {fileID: 5758330710068710869}
   - component: {fileID: 5486004499340622508}
   - component: {fileID: 7402242815459859394}
+  - component: {fileID: 1339748133886139257}
+  - component: {fileID: 5355187106447686679}
   m_Layer: 5
   m_Name: GoNextQuoteButton
   m_TagString: Untagged
@@ -3567,8 +4278,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 745, y: -417.93}
-  m_SizeDelta: {x: 154.7063, y: 49.3073}
+  m_AnchoredPosition: {x: 733.19507, y: -417.93}
+  m_SizeDelta: {x: 166.511, y: 49.307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1168844679153956440
 CanvasRenderer:
@@ -3686,6 +4397,58 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &1339748133886139257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5857219823615666082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
+--- !u!114 &5355187106447686679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5857219823615666082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a77b2ce73e571644dbdd82737fee509a
+    m_TableEntryReference:
+      m_KeyId: 315322290176
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3606332423621843456}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &6121668325379776657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,6 +4462,7 @@ GameObject:
   - component: {fileID: 3453428339517320749}
   - component: {fileID: 4907458293818004112}
   - component: {fileID: 4753309663769114162}
+  - component: {fileID: 8072169181847994227}
   m_Layer: 5
   m_Name: ClickUp
   m_TagString: Untagged
@@ -3829,6 +4593,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &8072169181847994227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6121668325379776657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &6505624354686730096
 GameObject:
   m_ObjectHideFlags: 0
@@ -3932,6 +4708,7 @@ GameObject:
   - component: {fileID: 1761149454217894130}
   - component: {fileID: 4708915217684982966}
   - component: {fileID: 8933531657793289671}
+  - component: {fileID: 2178720028587303826}
   m_Layer: 5
   m_Name: RestartLevelButton
   m_TagString: Untagged
@@ -4074,6 +4851,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &2178720028587303826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6799020567224690866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &6801180742549471897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4086,6 +4875,7 @@ GameObject:
   - component: {fileID: 2098025239413919910}
   - component: {fileID: 6520432828437011071}
   - component: {fileID: 2905917624278926882}
+  - component: {fileID: 3361462628623204727}
   m_Layer: 5
   m_Name: FirstAnswerButton
   m_TagString: Untagged
@@ -4195,6 +4985,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3361462628623204727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6801180742549471897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &6931311136744622209
 GameObject:
   m_ObjectHideFlags: 0
@@ -4208,6 +5010,7 @@ GameObject:
   - component: {fileID: 3767988293698970859}
   - component: {fileID: 6385238014261166603}
   - component: {fileID: 5508440084869829391}
+  - component: {fileID: 1120072578521340095}
   m_Layer: 5
   m_Name: BackToMainMenuButton
   m_TagString: Untagged
@@ -4350,6 +5153,18 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &1120072578521340095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6931311136744622209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &7037283088820077692
 GameObject:
   m_ObjectHideFlags: 0
@@ -4761,6 +5576,8 @@ GameObject:
   - component: {fileID: 3435649470265868515}
   - component: {fileID: 2586841183335825043}
   - component: {fileID: 3906326543727526252}
+  - component: {fileID: 823289925793302614}
+  - component: {fileID: 3103785747221078627}
   m_Layer: 5
   m_Name: ResumeGameButton
   m_TagString: Untagged
@@ -4904,6 +5721,58 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &823289925793302614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7410729546341098531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
+--- !u!114 &3103785747221078627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7410729546341098531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a77b2ce73e571644dbdd82737fee509a
+    m_TableEntryReference:
+      m_KeyId: 1198353305600
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7137072026656098034}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &7512940726309486227
 GameObject:
   m_ObjectHideFlags: 0
@@ -5005,6 +5874,8 @@ GameObject:
   - component: {fileID: 3827016879198500361}
   - component: {fileID: 4936052341018619620}
   - component: {fileID: 1046162067650462495}
+  - component: {fileID: 1201383839510500665}
+  - component: {fileID: 7501736166014602722}
   m_Layer: 5
   m_Name: CheckSolutionButton
   m_TagString: Untagged
@@ -5137,6 +6008,58 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &1201383839510500665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602077623415511745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
+--- !u!114 &7501736166014602722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602077623415511745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a77b2ce73e571644dbdd82737fee509a
+    m_TableEntryReference:
+      m_KeyId: 159797497856
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5876225720380484193}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &7732024701898404926
 GameObject:
   m_ObjectHideFlags: 0
@@ -5150,6 +6073,7 @@ GameObject:
   - component: {fileID: 5993593717002881469}
   - component: {fileID: 7548301683687239806}
   - component: {fileID: 7582468270244780498}
+  - component: {fileID: 7814679387957542411}
   m_Layer: 5
   m_Name: BackToMainMenuButton
   m_TagString: Untagged
@@ -5292,6 +6216,155 @@ MonoBehaviour:
   clickSquish: 0.12
   clickPressDur: 0.1
   clickReleaseDur: 0.25
+--- !u!114 &7814679387957542411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732024701898404926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
+--- !u!1 &7826887927143197154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4342680618487541520}
+  - component: {fileID: 892577825539263578}
+  - component: {fileID: 4583223206973312309}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4342680618487541520
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826887927143197154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2246963810401831525}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 2.294, y: 5.684}
+  m_SizeDelta: {x: -40.416, y: -43.204}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &892577825539263578
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826887927143197154}
+  m_CullTransparentMesh: 1
+--- !u!114 &4583223206973312309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826887927143197154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: RU
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 00e0883632a245941b2a8a91840f80a5, type: 2}
+  m_sharedMaterial: {fileID: -8886886851723050866, guid: 00e0883632a245941b2a8a91840f80a5, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 54.2
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &7937351711715248010
 GameObject:
   m_ObjectHideFlags: 0
@@ -5516,6 +6589,7 @@ GameObject:
   - component: {fileID: 4696110474918814131}
   - component: {fileID: 465163800636242233}
   - component: {fileID: 396953278035107997}
+  - component: {fileID: 7052858057558061499}
   m_Layer: 5
   m_Name: ThirdAnswerButton
   m_TagString: Untagged
@@ -5625,6 +6699,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7052858057558061499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8344256935224674815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &8402009801888366347
 GameObject:
   m_ObjectHideFlags: 0
@@ -5771,6 +6857,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6105313966900468281}
+  - component: {fileID: 6416573324557384314}
+  - component: {fileID: 3619830329724437112}
   m_Layer: 5
   m_Name: ButtonHolder
   m_TagString: Untagged
@@ -5800,6 +6888,62 @@ RectTransform:
   m_AnchoredPosition: {x: -17.002575, y: -261.9372}
   m_SizeDelta: {x: 1749.8091, y: 356.6725}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6416573324557384314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441603947282026395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3619830329724437112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441603947282026395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &8948556679039619034
 GameObject:
   m_ObjectHideFlags: 0
@@ -5834,8 +6978,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.520874, y: 2.467041}
-  m_SizeDelta: {x: -28.7337, y: -14.0247}
+  m_AnchoredPosition: {x: 1.1854019, y: 2.467041}
+  m_SizeDelta: {x: -37.9986, y: -14.0247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &907237673887865932
 CanvasRenderer:
@@ -5892,7 +7036,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.75
+  m_fontSize: 30.8
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6187,6 +7331,7 @@ GameObject:
   - component: {fileID: 3461463946207500166}
   - component: {fileID: 5204342616284201869}
   - component: {fileID: 6431651907571602652}
+  - component: {fileID: 2593378341500824345}
   m_Layer: 5
   m_Name: SecondAnswerButton
   m_TagString: Untagged
@@ -6296,6 +7441,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2593378341500824345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082210140443969191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f46523bc6da194b9ad3d7a4a30565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::UIButtonSFX
 --- !u!1 &9223243964657549120
 GameObject:
   m_ObjectHideFlags: 0

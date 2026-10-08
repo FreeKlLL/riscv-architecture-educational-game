@@ -12,16 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: hintNode 0
   m_EditorClassIdentifier: 
-  DialogueText: "\xDCberleg dir gut, welche <color=yellow>Eing\xE4nge</color> wof\xFCr
-    zust\xE4ndig sind:\r\n\rDie <color=#48DBFB>zwei oberen</color> nehmen die <color=yellow>Registernummer</color>
-    an.\r\nDer <color=#48DBFB>dritte</color> nimmt die <color=yellow>Registeradresse</color>
-    an, die mit dem Wert aus dem vierten Eingang <color=green>\xFCberschrieben</color>
-    werden soll.\r\nDer <color=#48DBFB>vierte</color> nimmt den <color=yellow>Wert</color>
-    an, der an der Adresse des dritten Eingangs gespeichert wird."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:358719196651e7c4aaaabf8f7677e331
+    m_TableEntryReference:
+      m_KeyId: 80043882336256
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

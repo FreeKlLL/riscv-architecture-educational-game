@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 289405619867648
-    m_Localized: '<align=center><size=140%><b><color=#FFD700>TECHNICAL STACK</color></b></size>
+    m_Localized: '<align=center><size=140%><b><color=#FFD700>TECHNISCHER STACK</color></b></size>
 
       <b>Engine:</b>
       Unity 6 (6000.4.10f1)
@@ -63,12 +63,14 @@ MonoBehaviour:
 
       <b>Render Pipeline:</b> Universal Render Pipeline (URP)
 
+      
 
+      
 
       <line-height=50%>
       </line-height>
 
-      <size=140%><b><color=#FFD700>GRAPHICS & ART</color></b></size>
+      <size=140%><b><color=#FFD700>GRAFIK & DESIGN</color></b></size>
 
       <b>GIMP
       GNU Image Manipulation Program</b> (GPL License)
@@ -78,12 +80,14 @@ MonoBehaviour:
 
       <b>MagicaVoxel</b> by ephtracy
 
+      
 
+      
 
       <line-height=50%>
       </line-height>
 
-      <size=140%><b><color=#FFD700>TOOLS & PLUGINS</color></b></size>
+      <size=140%><b><color=#FFD700>WERKZEUGE & PLUGINS</color></b></size>
 
       <b>Low-Poly
       Simple Nature Pack</b> by JustCreate
@@ -93,20 +97,22 @@ MonoBehaviour:
 
       <b>TextMeshPro</b> by Unity Technologies
 
-      <b>Unity Post-Processing
-      Stack</b> by Unity Technologies
+      <b>Unity
+      Post-Processing Stack</b> by Unity Technologies
 
-      <size=80%><color=#AAAAAA><i>All Unity
-      Asset Store assets are used under the
+      <size=80%><color=#AAAAAA><i>All
+      Unity Asset Store assets are used under the
 
-      Standard Unity Asset Store EULA.</i></color></size>
+      Standard Unity Asset Store
+      EULA.</i></color></size>
 
+      
 
+      
 
-      <line-height=50%>
-      </line-height>
+      <line-height=50%> </line-height>
 
-      <size=140%><b><color=#FFD700>FONTS</color></b></size>
+      <size=140%><b><color=#FFD700>SCHRIFTARTEN</color></b></size>
 
       <b>Titan
       One</b> - by Rodrigo Fuenzalida
@@ -120,7 +126,9 @@ MonoBehaviour:
       <size=80%><color=#AAAAAA><i>All fonts are
       used under the SIL Open Font License.</i></color></size>
 
+      
 
+      
 
       <line-height=50%>
       </line-height>
@@ -133,39 +141,80 @@ MonoBehaviour:
       <b>UI Elements (Wood & Gold)</b>
       - by upklyak / Freepik.com
 
-      <b>Horizontal Game Backgrounds</b> - by Free
-      Game Assets / CraftPix.net
+      <b>Paper UI Pack</b> - by Lynda Mc Donald
+      / Itch.io
 
+      
 
+      
+
+      
+
+      
 
       <line-height=50%> </line-height>
 
-      <size=140%><b><color=#FFD700>SPECIAL
-      THANKS</color></b></size>
+      <size=140%><b><color=#FFD700>MUSIK</color></b></size>
 
-      <b>Vertex Text Animation System</b>
+      <b>Towball''s
+      Crossing (Deluxe Edition)</b> - by Towball / Itch.io
 
-      based
-      on code by markv12 (Mark Villanueva)
+      
 
-      <b>Sarah</b> - Tester
+      
 
-      <b>Alexei</b>
+      
+
+      <line-height=50%>
+      </line-height>
+
+      <size=140%><b><color=#FFD700>BESONDERER DANK</color></b></size>
+
+      <b>Vertex
+      Text Animation System</b>
+
+      based on code by markv12 (Mark Villanueva)
+
+      <b>Tunic
+      style dappled lighting Unity package</b>
+
+      based on Stone Baked Games
+      guide
+
+      based on code by markv12 (Mark Villanueva)
+
+      <b>Sarah</b>
       - Tester
 
+      <b>Alexei</b> - Tester
 
+      
 
-      <line-height=50%> </line-height>
+      
 
-      <size=160%><b><color=#FFD700>DEVELOPED
-      BY</color></b></size>
+      <line-height=50%>
+      </line-height>
 
-      <size=150%><b>Galyautdinov Artur</b></size>
+      <size=160%><b><color=#FFD700>ENTWICKELT VON</color></b></size>
 
-      im
-      Rahmen der Bachelorarbeit an der TU Darmstadt
+      <size=150%><b>Galyautdinov
+      Artur</b></size>
+
+      im Rahmen der Bachelorarbeit an der TU Darmstadt
 
       </align>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50074862725386240
+    m_Localized: Abenteuermodus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50079322881150976
+    m_Localized: "Demn\xE4chst"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50099892779765760
+    m_Localized: 'Musik:'
     m_Metadata:
       m_Items: []
   references:

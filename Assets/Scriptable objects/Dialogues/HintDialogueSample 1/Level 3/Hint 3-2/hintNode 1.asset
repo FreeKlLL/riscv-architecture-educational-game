@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: hintNode 1
   m_EditorClassIdentifier: 
-  DialogueText: "Falls du in der <color=#48DBFB>Bin\xE4rdarstellung</color> nichts
-    Gemeinsames findest, gibt es immer die Option, einfach nacheinander alle <color=yellow>ALU-Operationen</color>
-    auszuprobieren und das Ergebnis zu pr\xFCfen <anim:wave><color=yellow>:D</color></anim>\r\n\r\nDu
-    kannst ja jederzeit die <color=orange>Takte</color> zur\xFCcksetzen!"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f76c707db27a34340adaa1b3eb8e72d8
+    m_TableEntryReference:
+      m_KeyId: 1171761117548544
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

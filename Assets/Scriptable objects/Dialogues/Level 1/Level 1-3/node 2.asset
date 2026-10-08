@@ -12,15 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 2
   m_EditorClassIdentifier: 
-  DialogueText: "Wenn <color=yellow>Write Enable</color> auf <color=#48DBFB>0</color>
-    steht, leitet der sequentielle Teil das Signal einfach vom Eingang zum Ausgang
-    weiter (das hei\xDFt, es wird nichts gespeichert). Wenn <color=yellow>Write Enable</color>
-    aber auf <color=#48DBFB>1</color> steht, wird der aktuelle Wert \u201Eeingefroren\u201C
-    und bleibt auch im n\xE4chsten Takt im Register gespeichert!"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 32714210955264
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

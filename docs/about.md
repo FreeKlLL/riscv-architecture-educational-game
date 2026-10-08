@@ -26,6 +26,6 @@ See [Concept & Teaching Approach](concept.md) for how each level actually teache
 
 - [Google Play](https://play.google.com/store/apps/details?id=com.edu.mehrtaktproz.sim) - mobile release
 - [GitHub](https://github.com/GGalya1/riscv-architecture-educational-game) - source code, public repository, all platforms
-- [Itch.io](https://ggalya.itch.io/mehrtakt-abenteuer?secret=ESutD7JerurFW9SCPGtlfIL0FQ8) - all platforms
+- [Itch.io](https://ggalya.itch.io/riscv-adventure) - all platforms
 
 The project is being developed as part of a Bachelor's thesis (TU Darmstadt).

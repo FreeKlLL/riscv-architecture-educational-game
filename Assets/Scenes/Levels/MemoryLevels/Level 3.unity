@@ -2251,14 +2251,6 @@ MonoBehaviour:
   spherePrefab: {fileID: 6425462522399718016, guid: 1d0544c75d85507478621a5dee2e0bd8, type: 3}
   movementSpeed: 7
   poolPreWarmCount: 2
-  busSegments:
-  - {fileID: 203119610}
-  - {fileID: 1215245610}
-  - {fileID: 934957545}
-  - {fileID: 1226422104}
-  - {fileID: 1719315176}
-  - {fileID: 785921907}
-  - {fileID: 917754483}
 --- !u!114 &1109257076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2271,7 +2263,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11e7266a642b539438c0b698204a9a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTargetDescription: 'Ziel: \r\nSchreibe in Register 2 den Wert 66'
+  levelTargetDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:6828bc66724c19840bf8d9ffec9abe7e
+    m_TableEntryReference:
+      m_KeyId: 2206330176425984
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   managedInteractable:
   - {fileID: 970035351}
   - {fileID: 1846687519}
@@ -2294,14 +2294,6 @@ MonoBehaviour:
   fallenTries: 0
   busController: {fileID: 1109257075}
   isProcessing: 0
-  multiplexerVisualizer: {fileID: 50915094}
-  registerSrcAVisualizer: {fileID: 1846687519}
-  registerSrcBVisualizer: {fileID: 970035351}
-  registerOutputVisualizer: {fileID: 1107274110}
-  aluVisualizer: {fileID: 1705709730}
-  srcAValue: 5
-  srcBValue: 7
-  numberBlinker: {fileID: 1425758661}
   buses:
     pcToMemAddr: {fileID: 203119610}
     pcToAdrMux: {fileID: 917754483}
@@ -2310,6 +2302,17 @@ MonoBehaviour:
     muxToAdder: {fileID: 1226422104}
     constFourToAdder: {fileID: 1719315176}
     adderToSrcA: {fileID: 785921907}
+  multiplexerVisualizer: {fileID: 50915094}
+  registerSrcAVisualizer: {fileID: 1846687519}
+  registerSrcBVisualizer: {fileID: 970035351}
+  registerOutputVisualizer: {fileID: 1107274110}
+  aluVisualizer: {fileID: 1705709730}
+  srcAValue: 5
+  srcBValue: 7
+  numberBlinker: {fileID: 1425758661}
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &1205019386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3df2c57622a56cb429def358f054ea57, type: 3}

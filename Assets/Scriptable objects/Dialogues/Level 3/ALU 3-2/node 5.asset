@@ -12,13 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 5
   m_EditorClassIdentifier: 
-  DialogueText: "Bei <color=orange>ODER</color> ist es genau umgekehrt:\r\nWenn <anim:shake><color=yellow>mindestens
-    eine</color></anim> Zahl in der Spalte eine <color=yellow>Eins</color> ist \u2014
-    dann ist das Ergebnis auch eine <color=yellow>Eins</color>!\r\n11001\r\n10101\r\n-----\r\n<color=green>111</color>0<color=green>1</color>"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f76c707db27a34340adaa1b3eb8e72d8
+    m_TableEntryReference:
+      m_KeyId: 1868762468352
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

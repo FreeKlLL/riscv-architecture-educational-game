@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 1
   m_EditorClassIdentifier: 
-  DialogueText: "Vielleicht hast du ihn schon in <color=#48DBFB>Digitaltechnik</color>
-    getroffen (falls du dieses Modul nat\xFCrlich schon hattest). Aber so oder so
-    \u2014 m\xF6chtest du wiederholen, wie er funktioniert?"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5bb5af46e1a93049a27de5601edfda4
+    m_TableEntryReference:
+      m_KeyId: 133683761152
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 5
-  firstAnswer: "Ja, ich wei\xDF noch alles, alles gut!"
-  secondAnswer: "Der Name kommt mir bekannt vor, aber ich bin mir nicht sicher, ob
-    ich es noch genau wei\xDF... Lass es uns wiederholen."
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5bb5af46e1a93049a27de5601edfda4
+    m_TableEntryReference:
+      m_KeyId: 831368482816
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5bb5af46e1a93049a27de5601edfda4
+    m_TableEntryReference:
+      m_KeyId: 960532074496
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 3
   secondOption: 2
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 6 text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 358719196651e7c4aaaabf8f7677e331, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 452740272128
+    m_Localized: "Und hier sind jetzt schon <color=#48DBFB>alle 4 Eing\xE4nge</color>
+      im Einsatz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489381711872
+    m_Localized: Wir legen <color=yellow>Adressen</color> an (Zahlen von <color=#48DBFB>0
+      bis 15</color>), um die Werte der <color=#48DBFB>Register 2 und 8</color> auszulesen,
+      und gleichzeitig lesen wir die Adresse <color=yellow>Adresse A3</color> aus.
+      Diese Adresse bestimmt, <anim:shake><color=orange>IN WELCHES REGISTER</color></anim>
+      die neuen Daten geschrieben werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502178533376
+    m_Localized: "Diese <color=#48DBFB>\u201Eneuen Daten\u201C</color> kommen am
+      Eingang <color=yellow>WD3</color> an. Beim Schreibvorgang wird dann genau darauf
+      geachtet, welche Adresse gerade an <color=yellow>A3</color> anliegt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509602451456
+    m_Localized: "Wenn etwas unklar ist - ruf mich einfach. <anim:wave><color=yellow>Viel
+      Gl\xFCck!</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 545363087360
+    m_Localized: <anim:shake><color=red>ERBLICKE ES!</color></anim> Deine letzte
+      Stufe vor dem <color=orange>Mehrtaktprozessor</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579022376960
+    m_Localized: "Erinnere dich an das, was ich dir erkl\xE4rt habe (oder was du
+      <anim:wave>geskippt</anim> hast...) und entscheide, welchen Wert du als N\xE4chstes
+      an den <color=orange>Multiplexer</color> weitergibst. \xDCberleg dir, welchen
+      <color=yellow>Typ</color> unsere Instruktion hat und welche <color=yellow>Operanden</color>
+      ben\xF6tigt werden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 592452538368
+    m_Localized: "Wenn du dir das Leben richtig schwer machen willst, dann versuch,
+      <color=red>keine unn\xF6tigen Daten</color> zu \xFCberschreiben, sondern nur
+      das <color=green>Zielregister</color> (und zwar genau in dem <color=#48DBFB>Takt</color>,
+      in dem das auch wirklich passieren soll!)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3889469083648
+    m_Localized: 'Und da ist er: der letzte Baustein unseres Prozessors - das <color=orange>RegisterFile</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3930296438784
+    m_Localized: "Hier sind alle <color=#48DBFB>16 Register</color> versammelt (vom
+      <color=#48DBFB>nullten bis zum 15.</color>). Der Name eines Registers, zum
+      Beispiel <color=#48DBFB>r0</color>, steht nicht nur f\xFCr seine <color=#48DBFB>Nummer</color>,
+      sondern auch direkt f\xFCr seine <color=yellow>Adresse</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3939742011392
+    m_Localized: "Was ich damit meine? Ganz einfach: Wenn wir einen Wert aus dem
+      Register <color=#48DBFB>r0</color> lesen oder hineinschreiben wollen, m\xFCssen
+      wir am Eingang seine Adresse angeben - in dem Fall also die <color=#48DBFB>0</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3948633935872
+    m_Localized: "Wir m\xFCssen also Zahlen von <color=#48DBFB>0 bis 15</color> \xFCbertragen,
+      um auf ein ganz bestimmtes Register im <color=orange>RegisterFile</color> zuzugreifen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3957806878720
+    m_Localized: "Apropos \u201E\xFCbertragen\u201C... Wei\xDFt du eigentlich, wie
+      viele Eing\xE4nge das <color=orange>RegisterFile</color> hat und wof\xFCr sie
+      gut sind?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3966740746240
+    m_Localized: <anim:wave>Na, besteeens!</anim> Dann legen wir mal mit dem vorletzten
+      Kapitel los!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3975032885248
+    m_Localized: "Da hast du auch wieder recht. Aber schauen wir sie uns trotzdem
+      mal kurz an: Es gibt insgesamt <color=#48DBFB>4 Eing\xE4nge</color> und <color=#48DBFB>2
+      Ausg\xE4nge</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4714727755776
+    m_Localized: "Die Eing\xE4nge <color=yellow>A1</color> und <color=yellow>A2</color>
+      nehmen die <color=yellow>Registeradressen</color> aus dem Befehl (Command)
+      entgegen. Das hei\xDFt bei <color=#48DBFB>\u201Eadd r0, r1, r2\u201C</color>
+      w\xE4re <color=yellow>A1</color> = <color=#48DBFB>1</color> und <color=yellow>A2</color>
+      = <color=#48DBFB>2</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725737803776
+    m_Localized: "Der Eingang <color=yellow>A3</color> sagt uns, an welche Adresse
+      das Ergebnis der Berechnung geschrieben werden soll. Hier wird also ebenfalls
+      eine <color=yellow>Registeradresse</color> von <color=#48DBFB>0 bis 15</color>
+      \xFCbergeben."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4736609439744
+    m_Localized: "<color=yellow>WD3</color> \xFCbertr\xE4gt dann den eigentlichen
+      <color=green>Wert</color>, der an der Adresse <color=yellow>A3</color> gespeichert
+      wird. Meistens wurde dieser Wert vorher von der <color=orange>ALU</color> berechnet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4745279066112
+    m_Localized: "Und was ist mit den <color=yellow>Ausg\xE4ngen</color>? Die geben
+      einfach nur die Werte der Register aus, die an den Adressen <color=yellow>A1</color>
+      und <color=yellow>A2</color> liegen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4754682695680
+    m_Localized: "Was passiert, wenn es kein zweites Register gibt, die Adresse A2
+      also nicht existiert oder wir den Wert nicht brauchen? Dann ignorieren wir
+      den zweiten Ausgang normalerweise mit einem <color=orange>Multiplexer</color>
+      (den gibt\u2019s in dieser Aufgabe noch nicht, aber sp\xE4ter siehst du ihn)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4763658506240
+    m_Localized: "In diesem und im n\xE4chsten Level benutzen wir nur die ersten
+      beiden Eing\xE4nge - <color=yellow>A1</color> und <color=yellow>A2</color>.
+      Das hei\xDFt, wir lesen einfach nur die <color=yellow>Registeradressen</color>
+      aus und holen uns ihre <color=#48DBFB>Werte</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66710772928512
+    m_Localized: Klar, sind ja nicht so viele.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66822416912384
+    m_Localized: "Wer z\xE4hlt die bittesch\xF6n nach?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80043882336256
+    m_Localized: "\xDCberleg dir gut, welche <color=yellow>Eing\xE4nge</color> wof\xFCr
+      zust\xE4ndig sind:\r\n\r\nDie <color=#48DBFB>zwei oberen</color> nehmen die
+      <color=yellow>Registernummer</color> an.\r\nDer <color=#48DBFB>dritte</color>
+      nimmt die <color=yellow>Registeradresse</color> an, die mit dem Wert aus dem
+      vierten Eingang <color=green>\xFCberschrieben</color> werden soll.\r\nDer <color=#48DBFB>vierte</color>
+      nimmt den <color=yellow>Wert</color> an, der an der Adresse des dritten Eingangs
+      gespeichert wird."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80086148337664
+    m_Localized: "Was genau soll der Befehl aus dem <color=yellow>Register A2</color>
+      bewirken?\r\n\r\nWie viele und welche <color=yellow>Operanden</color> hat er?\r\nWie
+      viele <color=yellow>Takte</color> werden f\xFCr die vollst\xE4ndige Verarbeitung
+      dieses Befehls ben\xF6tigt?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188748664885248
+    m_Localized: Schreibe in Register 3 die Summe von r7 und r6.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188793124507648
+    m_Localized: Benutze die Registerwerte um die Summe zu berechnen. Schreibe diese
+      Summe an die Adresse von A3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188803023065088
+    m_Localized: Bearbeite den Befehl aus Register A2 korrekt und schreibe den Ergebnis
+      in RegisterFile
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

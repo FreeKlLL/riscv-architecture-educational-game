@@ -12,17 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 0
   m_EditorClassIdentifier: 
-  DialogueText: "Wir haben hier ein Spiel f\xFCr die ganze Familie, deshalb lassen
-    wir die bittere Realit\xE4t mal beiseite: In unserem <color=orange>Speicher</color>
-    gibt es nur <color=#48DBFB>4 Adressen</color>! <anim:wave><color=yellow>:D</color></anim> 
-    Aber auch wenn das so ist - bei uns wird jedes <color=yellow>Wort</color> in
-    <color=#48DBFB>4 Bytes</color> gespeichert. Merk dir eins: Um Informationen richtig
-    in den <color=orange>Speicher</color> zu schreiben, muss die Adresse ein <anim:shake><color=orange>ganzzahliges
-    Vielfaches von 4</color></anim> sein!!!"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:6828bc66724c19840bf8d9ffec9abe7e
+    m_TableEntryReference:
+      m_KeyId: 108530520064
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 10
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

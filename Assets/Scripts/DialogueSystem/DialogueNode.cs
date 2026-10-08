@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Localization;
 using UnityEngine.Serialization;
 
 /// <summary>
@@ -8,11 +9,9 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "NewDialogueNode", menuName = "Dialogue System/Node")]
 public class DialogueNode : ScriptableObject
 {
-    [FormerlySerializedAs("DialogueText")]
     [Header("Content")]
     [Tooltip("The text spoken by the character to the player.")]
-    [TextArea(3, 10)]
-    public string dialogueText;
+    public LocalizedString dialogueText;
 
     [Tooltip("The name of the character speaking this line.")]
     private string _characterName;
@@ -21,9 +20,9 @@ public class DialogueNode : ScriptableObject
     public EmotionType emotionIndex;
 
     [Header("Response Options")]
-    [TextArea(3, 10)] public string firstAnswer;
-    [TextArea(3, 10)] public string secondAnswer;
-    [TextArea(3, 10)] public string thirdAnswer;
+    public LocalizedString firstAnswer;
+    public LocalizedString secondAnswer;
+    public LocalizedString thirdAnswer;
 
     [Header("Branching Indices")]
     [Tooltip("Index of the DialogueNode to load if the first option is selected.")]
@@ -34,4 +33,9 @@ public class DialogueNode : ScriptableObject
 
     [Tooltip("Index of the DialogueNode to load if the third option is selected.")]
     public int thirdOption;
+    
+    public string GetDialogueText()  => dialogueText.GetLocalizedString();
+    public string GetFirstAnswer()   => firstAnswer.GetLocalizedString();
+    public string GetSecondAnswer()  => secondAnswer.GetLocalizedString();
+    public string GetThirdAnswer()   => thirdAnswer.GetLocalizedString();
 }

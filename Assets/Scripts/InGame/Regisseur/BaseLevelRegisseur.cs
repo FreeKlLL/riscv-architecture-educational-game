@@ -5,6 +5,7 @@ using TMPro;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
+using UnityEngine.Localization;
 using UnityEngine.Serialization;
 
 // A base class for all levels that manages time, history, and completion.
@@ -14,8 +15,7 @@ public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour
 {
     [FormerlySerializedAs("_levelTargetDescription")]
     [Header("Level Content Configuration")]
-    [TextArea(3, 10)]
-    [SerializeField] protected string levelTargetDescription;
+    [SerializeField] protected LocalizedString levelTargetDescription;
     
     [Header("Interactable Components")]
     [SerializeField] private BaseVisualizer[] managedInteractable;
@@ -111,7 +111,7 @@ public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour
         prevClick.onClick.AddListener(HandlePrevTick);
         checkSolutionButton.onClick.AddListener(CheckSolution);
         currentTickText.SetText("{0}", TickCounter);
-        levelTargetText.text = levelTargetDescription;
+        levelTargetText.text = levelTargetDescription.GetLocalizedString();
 
         // 2. Initializing history
         TickStateValues = new TState[maxTickNumber]; // Can be _maxTickNumber + 1

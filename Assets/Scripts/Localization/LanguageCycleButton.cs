@@ -27,6 +27,6 @@ public class LanguageCycleButton : MonoBehaviour
     private void UpdateLabel(UnityEngine.Localization.Locale locale)
     {
         if (label != null)
-            label.text = locale.Identifier.Code.ToUpper(); // "RU", "EN", "DE"
+            label.text = locale.Identifier.Code.ToUpper(); // "EN", "DE"
     }
 }

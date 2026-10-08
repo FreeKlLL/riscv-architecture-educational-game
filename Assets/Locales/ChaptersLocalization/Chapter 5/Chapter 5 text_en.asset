@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 5 text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8427a32ff3bcb2d41885e97aef6ec3b2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5816209408
+    m_Localized: And here we already are... <anim:shake><color=red>dangerously close
+      to Assembly!</color></anim> Do you still remember that <color=orange>assembly
+      instructions</color> are divided into different types?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60702871552
+    m_Localized: And do you also still remember which instructions belong to which
+      <color=orange>type</color>?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70110695424
+    m_Localized: 'So, in our game we have <color=#48DBFB>5 types</color>: <color=orange>R,
+      I, S, J, B</color>.
+
+      But in the <color=orange>Extender</color> you can
+      only select <color=#48DBFB>four</color> of them.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81947021312
+    m_Localized: That's because <color=orange>Type R (REGISTER)</color> doesn't work
+      with <color=yellow>constants</color> (i.e. numbers directly from the instruction),
+      but with values from the <color=orange>RegisterFile</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90738282496
+    m_Localized: 'That means the <color=orange>Extender</color> is <anim:shake><color=red>not
+      used at all</color></anim> when we come across this instruction type. And how
+      do you recognize it? <color=yellow>Both operands are registers.</color>
+
+      For
+      example: <color=#48DBFB>add r0, r1, r2</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99693121536
+    m_Localized: 'If after the instruction we don''t jump to the next instruction
+      (<color=#48DBFB>+4</color>), but in a completely different direction - then
+      we''ve made a <color=yellow>JUMP</color> to a new address. That''s <color=orange>Type
+      J - JUMP</color>. Example:
+
+      <color=#48DBFB>j pointer</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108522131456
+    m_Localized: 'When we write to memory or read something from it, that''s <color=orange>Type
+      S - STORAGE</color>.
+
+      <color=#48DBFB>sw r0, r1(8)</color>
+
+      <color=#48DBFB>lw
+      r0, r1(12)</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119871918080
+    m_Localized: 'The last type in our adventure is <color=orange>B - BRANCH</color>.
+      When we need to check a <color=yellow>condition</color> (whether two numbers
+      are equal, whether a number is negative, etc.), we use this type. Example:
+
+      <color=#48DBFB>beq
+      r0, r1, r2</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136674299904
+    m_Localized: The job of the <color=orange>Extender</color> (and now yours too!)
+      is to <anim:wave>fish out</anim> the <color=#48DBFB>number</color> from the
+      instruction. Since the numbers are located in different places depending on
+      the type, you have to specify the <color=yellow>correct type</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145427812352
+    m_Localized: <anim:wave><color=yellow>Alright then, let's get started!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6145803309056
+    m_Localized: Of course! I can even list them all for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6236903591936
+    m_Localized: There were some letters or other... honestly, I've forgotten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270281863168
+    m_Localized: Don't insult my honor, master!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6302359900160
+    m_Localized: I think we'd better go over that again...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6703926759424
+    m_Localized: <anim:shake><color=green>Don't worry</color></anim>, in the exam
+      you'll get an <anim:wave><color=orange>info sheet</color></anim> as a memory
+      aid for the types - it even has examples for each type on it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6728257916928
+    m_Localized: 'And here in the game I''ll just help you myself: simply press <color=yellow>"i"</color>
+      if you get stuck.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6743118336000
+    m_Localized: And now it's time for a bit of <anim:wave><color=yellow>magic!</color></anim>
+      From now on you can control the <color=orange>camera</color> simply with your
+      fingers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6772499435520
+    m_Localized: '<color=#48DBFB>Pinch together</color> - the camera <color=yellow>zooms
+      out</color>.
+
+      <color=#48DBFB>Spread apart</color> - the camera <color=yellow>zooms
+      in</color>.
+
+      One more thing: to move the camera <color=orange>up, down,
+      left or right</color>, you have to put your finger on something other than
+      the components.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6780275675136
+    m_Localized: So it's best to aim for the <color=green>green grass</color>, then
+      panning will work without any problems! <anim:wave><color=yellow>:D</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6789628973056
+    m_Localized: "P.S. \r\n\r\nThis <color=yellow>miracle feature</color> is only
+      unlocked for you in this level, after that it's back to the good old <color=#48DBFB>static
+      camera</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167403126640640
+    m_Localized: 'So far you only see the single <color=yellow>input</color> of the
+      <color=orange>memory</color>. This input accepts a <color=#48DBFB>number</color>
+      that has to correspond to an <color=yellow>address</color> in this memory.
+
+
+
+      If
+      it matches, the <color=orange>memory</color> outputs the <color=yellow>value</color>
+      that was stored at that address!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167989028966400
+    m_Localized: Now we have access to both <color=yellow>memory inputs</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168013255266304
+    m_Localized: 'The <color=yellow>first input</color> accepts the <color=#48DBFB>address</color>.
+
+      The
+      <color=yellow>second input</color> accepts the <color=#48DBFB>value</color>
+      that gets stored at the address from the first input - provided there''s no
+      <anim:shake><color=red>STOP signal</color></anim> (in other words: <color=#48DBFB>WriteEnable
+      = 1</color>).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168039146704896
+    m_Localized: Think carefully about in which situations and on which <color=orange>components</color>
+      you need to activate or deactivate <color=yellow>WriteEnable</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2201459222138880
+    m_Localized: 'Goal: \r\nExtend all values from memory correctly and place in
+      Register 3.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2201507238531072
+    m_Localized: Extend the instruction from Register 1 correctly and write the result
+      to Register 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2201515325149184
+    m_Localized: Extend the instruction from Register 1 correctly and write the result
+      to Register 2
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

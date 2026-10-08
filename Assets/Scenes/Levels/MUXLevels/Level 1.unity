@@ -1620,7 +1620,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75768301be46cda49a10c68ab1744582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTargetDescription: 'Ziel: \r\nSchreibe in Register 3 den Wert 4'
+  levelTargetDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5bb5af46e1a93049a27de5601edfda4
+    m_TableEntryReference:
+      m_KeyId: 2216188128808960
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   managedInteractable:
   - {fileID: 1319270238}
   - {fileID: 373000919}
@@ -1642,14 +1650,17 @@ MonoBehaviour:
   fallenTries: 0
   busController: {fileID: 1109257074}
   isProcessing: 0
-  multiplexerVisualizer: {fileID: 802006894}
-  registerSrcAVisualizer: {fileID: 1319270238}
-  registerSrcBVisualizer: {fileID: 373000919}
-  registerOutputVisualizer: {fileID: 1397563056}
   buses:
     srcAToMux: {fileID: 1226422104}
     srcBToMux: {fileID: 1719315176}
     muxToOutput: {fileID: 785921907}
+  multiplexerVisualizer: {fileID: 802006894}
+  registerSrcAVisualizer: {fileID: 1319270238}
+  registerSrcBVisualizer: {fileID: 373000919}
+  registerOutputVisualizer: {fileID: 1397563056}
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &1109257073
 Transform:
   m_ObjectHideFlags: 0
@@ -1681,10 +1692,6 @@ MonoBehaviour:
   spherePrefab: {fileID: 6425462522399718016, guid: 1d0544c75d85507478621a5dee2e0bd8, type: 3}
   movementSpeed: 7
   poolPreWarmCount: 2
-  busSegments:
-  - {fileID: 1226422104}
-  - {fileID: 1719315176}
-  - {fileID: 785921907}
 --- !u!1001 &1160528789
 PrefabInstance:
   m_ObjectHideFlags: 0

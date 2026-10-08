@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 7
   m_EditorClassIdentifier: 
-  DialogueText: "Alles klar. Dann lass uns ein bisschen \xFCben und die erste Aufgabe
-    erledigen. Um herauszufinden, wo sich <color=#48DBFB>Register 3</color> befindet
-    und welche Werte dort gespeichert sind \u2013 klick einfach auf das Objekt. <anim:wave><color=yellow>Viel
-    Erfolg!</color></anim>"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 233067794432
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

@@ -12,15 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 8
   m_EditorClassIdentifier: 
-  DialogueText: "Der <color=yellow>Eingang f\xFCr die Adresse</color> befindet sich
-    <color=orange>oben links</color>. Der <color=yellow>Eingang f\xFCr neue Werte</color>
-    <color=orange>unten links</color>. Und der <color=yellow>Ausgang</color> ist
-    <color=orange>oben rechts</color> - dort kommen die Daten heraus, die wir unter
-    der angegebenen Adresse gelesen haben."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:6828bc66724c19840bf8d9ffec9abe7e
+    m_TableEntryReference:
+      m_KeyId: 637742632960
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

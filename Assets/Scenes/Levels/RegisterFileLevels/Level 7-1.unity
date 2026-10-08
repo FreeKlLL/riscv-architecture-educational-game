@@ -1341,14 +1341,6 @@ MonoBehaviour:
   spherePrefab: {fileID: 6425462522399718016, guid: 1d0544c75d85507478621a5dee2e0bd8, type: 3}
   movementSpeed: 7
   poolPreWarmCount: 3
-  busSegments:
-  - {fileID: 1226422104}
-  - {fileID: 1719315176}
-  - {fileID: 710589201}
-  - {fileID: 934957545}
-  - {fileID: 1804955430}
-  - {fileID: 203119610}
-  - {fileID: 1915293321}
 --- !u!114 &1109257076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1361,8 +1353,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96181f05317a9104886530a7a94584fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTargetDescription: Benutze die Registerwerte um die Summe zu berechnen. Schreibe
-    diese Summe an die Adresse von A3
+  levelTargetDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:358719196651e7c4aaaabf8f7677e331
+    m_TableEntryReference:
+      m_KeyId: 2188793124507648
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   managedInteractable:
   - {fileID: 970035351}
   - {fileID: 462247377}
@@ -1386,12 +1385,6 @@ MonoBehaviour:
   fallenTries: 0
   busController: {fileID: 1109257075}
   isProcessing: 0
-  registerSrcAVisualizer: {fileID: 1846687519}
-  registerSrcBVisualizer: {fileID: 970035351}
-  registerA3Visualizer: {fileID: 462247377}
-  registerWd3Visualizer: {fileID: 2070813589}
-  aluVisualizer: {fileID: 1560145823}
-  registerFileVisualizer: {fileID: 9100954751381668847}
   buses:
     srcAToRegFileA1: {fileID: 1226422104}
     srcBToRegFileA2: {fileID: 1719315176}
@@ -1400,6 +1393,15 @@ MonoBehaviour:
     rd2ToAlu: {fileID: 1804955430}
     aluToWd3Reg: {fileID: 203119610}
     wd3RegToRegFile: {fileID: 1915293321}
+  registerSrcAVisualizer: {fileID: 1846687519}
+  registerSrcBVisualizer: {fileID: 970035351}
+  registerA3Visualizer: {fileID: 462247377}
+  registerWd3Visualizer: {fileID: 2070813589}
+  aluVisualizer: {fileID: 1560145823}
+  registerFileVisualizer: {fileID: 9100954751381668847}
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &1211114600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}

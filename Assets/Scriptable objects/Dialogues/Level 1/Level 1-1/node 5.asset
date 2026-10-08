@@ -12,12 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 5
   m_EditorClassIdentifier: 
-  DialogueText: "Wei\xDFt du noch, welche Teile <color=orange>sequentiell</color>
-    und welche <color=orange>kombinatorisch</color> sind?"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 208438841344
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 8
-  firstAnswer: Hmm, ich glaube, wir sollten diesen Teil lieber nochmal wiederholen.
-  secondAnswer: "Ich bin mir sicher, dass ich das noch wei\xDF!"
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 33063378374656
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:0d03143d230fc7b43acb3bfd84232be1
+    m_TableEntryReference:
+      m_KeyId: 33177761239040
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 6
   secondOption: 7
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

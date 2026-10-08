@@ -12,16 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 4
   m_EditorClassIdentifier: 
-  DialogueText: "<anim:wave><color=yellow>Freut mich, dass du fragst! :D</color></anim>\r\n<color=orange>PC</color>
-    steht f\xFCr <color=orange>Program Counter</color> - das ist das <anim:wave>Register</anim>,
-    das die <anim:wave>Adresse</anim> der aktuellen Zeile im Programm speichert.
-    Am Anfang zeigt er also, wo das Programm startet, und danach erh\xF6ht er sich
-    immer weiter, um neue Zeilen <color=orange>Programmcode</color> aus dem Speicher
-    zu fischen."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f76c707db27a34340adaa1b3eb8e72d8
+    m_TableEntryReference:
+      m_KeyId: 2939786383360
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 7
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

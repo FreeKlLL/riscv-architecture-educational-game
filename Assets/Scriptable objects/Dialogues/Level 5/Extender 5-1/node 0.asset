@@ -12,13 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 0
   m_EditorClassIdentifier: 
-  DialogueText: "Und da sind wir auch schon... <anim:shake><color=red>gef\xE4hrlicher
-    N\xE4he zum Assembler!</color></anim> Erinnerst du dich noch daran, dass <color=orange>Assembler-Befehle</color>
-    in verschiedene Typen unterteilt werden?"
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:8427a32ff3bcb2d41885e97aef6ec3b2
+    m_TableEntryReference:
+      m_KeyId: 5816209408
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 10
-  firstAnswer: "Na klar! Ich kann sie dir sogar alle aufz\xE4hlen."
-  secondAnswer: Da waren irgendwelche Buchstaben... ich hab's ehrlich gesagt vergessen.
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:8427a32ff3bcb2d41885e97aef6ec3b2
+    m_TableEntryReference:
+      m_KeyId: 6270281863168
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: GUID:8427a32ff3bcb2d41885e97aef6ec3b2
+    m_TableEntryReference:
+      m_KeyId: 6270281863168
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 1
   secondOption: 2
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

@@ -168,7 +168,7 @@ public class LevelPanelScroller : MonoBehaviour
 
     private void PlayEdgeBounce(bool isRight)
     {
-        if (DOTween.IsTweening(contentContainer))
+        if (DOTween.IsTweening(scrollRect) || DOTween.IsTweening(contentContainer))
         {
             return;
         }

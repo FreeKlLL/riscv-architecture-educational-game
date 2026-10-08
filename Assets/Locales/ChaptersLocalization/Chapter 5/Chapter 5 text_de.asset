@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chapter 5 text_de
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 8427a32ff3bcb2d41885e97aef6ec3b2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5816209408
+    m_Localized: "Und da sind wir auch schon... <anim:shake><color=red>gef\xE4hrlicher
+      N\xE4he zum Assembler!</color></anim> Erinnerst du dich noch daran, dass <color=orange>Assembler-Befehle</color>
+      in verschiedene Typen unterteilt werden?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60702871552
+    m_Localized: "Und wei\xDFt du auch noch, welche Befehle zu welchem <color=orange>Typ</color>
+      geh\xF6ren?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70110695424
+    m_Localized: "Also, in unserem Spiel haben wir <color=#48DBFB>5 Typen</color>:
+      <color=orange>R, I, S, J, B</color>.\r\nAber im <color=orange>Extender</color>
+      kannst du nur <color=#48DBFB>vier</color> davon ausw\xE4hlen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81947021312
+    m_Localized: Das liegt daran, dass der Typ <color=orange>Typ R (REGISTER)</color>
+      nicht mit <color=yellow>Konstanten</color> arbeitet (also Zahlen direkt aus
+      dem Befehl), sondern mit Werten aus dem <color=orange>RegisterFile</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90738282496
+    m_Localized: "Das hei\xDFt, der <color=orange>Extender</color> wird <anim:shake><color=red>gar
+      nicht benutzt</color></anim>, wenn wir auf diesen Befehlstyp treffen. Und wie
+      erkennt man ihn? <color=yellow>Beide Operanden sind Register.</color>\r\nZum
+      Beispiel: <color=#48DBFB>add r0, r1, r2</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99693121536
+    m_Localized: "Wenn wir nach dem Befehl nicht zur n\xE4chsten Instruktion (<color=#48DBFB>+4</color>)
+      springen, sondern in eine v\xF6llig andere Richtung - dann haben wir einen
+      <color=yellow>SPRUNG</color> zu einer neuen Adresse gemacht. Das ist Typ <color=orange>Typ
+      J - JUMP</color>. Beispiel:\r\n<color=#48DBFB>j pointer</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108522131456
+    m_Localized: 'Wenn wir in den Speicher schreiben oder etwas daraus lesen, dann
+      ist das Typ <color=orange>Typ S - STORAGE</color>.
+
+      <color=#48DBFB>sw
+      r0, r1(8)</color>
+
+      <color=#48DBFB>lw r0, r1(12)</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119871918080
+    m_Localized: "Der letzte Typ in unserem Abenteuer ist <color=orange>B - BRANCH</color>.
+      Wenn wir eine <color=yellow>Bedingung</color> pr\xFCfen m\xFCssen (ob zwei
+      Zahlen gleich sind, ob eine Zahl negativ ist usw.), dann nutzen wir diesen
+      Typ. Beispiel:\r\n<color=#48DBFB>beq r0, r1, r2</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136674299904
+    m_Localized: Die Aufgabe des <color=orange>Extenders</color> (und jetzt auch
+      deine!) ist es, die <color=#48DBFB>Zahl</color> aus dem Befehl <anim:wave>herauszufischen</anim>.
+      Da die Zahlen bei den verschiedenen Typen an unterschiedlichen Stellen stehen,
+      musst du den <color=yellow>richtigen Typ</color> angeben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145427812352
+    m_Localized: <anim:wave><color=yellow>Na dann, legen wir mal los!</color></anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6145803309056
+    m_Localized: "Na klar! Ich kann sie dir sogar alle aufz\xE4hlen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6236903591936
+    m_Localized: Da waren irgendwelche Buchstaben... ich hab's ehrlich gesagt vergessen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6270281863168
+    m_Localized: Beleidige nicht meine Ehre, Meister!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6302359900160
+    m_Localized: Ich glaube, wir sollten das lieber wiederholen...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6703926759424
+    m_Localized: "<anim:shake><color=green>Keine Sorge</color></anim>, in der Klausur
+      gibt es ein <anim:wave><color=orange>Infoblatt</color></anim> als Gedankenst\xFCtze
+      zu den Typen - da stehen sogar Beispiele f\xFCr jeden Typ drauf!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6728257916928
+    m_Localized: "Und hier im Spiel helfe ich dir einfach selbst: Dr\xFCck einfach
+      mal auf <color=yellow>\"i\"</color>, wenn du feststeckst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6743118336000
+    m_Localized: "Und jetzt Zeit f\xFCr ein bisschen <anim:wave><color=yellow>Magie!</color></anim>
+      Ab sofort kannst du die <color=orange>Kamera</color> ganz einfach mit deinen
+      Fingern steuern."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6772499435520
+    m_Localized: '<color=#48DBFB>Zusammenkneifen</color> - die Kamera <color=yellow>zoomt
+      raus</color>.
+
+      <color=#48DBFB>Auseinanderziehen</color> - die Kamera
+      <color=yellow>zoomt ran</color>.
+
+      Eins noch: Um die Kamera <color=orange>nach
+      oben, unten, links oder rechts</color> zu bewegen, musst du deinen Finger auf
+      etwas anderes als die Komponenten setzen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6780275675136
+    m_Localized: "Ziel also am besten auf das <color=green>gr\xFCne Gras</color>,
+      dann klappt das Verschieben ohne Probleme! <anim:wave><color=yellow>:D</color></anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6789628973056
+    m_Localized: "P.S. \r\n\r\nDieses <color=yellow>Wunder-Feature</color> ist nur
+      in diesem Level f\xFCr dich freigeschaltet, danach geht\u2019s zur\xFCck zur
+      guten alten <color=#48DBFB>statischen Kamera</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167403126640640
+    m_Localized: "Bisher siehst du nur den einzigen <color=yellow>Eingang</color>
+      des <color=orange>Speichers</color>. Dieser Eingang nimmt eine <color=#48DBFB>Zahl</color>
+      an, die einer <color=yellow>Adresse</color> in diesem Speicher entsprechen
+      muss.\r\n\r\nWenn sie \xFCbereinstimmt, gibt der <color=orange>Speicher</color>
+      den <color=yellow>Wert</color> aus, der an dieser Adresse gespeichert wurde!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168013255266304
+    m_Localized: 'Der <color=yellow>erste Eingang</color> nimmt die <color=#48DBFB>Adresse</color>
+      an.
+
+      Der <color=yellow>zweite Eingang</color> nimmt den <color=#48DBFB>Wert</color>
+      an, der an der Adresse aus dem ersten Eingang gespeichert wird - sofern kein
+      <anim:shake><color=red>STOP-Signal</color></anim> vorliegt (mit anderen Worten:
+      <color=#48DBFB>WriteEnable = 1</color>).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1167989028966400
+    m_Localized: "Jetzt haben wir Zugriff auf beide <color=yellow>Speichereing\xE4nge</color>!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168039146704896
+    m_Localized: "\xDCberleg dir genau, in welchen Situationen und an welchen <color=orange>Bestandteile</color>
+      du <color=yellow>WriteEnable</color> aktivieren oder deaktivieren musst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2201459222138880
+    m_Localized: 'Ziel: \r\nExtende alle Werte aus dem Speicher korrekt und lege
+      in Register 3.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2201507238531072
+    m_Localized: Erweitere den Befehl aus Register 1 korrekt und schreib Ergebnis
+      in Register 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2201515325149184
+    m_Localized: Erweitere den Befehl aus Register 1 korrekt und schreib Ergebnis
+      in Register 2
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

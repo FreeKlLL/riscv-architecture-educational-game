@@ -38,7 +38,7 @@ public class SidePanelStateInformer : MonoBehaviour
         var s = stateList[(int)state];
 
         titelText.text = s.titel;
-        stateDescription.text = s.stateInfo;
+        stateDescription.text = s.stateInfo.GetLocalizedString();
 
         if (s.doesHaveChoice) {
             SwitchUI(buttonContainer, signalsGroup);

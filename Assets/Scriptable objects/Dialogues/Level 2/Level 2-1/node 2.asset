@@ -12,16 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804392be32b55814c89220cd5a919aa4, type: 3}
   m_Name: node 2
   m_EditorClassIdentifier: 
-  DialogueText: "<anim:wave>Sehr gut!</anim> Im Grunde ist er wie eine Durchgangsschleuse.
-    Er hat mehrere Eing\xE4nge, die Signale liefern, aber er l\xE4sst nur <color=yellow>eines</color>
-    davon durch! Und welches genau das ist, entscheidest <anim:shake><color=red>du!</color></anim>
-    Um das erste Signal durchzulassen - setze eine <color=#48DBFB>00</color>. F\xFCr
-    das zweite - eine <color=#48DBFB>01</color>. Und f\xFCr das dritte - eine <color=#48DBFB>10</color>
-    (das ist die Zwei im Dezimalsystem)."
+  dialogueText:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5bb5af46e1a93049a27de5601edfda4
+    m_TableEntryReference:
+      m_KeyId: 182392213504
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   emotionIndex: 2
-  firstAnswer: 
-  secondAnswer: 
-  thirdAnswer: 
+  firstAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  secondAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  thirdAnswer:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   firstOption: 0
   secondOption: 0
   thirdOption: 0
+  references:
+    version: 2
+    RefIds: []

@@ -22,13 +22,71 @@ MonoBehaviour:
     - Locale-de
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d03143d230fc7b43acb3bfd84232be1
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 1/Chapter 1 text Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 358719196651e7c4aaaabf8f7677e331
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 6/Chapter 6 text Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36ead3ba0172d674fbd87ab89757ed05
+    m_Address: Assets/Locales/Processor State/Processor States text Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6828bc66724c19840bf8d9ffec9abe7e
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 4/Chapter 4 text Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8427a32ff3bcb2d41885e97aef6ec3b2
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 5/Chapter 5 text Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93f6bf3b27ccfbe489a979e40cca16e1
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 8/Chapter 8 text Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5bb5af46e1a93049a27de5601edfda4
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 2/Chapter 2 text Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a75a6118b34c944489053591a6a5ecc9
     m_Address: Assets/Locales/Font Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a77b2ce73e571644dbdd82737fee509a
+    m_Address: Assets/Locales/IngameMenu/Ingame menu labels Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a90139d818c196e4fb10b27bb674fa6a
     m_Address: Assets/Locales/Main menu lables Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6da5e72456f23d428a98d0c5ad5c931
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 7/Chapter 7 text Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f76c707db27a34340adaa1b3eb8e72d8
+    m_Address: Assets/Locales/ChaptersLocalization/Chapter 3/Chapter 3 text Shared
+      Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

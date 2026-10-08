@@ -15,8 +15,68 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_GUID: cd8bfe7eefad8564bb9d05fbff43026a
   m_SerializeEntries:
+  - m_GUID: 0260283449914154faa6fc0bd3efb1f3
+    m_Address: Chapter 5 text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1831bb556c1e8cc41b4e67910e33908d
+    m_Address: Chapter 3 text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f0fb26247cf95e43a7e954297b9b1d0
+    m_Address: Ingame menu labels_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66050724f6e45364d8d05fe8a4cc8140
+    m_Address: Chapter 7 text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b0466f275d83044283498e348f69b9d
+    m_Address: Chapter 4 text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9c732ef1b27e8514bb8ca00e139e9c9d
     m_Address: Main menu lables_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b974336a83465534ba49b87765c1b38d
+    m_Address: Processor States text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5ab9d68a93d4ed4abe777dcb119c1e2
+    m_Address: Chapter 6 text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3f342bd27848644c82550c73839a7b4
+    m_Address: Chapter 8 text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d695ce63a5b000e418143874aeabb628
+    m_Address: Chapter 1 text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5e9a1f677cfeb04381039655ac690d2
+    m_Address: Chapter 2 text_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

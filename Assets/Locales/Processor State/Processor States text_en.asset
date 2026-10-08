@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Processor States text_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 36ead3ba0172d674fbd87ab89757ed05, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 19372199936
+    m_Localized: Write the ALU calculation result back into the destination register.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50938531840
+    m_Localized: Compare two numbers. If equal, the program jumps to another location.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93984673792
+    m_Localized: Understand the instruction and prepare the hardware for execution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112477360128
+    m_Localized: Execute an operation with a register and an immediate value from
+      the instruction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135512477696
+    m_Localized: Execute an operation with two register values from the instruction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153631870976
+    m_Localized: Fetch the instruction from memory and set the PC to the next address.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167233998848
+    m_Localized: Jump to the new address and save the return address for later (used
+      after subroutine execution).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189044379648
+    m_Localized: Calculate the target address in memory from the base value and offset.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240319746048
+    m_Localized: Read the data at the calculated address from memory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257797410816
+    m_Localized: Write the value from a register directly into memory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279796535296
+    m_Localized: Store the read data in the destination register.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307327946752
+    m_Localized: 'Something went wrong, or you need to set the PC to the correct
+      address first.
+
+      
+
+      Before starting with Fetch, the PC should point
+      to a valid address in memory (multiple of 4).'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

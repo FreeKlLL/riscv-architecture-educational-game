@@ -32,10 +32,11 @@ public class AudioButtonController : MonoBehaviour
 
     private void ToggleMusic()
     {
-        if (MusicManager.Instance == null) return;
+        if (MusicManager.Instance == null || SfxManager.Instance == null) return;
         
-        bool nextState = !MusicManager.Instance.IsMusicEnabled;
+        var nextState = !MusicManager.Instance.IsMusicEnabled;
         MusicManager.Instance.SetMusicStatus(nextState);
+        SfxManager.Instance.ToggleSfx(nextState);
         UpdateSprite(nextState);
     }
 

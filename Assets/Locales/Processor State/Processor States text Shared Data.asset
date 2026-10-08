@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Processor States text Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Processor States text
+  m_TableCollectionNameGuidString: 36ead3ba0172d674fbd87ab89757ed05
+  m_Entries:
+  - m_Id: 19372199936
+    m_Key: alu_write_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50938531840
+    m_Key: branch_equal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93984673792
+    m_Key: decode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112477360128
+    m_Key: execute_i
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135512477696
+    m_Key: execute_r
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153631870976
+    m_Key: fetch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167233998848
+    m_Key: jump_and_link
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189044379648
+    m_Key: memory_adress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240319746048
+    m_Key: memory_read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257797410816
+    m_Key: memory_write
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279796535296
+    m_Key: memory_write_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307327946752
+    m_Key: unknown
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3633969595405828178
+  references:
+    version: 2
+    RefIds:
+    - rid: 3633969595405828178
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1788530349562

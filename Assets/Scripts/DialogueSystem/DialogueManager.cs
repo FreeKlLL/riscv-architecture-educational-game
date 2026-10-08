@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -19,9 +20,34 @@ public class DialogueManager : MonoBehaviour
 
     private DialogueNode _currentNode;
     private int _currentNodeIndex;
+    
+    [Header("Back button")]
+    [Tooltip("When stepping back, show the text at once instead of typing it out again.")]
+    [SerializeField] private bool instantTextOnBack = true;
+    
+    /// <summary>
+    ///     A node the player has already passed.
+    ///     Index is needed only while the flow is position-based (next = index + 1)
+    /// </summary>
+    private struct HistoryEntry
+    {
+        public readonly DialogueNode Node;
+        public readonly int Index;
+
+        public HistoryEntry(DialogueNode node, int index)
+        {
+            Node = node;
+            Index = index;
+        }
+    }
+    private readonly Stack<HistoryEntry> _history = new Stack<HistoryEntry>();
 
     public void Start()
     {
+        ui.OnBackRequested += HandleBack;
+        OnBackAvailabilityChanged += ui.SetBackAvailable;
+        RaiseBackAvailability();
+        
         // Automatically start the dialogue if a graph is assigned
         if (activeGraph != null) StartDialogue(activeGraph);
 
@@ -37,11 +63,14 @@ public class DialogueManager : MonoBehaviour
         if (ui == null) return;
         ui.OnNextRequested -= HandleNextQuote;
         ui.OnSpecificPathRequested -= HandleBranching;
+        ui.OnBackRequested -= HandleBack;
+        OnBackAvailabilityChanged -= ui.SetBackAvailable;
     }
 
     public event Action OnDialogueEnd;
     public event Action OnDialogueBegin;
     public event Action OnHintEnabled;
+    public event Action<bool> OnBackAvailabilityChanged;
 
     /// <summary>
     ///     Switches the active conversation to the hint graph.
@@ -59,10 +88,10 @@ public class DialogueManager : MonoBehaviour
     /// </summary>
     private void HandleNextQuote()
     {
-        _currentNodeIndex++;
+        var nextIndex = _currentNodeIndex + 1;
 
-        if (_currentNodeIndex < activeGraph.nodes.Count)
-            SetNode(_currentNodeIndex);
+        if (nextIndex < activeGraph.nodes.Count)
+            SetNode(nextIndex);
         else
             EndDialogue();
     }
@@ -103,6 +132,18 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
         }
     }
+    
+    private void HandleBack()
+    {
+        if (_history.Count == 0) return;
+
+        var entry = _history.Pop();
+        ShowNode(entry.Node, entry.Index);
+        RaiseBackAvailability();
+
+        // The text was already read once - no need to type it out again.
+        if (instantTextOnBack) ui.SkipAnimationOfTyping();
+    }
 
     #region helpers
 
@@ -118,6 +159,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         activeGraph = graph;
+        _history.Clear();
+        _currentNode = null;
         OnDialogueBegin?.Invoke();
         SetNode(0);
     }
@@ -127,14 +170,33 @@ public class DialogueManager : MonoBehaviour
     /// </summary>
     private void SetNode(int index)
     {
+        if (_currentNode != null) _history.Push(new HistoryEntry(_currentNode, _currentNodeIndex));
+
+        ShowNode(activeGraph.nodes[index], index);
+        RaiseBackAvailability();
+    }
+    
+    /// <summary>
+    ///     Updates the current state and refreshes the UI.
+    ///     Does not touch the history (shared by forward and back navigation).
+    /// </summary>
+    private void ShowNode(DialogueNode node, int index)
+    {
         _currentNodeIndex = index;
-        _currentNode = activeGraph.nodes[_currentNodeIndex];
-        ui.UpdateVisuals(_currentNode);
+        _currentNode = node;
+        ui.UpdateVisuals(node);
+    }
+    
+    private void RaiseBackAvailability()
+    {
+        OnBackAvailabilityChanged?.Invoke(_history.Count > 0);
     }
 
     private void EndDialogue()
     {
         CustomLog.LogEditor("[DialogueManager] Dialogue sequence finished.");
+        _history.Clear();
+        RaiseBackAvailability();
         OnDialogueEnd?.Invoke();
         ui.StopAnimatingText();
     }
