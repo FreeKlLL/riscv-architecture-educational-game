@@ -11599,6 +11599,7 @@ GameObject:
   - component: {fileID: 1007928915}
   - component: {fileID: 1007928914}
   - component: {fileID: 1007928913}
+  - component: {fileID: 1007928918}
   m_Layer: 5
   m_Name: AdventureButton
   m_TagString: Untagged
@@ -11700,7 +11701,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1007928916}
   m_OnClick:
     m_PersistentCalls:
@@ -11755,6 +11756,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007928911}
   m_CullTransparentMesh: 1
+--- !u!114 &1007928918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007928911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe4215d88d1a2e48b01d1347503e34e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RISCadventure::AdventureMenuEntry
+  configuration: {fileID: 11400000, guid: 3cf6a782c7090824c9fb33e900b5154e, type: 2}
+  styleTemplate: {fileID: 1819042444}
 --- !u!1 &1039588784
 GameObject:
   m_ObjectHideFlags: 0

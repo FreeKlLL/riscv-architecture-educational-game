@@ -9,7 +9,7 @@ using UnityEngine.Localization;
 using UnityEngine.Serialization;
 
 // A base class for all levels that manages time, history, and completion.
-public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour 
+public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour, IAdventureLevelPort 
     where TState: struct
     where TBus: IBusSegmentProvider
 {
@@ -128,7 +128,7 @@ public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour
 
     private void HandleNextTick()
     {
-        if (TickCounter >= maxTickNumber || isProcessing) { return; }
+        if (AdventureLevelAdapter.Blocks(this) || TickCounter >= maxTickNumber || isProcessing) { return; }
         StartCoroutine(NextTickSequence());
     }
     private IEnumerator NextTickSequence()
@@ -166,9 +166,9 @@ public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour
 
     private void HandlePrevTick()
     {
-        if (TickCounter <= 0 || isProcessing) { return; }
+        if (AdventureLevelAdapter.Blocks(this) || TickCounter <= 0 || isProcessing) { return; }
         
-        AchievementManager.Increment(AchievementIds.RollingBackFiftyTimes);
+        if (!AdventureLevelAdapter.Owns(this)) AchievementManager.Increment(AchievementIds.RollingBackFiftyTimes);
         
         StartCoroutine(PrevTickSequence());
     }
@@ -196,6 +196,12 @@ public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour
 
     protected virtual void CheckSolution()
     {
+        if (AdventureLevelAdapter.Owns(this)) {
+            if (AdventureLevelAdapter.Blocks(this) || isProcessing) return;
+            bool success = CheckWinCondition();
+            if (!success) { fallenTries++; StartCoroutine(ShowIncorrectIndicator()); }
+            AdventureLevelAdapter.Current.Report(success); return;
+        }
         if (CheckWinCondition())
         {
             CustomLog.LogEditor("Level is solved!");
@@ -274,6 +280,11 @@ public abstract class BaseLevelRegisseur<TState, TBus> : MonoBehaviour
     }
     protected abstract bool CheckWinCondition();
     
+    public bool AdventureBusy => isProcessing;
+    public void SetAdventureInput(bool enabled) {
+        nextClick.interactable = prevClick.interactable = checkSolutionButton.interactable = enabled;
+        foreach (var v in managedInteractable) v.SetInteractable(enabled);
+    }
     private void BlockInGameInteractable() {
         foreach (var v in managedInteractable) v.SetInteractable(false);
     }

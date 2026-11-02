@@ -28,7 +28,7 @@ MonoBehaviour:
   memoryAddressAnswer: 4
   memoryValueAnswer: 5
   pcValueAnswer: 0
-  customDialogueGraph: {fileID: 11400000, guid: cd196c00a82834f4d94b2ff06f976a32, type: 2}
+  customDialogueGraph: {fileID: 11400000, guid: 2f8034b5d45f1b24da76fd0604ee1811, type: 2}
   nextSceneInitial: {fileID: 11400000, guid: 873f4c81d80b11b43a42804cc32b02f2, type: 2}
   firstInstructionWord: 4464803
   secondInstructionWord: 0

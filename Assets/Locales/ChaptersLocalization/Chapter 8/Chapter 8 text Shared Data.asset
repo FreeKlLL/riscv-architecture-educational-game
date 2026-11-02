@@ -55,6 +55,238 @@ MonoBehaviour:
     m_Key: quest_text_11-5
     m_Metadata:
       m_Items: []
+  - m_Id: 19599483477852160
+    m_Key: eintakt.common.checkpoint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904064
+    m_Key: eintakt.common.ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904065
+    m_Key: eintakt.common.theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904066
+    m_Key: eintakt.common.controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904067
+    m_Key: eintakt.common.back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904068
+    m_Key: eintakt.common.more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904069
+    m_Key: eintakt.common.finish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904070
+    m_Key: eintakt.common.hintWelcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904071
+    m_Key: eintakt.common.arithmetic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904072
+    m_Key: eintakt.common.memory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904073
+    m_Key: eintakt.common.flow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904074
+    m_Key: eintakt.common.pickArithmetic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904075
+    m_Key: eintakt.common.pickMemory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904076
+    m_Key: eintakt.common.pickFlow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904077
+    m_Key: eintakt.common.hintDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904078
+    m_Key: eintakt.common.close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904079
+    m_Key: eintakt.11-0.intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904080
+    m_Key: eintakt.11-0.theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904081
+    m_Key: eintakt.11-0.goal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904082
+    m_Key: eintakt.11-0.detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904083
+    m_Key: eintakt.11-0.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904084
+    m_Key: eintakt.11-0.extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904085
+    m_Key: eintakt.11-1.intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904086
+    m_Key: eintakt.11-1.theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904087
+    m_Key: eintakt.11-1.goal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904088
+    m_Key: eintakt.11-1.detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904089
+    m_Key: eintakt.11-1.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904090
+    m_Key: eintakt.11-1.extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904091
+    m_Key: eintakt.11-2.intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904092
+    m_Key: eintakt.11-2.theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904093
+    m_Key: eintakt.11-2.goal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904094
+    m_Key: eintakt.11-2.detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904095
+    m_Key: eintakt.11-2.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904096
+    m_Key: eintakt.11-2.extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904097
+    m_Key: eintakt.11-3.intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904098
+    m_Key: eintakt.11-3.theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904099
+    m_Key: eintakt.11-3.goal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904100
+    m_Key: eintakt.11-3.detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098368
+    m_Key: eintakt.11-3.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098369
+    m_Key: eintakt.11-3.extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098370
+    m_Key: eintakt.11-4.intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098371
+    m_Key: eintakt.11-4.theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098372
+    m_Key: eintakt.11-4.goal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098373
+    m_Key: eintakt.11-4.detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098374
+    m_Key: eintakt.11-4.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098375
+    m_Key: eintakt.11-4.extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098376
+    m_Key: eintakt.11-5.intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098377
+    m_Key: eintakt.11-5.theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098378
+    m_Key: eintakt.11-5.goal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098379
+    m_Key: eintakt.11-5.detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098380
+    m_Key: eintakt.11-5.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483599486976
+    m_Key: eintakt.11-5.extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668928
+    m_Key: eintakt.11-0.instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668929
+    m_Key: eintakt.11-1.instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668930
+    m_Key: eintakt.11-2.instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668931
+    m_Key: eintakt.11-3.instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668932
+    m_Key: eintakt.11-4.instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668933
+    m_Key: eintakt.11-5.instruction
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

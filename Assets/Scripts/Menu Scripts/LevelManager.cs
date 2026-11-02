@@ -71,8 +71,10 @@ public class LevelManager : MonoBehaviour
     /// <summary>
     /// Restarts the current active scene.
     /// </summary>
+    public DialogueManager Dialogue => dialogueManager;
     public void RestartLevel()
     {
+        if (AdventureDirector.IsInAdventure) { AdventureDirector.Instance.Route(); return; }
         StartCoroutine(LoadWithTransition(SceneManager.GetActiveScene().buildIndex));
     }
 
@@ -81,6 +83,7 @@ public class LevelManager : MonoBehaviour
     /// </summary>
     public void LoadMainMenu()
     {
+        if (AdventureDirector.IsInAdventure) { AdventureDirector.Instance.Exit(); return; }
         //SceneManager.LoadScene("MainMenu");
         StartCoroutine(LoadWithTransition(0));
     }
@@ -90,6 +93,7 @@ public class LevelManager : MonoBehaviour
     /// </summary>
     public void LoadNextLevel()
     {
+        if (AdventureDirector.IsInAdventure) { AdventureDirector.Instance.ContinueJourney(); return; }
         var currentIndex = SceneManager.GetActiveScene().buildIndex;
         if (currentIndex is GameConstants.FullProcessorSceneIndex or GameConstants.OneTickProcessorSceneIndex) {
             var nextData = OnRequestNextLevelData?.Invoke();

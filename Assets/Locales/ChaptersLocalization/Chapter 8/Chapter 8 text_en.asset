@@ -19,48 +19,414 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 111713996800
-    m_Localized: <anim:wave><color=yellow>Welcome to the new chapter!</color></anim>.
-      Here everything revolves around your first processor - the single-cycle processor.
+    m_Localized: '<anim:wave><color=yellow>Welcome aboard!</color></anim> Charlie
+      here. This processor likes to get things done: <color=orange>one instruction,
+      one clock cycle</color>. First up: <color=#48DBFB>addi x6, x6, 4</color> at
+      address 0.'
     m_Metadata:
       m_Items: []
   - m_Id: 140197515264
-    m_Localized: Unfortunately the dialogues for this chapter aren't quite finished
-      yet :(\nBut don't worry, I'm already working hard on it!
+    m_Localized: Instruction Memory is read at the <color=yellow>PC</color>. The
+      Register File supplies x6, the Extender supplies 4, and the ALU adds them.
+      The result can travel all the way back to x6 <color=orange>within the same
+      cycle</color>. No Instruction Register or ALUOut register needs an extra clock
+      here.
     m_Metadata:
       m_Items: []
   - m_Id: 150624555008
-    m_Localized: 'The good news is: all the levels of this chapter are already playable
-      and solvable. Right now you just unfortunately have to get by without hints
-      and explanations.'
+    m_Localized: We start with <color=yellow>PC = 0</color> and <color=yellow>x6
+      = 8</color>. Your job is to write <color=green>12 into x6</color>. Data Memory
+      starts with 1, 2, 3, 4 at addresses 0, 4, 8, 12; ADDI must leave it alone.
+      The normal next PC is 4.
     m_Metadata:
       m_Items: []
   - m_Id: 160497946624
-    m_Localized: In the "Multi-cycle processor" chapter, on the other hand, everything
-      is already completely finished!
+    m_Localized: 'All right, control-room captain! <color=yellow>What would help
+      you now?</color> Set up the whole path before the clock: the moving signals
+      show parts of <color=#48DBFB>one cycle</color>, not separate processor cycles.'
     m_Metadata:
       m_Items: []
   - m_Id: 2183191941894144
-    m_Localized: Process the value from Instruction Memory at address 0 correctly.
+    m_Localized: 'Execute ADDI at address 0 in one cycle: x6 = 8 + 4 = 12.'
     m_Metadata:
       m_Items: []
   - m_Id: 2183264188780544
-    m_Localized: Process the value from Instruction Memory at address 0 correctly.
+    m_Localized: 'Execute ADD at address 0 in one cycle: x4 = x1 + x3 = 44.'
     m_Metadata:
       m_Items: []
   - m_Id: 2183290549981184
-    m_Localized: Process the value from Instruction Memory at address 8 correctly.
+    m_Localized: 'Reach address 8, then execute ORI in one cycle: x12 OR 25 = 63.'
     m_Metadata:
       m_Items: []
   - m_Id: 2183300763111424
-    m_Localized: Process the value from Instruction Memory at address 0 correctly.
+    m_Localized: 'Execute SW at address 0: store x4 = 5 in Data Memory[4].'
     m_Metadata:
       m_Items: []
   - m_Id: 2183309646647296
-    m_Localized: Process the value from Instruction Memory at address 12 correctly.
+    m_Localized: 'BEQ at address 12: x1 != x3, so continue to PC = 16 in one cycle.'
     m_Metadata:
       m_Items: []
   - m_Id: 2183319201271808
-    m_Localized: Process the value from Instruction Memory at address 12 correctly.
+    m_Localized: 'JAL at address 12: x1 = 16. Goal PC = 256 conflicts with result
+      268; see Charlie''s hint.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483477852160
+    m_Localized: 'All right, control-room captain! <color=yellow>What would help
+      you now?</color> Set up the whole path before the clock: the moving signals
+      show parts of <color=#48DBFB>one cycle</color>, not separate processor cycles.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904064
+    m_Localized: I'm ready!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904065
+    m_Localized: Explain the data path.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904066
+    m_Localized: Show me the control signals.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904067
+    m_Localized: Back to my choices.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904068
+    m_Localized: One more hint, please.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904069
+    m_Localized: <anim:wave><color=yellow>Your turn! You've got this.</color></anim>
+      Click the blocks to inspect their panels, choose the control settings, then
+      advance the clock. Use the back arrow if you need to undo a step. <color=orange>Check</color>
+      tests the task's stored goal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904070
+    m_Localized: <anim:wave>Charlie to the rescue!</anim> Which part of the <color=orange>single-cycle
+      processor</color> is giving you trouble? Pick your instruction. These hints
+      never advance the clock for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904071
+    m_Localized: Arithmetic / logic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904072
+    m_Localized: Store to memory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904073
+    m_Localized: Branch / jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904074
+    m_Localized: <color=orange>ADDI</color> adds an immediate, <color=orange>ADD</color>
+      adds two registers, and <color=orange>ORI</color> combines bits. Which one
+      are you working on?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904075
+    m_Localized: Only <color=orange>SW</color> belongs to the memory exercise in
+      this chapter. Instruction Memory supplies the instruction; Data Memory receives
+      the stored value. They are separate blocks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904076
+    m_Localized: <color=orange>BEQ</color> depends on a comparison. <color=orange>JAL</color>
+      jumps and saves a return address. Here you choose the PC MUX yourself; there
+      is no automatic branch selection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904077
+    m_Localized: <anim:wave><color=yellow>Back to the controls!</color></anim> Check
+      your MUX choices and write enables before advancing the clock. You can reopen
+      this hint menu whenever you need it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904078
+    m_Localized: Back to the processor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904079
+    m_Localized: '<anim:wave><color=yellow>Welcome aboard!</color></anim> Charlie
+      here. This processor likes to get things done: <color=orange>one instruction,
+      one clock cycle</color>. First up: <color=#48DBFB>addi x6, x6, 4</color> at
+      address 0.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904080
+    m_Localized: Instruction Memory is read at the <color=yellow>PC</color>. The
+      Register File supplies x6, the Extender supplies 4, and the ALU adds them.
+      The result can travel all the way back to x6 <color=orange>within the same
+      cycle</color>. No Instruction Register or ALUOut register needs an extra clock
+      here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904081
+    m_Localized: We start with <color=yellow>PC = 0</color> and <color=yellow>x6
+      = 8</color>. Your job is to write <color=green>12 into x6</color>. Data Memory
+      starts with 1, 2, 3, 4 at addresses 0, 4, 8, 12; ADDI must leave it alone.
+      The normal next PC is 4.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904082
+    m_Localized: The <color=orange>I-format immediate</color> is the number 4, not
+      a second register address. So SrcB must come from the Extender. Result must
+      come from the main ALU. PC+4 has its own ALU in this scene, so you do not have
+      to borrow the main ALU to advance the PC.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904083
+    m_Localized: 'Control recipe: <color=orange>Extender I; SrcB MUX 1 (immediate);
+      main ALU ADD; Result MUX 0 (ALU)</color>. Enable Register File writing. Disable
+      Data Memory writing. For normal flow choose PC ALU ADD, PC MUX 0 (PC+4), PC
+      writing enabled. MUX numbers are the displayed 0-based input labels. Set everything
+      first, then use <color=#48DBFB>one clock</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904084
+    m_Localized: <anim:shake>No clock-by-clock assembly line this time!</anim> The
+      long signal animation still belongs to a single clock action. If x6 does not
+      change, inspect Register File write enable and Result MUX before trying again.
+      Don't keep clocking into the zero words after address 0.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904085
+    m_Localized: <anim:wave>Two registers walk into an ALU...</anim> No punchline,
+      just <color=orange>ADD</color>! At address 0 we have <color=#48DBFB>add x4,
+      x1, x3</color>. Let's bring both operands together in one cycle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904086
+    m_Localized: An <color=orange>R-type instruction</color> supplies two source
+      register addresses and a destination address. RD1 goes straight to the main
+      ALU. RD2 must pass through SrcB MUX. The ALU result returns through Result
+      MUX to the destination, all before the same clock edge updates the registers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904087
+    m_Localized: '<color=yellow>PC = 0, x1 = 1, x3 = 43</color>. Replace the initial
+      x4 = 5 with <color=green>44</color>. Keep Data Memory unchanged: its values
+      are 12, 16, -16, -12. One instruction needs one execution cycle; normal PC+4
+      gives PC = 4.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904088
+    m_Localized: Unlike ADDI, <color=orange>ADD has no immediate operand</color>.
+      Selecting Extender output here would feed instruction bits into the addition
+      instead of x3. The Extender setting does not affect the result when SrcB selects
+      RD2 and PC selects PC+4.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904089
+    m_Localized: Choose <color=orange>SrcB MUX 0 (RD2), main ALU ADD, Result MUX
+      0 (ALU)</color>. Enable Register File writing; disable Data Memory writing.
+      Choose PC ALU ADD and PC MUX 0, with PC writing enabled. Then one clock writes
+      1 + 43 to x4. The destination comes from the instruction; you do not select
+      x4 manually.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904090
+    m_Localized: "Think <color=#48DBFB>Register File \u2192 ALU \u2192 Register File</color>.
+      Data Memory is not a stop on this route. Result MUX input 1 would select memory
+      data, not the sum. <anim:wave>You've already met all the pieces!</anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904091
+    m_Localized: <anim:wave>Time for a little bit magic!</anim> The instruction <color=#48DBFB>ori
+      x12, x12, 25</color> waits at address 8, but <color=yellow>PC starts at 0</color>.
+      First find the right instruction, then execute it in one cycle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904092
+    m_Localized: '<color=orange>ORI</color> combines corresponding bits with logical
+      OR. It does not add 25! The I-format immediate goes through SrcB MUX to the
+      main ALU. In this setup, <color=yellow>63 OR 25 = 63</color>: every set bit
+      of 25 is already set in 63.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904093
+    m_Localized: At addresses 0 and 4 there are <color=yellow>zero words, not the
+      ORI instruction</color>. Keep Register File and Data Memory writing disabled
+      while two PC+4 clock actions move PC from 0 to 4 to 8. Then execute the instruction
+      at 8 in one cycle. These two navigation steps are not extra execution phases
+      of ORI.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904094
+    m_Localized: The binary operation is <color=#48DBFB>111111 OR 011001 = 111111</color>.
+      Select OR, not ADD. The stored goal only checks x12 = 63, which is already
+      true initially. That check alone does not demonstrate execution; follow the
+      path to address 8 and inspect your control settings.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904095
+    m_Localized: 'Preparation: PC ALU ADD, PC MUX 0, PC writing on; Register File
+      and Data Memory writing off. Advance twice to PC = 8. For ORI: <color=orange>Extender
+      I, SrcB MUX 1, main ALU OR, Result MUX 0</color>; enable Register File writing,
+      keep Data Memory writing off. One further clock executes ORI and normally advances
+      PC to 12.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904096
+    m_Localized: <color=yellow>x12 stays 63 even when you do everything right.</color>
+      That is expected for these starting values. A success message before execution
+      is a limitation of this exercise's stored goal, not proof that the processor
+      ran the instruction. Data Memory starts at zero and should stay unchanged.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904097
+    m_Localized: '<anim:wave>Numbers deserve a home, too!</anim> This time <color=#48DBFB>sw
+      x4, 1(x8)</color> at address 0 puts a value into <color=orange>Data Memory</color>.
+      Instruction Memory keeps its own job: supplying the command.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904098
+    m_Localized: SW uses <color=yellow>x8 as the base address</color> and <color=yellow>x4
+      as the data</color>. The main ALU adds the S-format offset to x8. RD2 supplies
+      x4 directly to Data Memory's write-data input. Address calculation and the
+      store belong to <color=#48DBFB>one cycle</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904099
+    m_Localized: We start at <color=yellow>PC = 0, x8 = 3, x4 = 5</color>. The effective
+      address is 3 + 1 = <color=green>4</color>. Write <color=green>5 to Data Memory[4]</color>,
+      initially zero. Do not write the address or result into a register. The other
+      data words stay zero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904100
+    m_Localized: '<color=orange>SW has no destination register.</color> The bits
+      that look like rd in other formats are part of the store offset. Keep Register
+      File write enable off. Result MUX does not control the stored data: RD2 goes
+      straight to Data Memory WD.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098368
+    m_Localized: Choose <color=orange>Extender S, SrcB MUX 1 (immediate), main ALU
+      ADD</color>. Turn Data Memory writing on and Register File writing off. For
+      the next PC use PC ALU ADD, PC MUX 0 and PC writing on. Result MUX is irrelevant
+      while Register File writing is off. One clock stores x4 = 5 at address 4.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098369
+    m_Localized: Do not confuse <color=yellow>the address 4</color> with <color=yellow>the
+      value 5</color>. The ALU computes the address; x4 supplies the value. There
+      is no separate address-computation clock followed by a store clock in this
+      processor. <anim:wave>One setup, one execution cycle!</anim>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098370
+    m_Localized: '<anim:wave>Time for a decision!</anim> <color=#48DBFB>beq x1, x3,
+      1028</color> waits at <color=yellow>PC = 12</color>. A branch is not a promise
+      to jump: first ask whether its condition is true.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098371
+    m_Localized: 'BEQ means <color=orange>branch if equal</color>. Subtracting the
+      two source values tells us whether they are equal: zero means yes. In this
+      scene, <color=yellow>you choose PC MUX yourself</color>; the computed zero
+      flag does not automatically choose the next PC. Comparison and PC update still
+      belong to one cycle.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098372
+    m_Localized: <color=yellow>x1 = 1, x3 = 43</color>, so 1 - 43 = -42, not zero.
+      This branch is <color=orange>not taken</color>. Choose the normal successor
+      <color=green>PC = 12 + 4 = 16</color>. Leave Register File and Data Memory
+      unchanged; the stored goal checks PC = 16.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098373
+    m_Localized: With B-format extension, the offset is <color=yellow>1028</color>.
+      A taken branch would use PC + offset = 1040, calculated by the separate BTA
+      ALU. But these operands are unequal, so the correct route is PC+4. Register
+      File writeback is not part of BEQ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098374
+    m_Localized: Set <color=orange>Extender B, SrcB MUX 0 (RD2), main ALU SUB</color>.
+      Keep Register File and Data Memory writing off. Set PC ALU ADD, PC MUX 0 (PC+4),
+      PC writing on. BTA ALU ADD computes the unused branch target. Result MUX is
+      irrelevant here. One clock should advance PC to 16.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098375
+    m_Localized: <anim:shake>BEQ does not mean always jump!</anim> The ALU result
+      -42 is only the comparison result; do not write it into a register or memory.
+      The PC MUX is manual in this teaching model, so base your choice on the comparison
+      rather than expecting automatic branch control.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098376
+    m_Localized: '<anim:wave>Jump now, return later!</anim> <color=orange>JAL</color>
+      is useful for subroutines: it redirects the PC and saves a return address.
+      Here <color=#48DBFB>jal x1, 256</color> sits at <color=yellow>PC = 12</color>.
+      There is a configuration catch we need to discuss honestly.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098377
+    m_Localized: 'JAL has two results in <color=#48DBFB>one execution cycle</color>:
+      <color=yellow>rd = PC+4</color> and <color=yellow>next PC = PC + J-immediate</color>.
+      Separate PC and BTA ALUs provide these values in parallel. Result MUX sends
+      PC+4 to x1; PC MUX sends the target to PC.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098378
+    m_Localized: 'The return address is <color=green>12 + 4 = 16</color>. But the
+      J-immediate is a relative offset: 12 + 256 = <color=yellow>268</color>. This
+      exercise''s unchanged stored goal asks for <color=orange>x1 = 16 and PC = 256</color>.
+      Those PC values disagree; correct single-cycle execution cannot satisfy that
+      stored goal.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098379
+    m_Localized: <color=orange>256 is the offset, not an absolute target address.</color>
+      Do not replace PC with the immediate directly or invent an extra cycle. Correct
+      JAL adds the current instruction address. The expected link value 16 is consistent;
+      only the stored target PC conflicts with the instruction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098380
+    m_Localized: 'For JAL: <color=orange>Extender J, PC ALU ADD, BTA ALU ADD, Result
+      MUX 2 (PC+4), PC MUX 1 (BTA)</color>. PC and Register File writing on; Data
+      Memory writing off. Main ALU and SrcB are irrelevant to the JAL results. One
+      clock gives x1 = 16, PC = 268. Check instead requires PC = 256: a configuration
+      mismatch.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483599486976
+    m_Localized: <anim:wave>You found the catch, not an addition mistake!</anim>
+      These PC-MUX paths cannot produce PC = 256 from this instruction in one correct
+      cycle. Use this task to inspect JAL until its configuration is corrected. A
+      control-bit trick cannot replace a correct target.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668928
+    m_Localized: addi x6, x6, 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668929
+    m_Localized: add x4, x1, x3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668930
+    m_Localized: ori x12, x12, 25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668931
+    m_Localized: sw x4, 1(x8)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668932
+    m_Localized: beq x1, x3, 1028
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668933
+    m_Localized: jal x1, 256
     m_Metadata:
       m_Items: []
   references:

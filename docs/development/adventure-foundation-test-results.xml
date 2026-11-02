@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="135" result="Passed" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:57Z" duration="1,7365518">
+  <test-suite type="TestSuite" id="1000" name="RiscvAdventure" fullname="RiscvAdventure" runstate="Runnable" testcasecount="136" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:57Z" duration="1.736552" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1048" name="Adventure.Foundation.Tests.dll" fullname="C:/Users/sardo/riscv-architecture-educational-game/Library/ScriptAssemblies/Adventure.Foundation.Tests.dll" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:57Z" duration="1.698593" total="44" passed="44" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22596" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1049" name="RiscVAdventure" fullname="RiscVAdventure" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:57Z" duration="1.698354" total="44" passed="44" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1050" name="Tests" fullname="RiscVAdventure.Tests" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:57Z" duration="1.698302" total="44" passed="44" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1051" name="Adventure" fullname="RiscVAdventure.Tests.Adventure" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:57Z" duration="1.698206" total="44" passed="44" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="AdventureFoundationTests" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:57Z" duration="1.697256" total="44" passed="44" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1004" name="ActiveSelectionAndRenameSurviveRestart" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.ActiveSelectionAndRenameSurviveRestart" methodname="ActiveSelectionAndRenameSurviveRestart" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="2027271147" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.085895" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1035" name="AdditionalChaptersAndTopicsCanBeAddedWithoutLosingOldProgress" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.AdditionalChaptersAndTopicsCanBeAddedWithoutLosingOldProgress" methodname="AdditionalChaptersAndTopicsCanBeAddedWithoutLosingOldProgress" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1604631503" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.033969" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1031" name="AssessmentClampsBothIndicators" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.AssessmentClampsBothIndicators" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.082766" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1026" name="AssessmentClampsBothIndicators(-100,0)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.AssessmentClampsBothIndicators(-100,0)" methodname="AssessmentClampsBothIndicators" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1666167328" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.015154" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1027" name="AssessmentClampsBothIndicators(0,0)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.AssessmentClampsBothIndicators(0,0)" methodname="AssessmentClampsBothIndicators" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1002482772" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.015368" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1028" name="AssessmentClampsBothIndicators(80,80)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.AssessmentClampsBothIndicators(80,80)" methodname="AssessmentClampsBothIndicators" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1224307418" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.018060" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1029" name="AssessmentClampsBothIndicators(100,100)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.AssessmentClampsBothIndicators(100,100)" methodname="AssessmentClampsBothIndicators" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="2031353455" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.016223" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1030" name="AssessmentClampsBothIndicators(900,100)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.AssessmentClampsBothIndicators(900,100)" methodname="AssessmentClampsBothIndicators" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="284810191" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.015232" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1022" name="ClockRollbackDoesNotRestoreKnowledgeOrMoveHighWaterMarkBack" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.ClockRollbackDoesNotRestoreKnowledgeOrMoveHighWaterMarkBack" methodname="ClockRollbackDoesNotRestoreKnowledgeOrMoveHighWaterMarkBack" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="674856769" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.054660" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1044" name="CompletingLessonAfterDecayDoesNotStackLossBelowConfirmedMasteryFloor" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.CompletingLessonAfterDecayDoesNotStackLossBelowConfirmedMasteryFloor" methodname="CompletingLessonAfterDecayDoesNotStackLossBelowConfirmedMasteryFloor" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1876598233" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.052493" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="CompletionAndAdventureCompletionSurviveDecay" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.CompletionAndAdventureCompletionSurviveDecay" methodname="CompletionAndAdventureCompletionSurviveDecay" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="890594645" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.192142" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="CorruptPrimaryRecoversBackupWithoutOverwritingDamagedBytesOnLoad" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.CorruptPrimaryRecoversBackupWithoutOverwritingDamagedBytesOnLoad" methodname="CorruptPrimaryRecoversBackupWithoutOverwritingDamagedBytesOnLoad" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1237574617" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.018672" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="CorruptProfileIsSkippedWithoutDestroyingItOrOtherProfiles" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.CorruptProfileIsSkippedWithoutDestroyingItOrOtherProfiles" methodname="CorruptProfileIsSkippedWithoutDestroyingItOrOtherProfiles" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="764496175" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:55Z" duration="0.016808" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1045" name="DailyReloadsDoNotDiscardPartialWeeksOrPostponeDecay" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DailyReloadsDoNotDiscardPartialWeeksOrPostponeDecay" methodname="DailyReloadsDoNotDiscardPartialWeeksOrPostponeDecay" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="455360877" result="Passed" start-time="2026-10-22 21:49:55Z" end-time="2026-10-22 21:49:56Z" duration="0.183959" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="DamagedIndexDoesNotHideProfilesAndUsesItsBackup" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DamagedIndexDoesNotHideProfilesAndUsesItsBackup" methodname="DamagedIndexDoesNotHideProfilesAndUsesItsBackup" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="2126294989" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.033331" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="DecayDoesNotRoundPartialDaysUp" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecayDoesNotRoundPartialDaysUp" methodname="DecayDoesNotRoundPartialDaysUp" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="340355513" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.028872" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1041" name="DecaySettingsAreInjectable" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecaySettingsAreInjectable" methodname="DecaySettingsAreInjectable" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1709413665" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.029658" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1016" name="DecayUsesFullWeeksAndCapsAtFifteen" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecayUsesFullWeeksAndCapsAtFifteen" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.140555" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1011" name="DecayUsesFullWeeksAndCapsAtFifteen(6,80)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecayUsesFullWeeksAndCapsAtFifteen(6,80)" methodname="DecayUsesFullWeeksAndCapsAtFifteen" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1476729348" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.029044" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1012" name="DecayUsesFullWeeksAndCapsAtFifteen(7,79)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecayUsesFullWeeksAndCapsAtFifteen(7,79)" methodname="DecayUsesFullWeeksAndCapsAtFifteen" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1812907403" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.023684" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1013" name="DecayUsesFullWeeksAndCapsAtFifteen(70,70)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecayUsesFullWeeksAndCapsAtFifteen(70,70)" methodname="DecayUsesFullWeeksAndCapsAtFifteen" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="892742785" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.029301" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1014" name="DecayUsesFullWeeksAndCapsAtFifteen(105,65)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecayUsesFullWeeksAndCapsAtFifteen(105,65)" methodname="DecayUsesFullWeeksAndCapsAtFifteen" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1036293946" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.026299" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1015" name="DecayUsesFullWeeksAndCapsAtFifteen(7000,65)" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DecayUsesFullWeeksAndCapsAtFifteen(7000,65)" methodname="DecayUsesFullWeeksAndCapsAtFifteen" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="2120550049" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.030952" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1036" name="DeletionRequiresConfirmationAndRemovesBackupsWithoutResurrection" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.DeletionRequiresConfirmationAndRemovesBackupsWithoutResurrection" methodname="DeletionRequiresConfirmationAndRemovesBackupsWithoutResurrection" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="490588494" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.038414" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1034" name="EveryChapterIncludingFirstRequiresItsOwnDiagnosticBeforeSkipping" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.EveryChapterIncludingFirstRequiresItsOwnDiagnosticBeforeSkipping" methodname="EveryChapterIncludingFirstRequiresItsOwnDiagnosticBeforeSkipping" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="334424657" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.026813" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1046" name="ExtremeForwardClockIsCappedAndSubsequentRollbackIsStable" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.ExtremeForwardClockIsCappedAndSubsequentRollbackIsStable" methodname="ExtremeForwardClockIsCappedAndSubsequentRollbackIsStable" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="740668398" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.031768" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1025" name="FailedPracticeRecordsErrorsWithoutMovingLastSuccessfulPractice" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.FailedPracticeRecordsErrorsWithoutMovingLastSuccessfulPractice" methodname="FailedPracticeRecordsErrorsWithoutMovingLastSuccessfulPractice" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="198586783" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.040223" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1040" name="FailedWriteCleansItsTemporaryFileAndRollsBackInMemoryRename" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.FailedWriteCleansItsTemporaryFileAndRollsBackInMemoryRename" methodname="FailedWriteCleansItsTemporaryFileAndRollsBackInMemoryRename" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1951251984" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.010934" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1038" name="FutureIndexPreventsOverwritingItsMetadata" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.FutureIndexPreventsOverwritingItsMetadata" methodname="FutureIndexPreventsOverwritingItsMetadata" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="815870443" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.020780" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1037" name="FutureProfileSchemaIsPreservedAndNotReplacedByOlderBackup" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.FutureProfileSchemaIsPreservedAndNotReplacedByOlderBackup" methodname="FutureProfileSchemaIsPreservedAndNotReplacedByOlderBackup" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1049227627" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.027094" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="LessonAwardsAtLeastFiftyWithoutFalselyMarkingDiagnosis" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.LessonAwardsAtLeastFiftyWithoutFalselyMarkingDiagnosis" methodname="LessonAwardsAtLeastFiftyWithoutFalselyMarkingDiagnosis" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="287624533" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.016023" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="LessonDoesNotLowerEightyPercent" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.LessonDoesNotLowerEightyPercent" methodname="LessonDoesNotLowerEightyPercent" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="518014956" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.025564" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="LessonOnlyTopicsCanDecayWithoutDiagnosis" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.LessonOnlyTopicsCanDecayWithoutDiagnosis" methodname="LessonOnlyTopicsCanDecayWithoutDiagnosis" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="487713874" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.026499" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="MultipleProfilesHaveStableIndependentIdsAndState" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.MultipleProfilesHaveStableIndependentIdsAndState" methodname="MultipleProfilesHaveStableIndependentIdsAndState" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1379243734" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.020073" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="NewProfileHasEightUnknownTopicsAndFirstChapterNeedsDiagnosis" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.NewProfileHasEightUnknownTopicsAndFirstChapterNeedsDiagnosis" methodname="NewProfileHasEightUnknownTopicsAndFirstChapterNeedsDiagnosis" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="223181648" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.006961" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1047" name="NewTopicAfterRollbackUsesTheProfilesExistingUtcHighWaterMark" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.NewTopicAfterRollbackUsesTheProfilesExistingUtcHighWaterMark" methodname="NewTopicAfterRollbackUsesTheProfilesExistingUtcHighWaterMark" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1063061909" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.063541" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1033" name="NonFiniteScoresAreRejectedWithoutPartiallyCreatingAChapter" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.NonFiniteScoresAreRejectedWithoutPartiallyCreatingAChapter" methodname="NonFiniteScoresAreRejectedWithoutPartiallyCreatingAChapter" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1519024176" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.005998" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1043" name="NonUtcClockAndUnsafeProfileIdsAreRejected" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.NonUtcClockAndUnsafeProfileIdsAreRejected" methodname="NonUtcClockAndUnsafeProfileIdsAreRejected" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1568674279" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.001392" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1032" name="PracticeClampsBothIndicatorsAndDecayNeverGoesBelowZero" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.PracticeClampsBothIndicatorsAndDecayNeverGoesBelowZero" methodname="PracticeClampsBothIndicatorsAndDecayNeverGoesBelowZero" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="211011399" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.039144" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1042" name="RepeatedLessonCompletionDoesNotExtendOrStackDecay" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.RepeatedLessonCompletionDoesNotExtendOrStackDecay" methodname="RepeatedLessonCompletionDoesNotExtendOrStackDecay" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="326147016" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.052337" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="RepeatedLoadsNeverApplyTheSameLossTwice" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.RepeatedLoadsNeverApplyTheSameLossTwice" methodname="RepeatedLoadsNeverApplyTheSameLossTwice" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="334788631" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.043356" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="RoundTripPersistsKnowledgeFlagsHistoryUtcAndChapterDecisions" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.RoundTripPersistsKnowledgeFlagsHistoryUtcAndChapterDecisions" methodname="RoundTripPersistsKnowledgeFlagsHistoryUtcAndChapterDecisions" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="2057573384" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.062013" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="SuccessfulPracticeAfterRollbackRestoresKnowledgeAndResetsAnchorMonotonically" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.SuccessfulPracticeAfterRollbackRestoresKnowledgeAndResetsAnchorMonotonically" methodname="SuccessfulPracticeAfterRollbackRestoresKnowledgeAndResetsAnchorMonotonically" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="1849301474" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.059802" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1024" name="SuccessfulPracticeRestoresKnowledgeAndOnlyThenRestartsDecay" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.SuccessfulPracticeRestoresKnowledgeAndOnlyThenRestartsDecay" methodname="SuccessfulPracticeRestoresKnowledgeAndOnlyThenRestartsDecay" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="811235977" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:56Z" duration="0.051180" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1019" name="UnknownTopicsNeverDecayAndAssessedZeroIsDifferentFromUnknownZero" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.UnknownTopicsNeverDecayAndAssessedZeroIsDifferentFromUnknownZero" methodname="UnknownTopicsNeverDecayAndAssessedZeroIsDifferentFromUnknownZero" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="210233816" result="Passed" start-time="2026-10-22 21:49:56Z" end-time="2026-10-22 21:49:57Z" duration="0.027786" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1039" name="WritesKeepAPreviousBackupAndIgnoreInterruptedTemporaryFiles" fullname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests.WritesKeepAPreviousBackupAndIgnoreInterruptedTemporaryFiles" methodname="WritesKeepAPreviousBackupAndIgnoreInterruptedTemporaryFiles" classname="RiscVAdventure.Tests.Adventure.AdventureFoundationTests" runstate="Runnable" seed="869699917" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.022975" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1163" name="Tests.dll" fullname="C:/Users/sardo/riscv-architecture-educational-game/Library/ScriptAssemblies/Tests.dll" runstate="Runnable" testcasecount="91" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.030670" total="91" passed="91" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22596" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1052" name="AluTests" fullname="AluTests" classname="AluTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.002493" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1053" name="Add_ReturnsSum" fullname="AluTests.Add_ReturnsSum" methodname="Add_ReturnsSum" classname="AluTests" runstate="Runnable" seed="736276189" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000595" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1055" name="And_ReturnsBitwiseAnd" fullname="AluTests.And_ReturnsBitwiseAnd" methodname="And_ReturnsBitwiseAnd" classname="AluTests" runstate="Runnable" seed="1806993566" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000101" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1061" name="IntOverload_MatchesEnumOverload" fullname="AluTests.IntOverload_MatchesEnumOverload" classname="AluTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000695" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1057" name="IntOverload_MatchesEnumOverload(0,2,3,5)" fullname="AluTests.IntOverload_MatchesEnumOverload(0,2,3,5)" methodname="IntOverload_MatchesEnumOverload" classname="AluTests" runstate="Runnable" seed="2014912599" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000256" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1058" name="IntOverload_MatchesEnumOverload(1,5,3,2)" fullname="AluTests.IntOverload_MatchesEnumOverload(1,5,3,2)" methodname="IntOverload_MatchesEnumOverload" classname="AluTests" runstate="Runnable" seed="429700857" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000030" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1059" name="IntOverload_MatchesEnumOverload(2,6,3,2)" fullname="AluTests.IntOverload_MatchesEnumOverload(2,6,3,2)" methodname="IntOverload_MatchesEnumOverload" classname="AluTests" runstate="Runnable" seed="1969891260" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000018" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1060" name="IntOverload_MatchesEnumOverload(3,6,3,7)" fullname="AluTests.IntOverload_MatchesEnumOverload(3,6,3,7)" methodname="IntOverload_MatchesEnumOverload" classname="AluTests" runstate="Runnable" seed="1006998344" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000018" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1056" name="Or_ReturnsBitwiseOr" fullname="AluTests.Or_ReturnsBitwiseOr" methodname="Or_ReturnsBitwiseOr" classname="AluTests" runstate="Runnable" seed="135728499" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000097" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1054" name="Sub_WhenOperandsEqual_ZeroFlagIsSet" fullname="AluTests.Sub_WhenOperandsEqual_ZeroFlagIsSet" methodname="Sub_WhenOperandsEqual_ZeroFlagIsSet" classname="AluTests" runstate="Runnable" seed="1250462998" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000105" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1062" name="DataInstMemoryTests" fullname="DataInstMemoryTests" classname="DataInstMemoryTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.003421" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1066" name="Clock_WriteDisabled_DoesNotStoreData" fullname="DataInstMemoryTests.Clock_WriteDisabled_DoesNotStoreData" methodname="Clock_WriteDisabled_DoesNotStoreData" classname="DataInstMemoryTests" runstate="Runnable" seed="1175232764" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000644" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1065" name="Clock_WriteEnabled_StoresDataAtAddress" fullname="DataInstMemoryTests.Clock_WriteEnabled_StoresDataAtAddress" methodname="Clock_WriteEnabled_StoresDataAtAddress" classname="DataInstMemoryTests" runstate="Runnable" seed="1627291669" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000771" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1064" name="LoadWord_ThenRead_ReturnsLoadedValue" fullname="DataInstMemoryTests.LoadWord_ThenRead_ReturnsLoadedValue" methodname="LoadWord_ThenRead_ReturnsLoadedValue" classname="DataInstMemoryTests" runstate="Runnable" seed="205905433" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000571" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1068" name="PreClockUpdate_BeforeClock_DoesNotSeeSameCycleWrite" fullname="DataInstMemoryTests.PreClockUpdate_BeforeClock_DoesNotSeeSameCycleWrite" methodname="PreClockUpdate_BeforeClock_DoesNotSeeSameCycleWrite" classname="DataInstMemoryTests" runstate="Runnable" seed="219565881" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000158" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1067" name="PreClockUpdate_ReadsIndependentlyOfMemoryWriteFlag" fullname="DataInstMemoryTests.PreClockUpdate_ReadsIndependentlyOfMemoryWriteFlag" methodname="PreClockUpdate_ReadsIndependentlyOfMemoryWriteFlag" classname="DataInstMemoryTests" runstate="Runnable" seed="2004430643" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000133" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1063" name="PreClockUpdate_UnwrittenAddress_ReadsAsZero" fullname="DataInstMemoryTests.PreClockUpdate_UnwrittenAddress_ReadsAsZero" methodname="PreClockUpdate_UnwrittenAddress_ReadsAsZero" classname="DataInstMemoryTests" runstate="Runnable" seed="598600450" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000100" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1069" name="WriteThenReadDifferentAddress_DoesNotAffectOtherAddresses" fullname="DataInstMemoryTests.WriteThenReadDifferentAddress_DoesNotAffectOtherAddresses" methodname="WriteThenReadDifferentAddress_DoesNotAffectOtherAddresses" classname="DataInstMemoryTests" runstate="Runnable" seed="1318270641" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000123" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1070" name="ExtenderTests" fullname="ExtenderTests" classname="ExtenderTests" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.004068" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="ParameterizedMethod" id="1089" name="Evaluate_BType_SignExtendsCorrectly" fullname="ExtenderTests.Evaluate_BType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000838" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1084" name="Evaluate_BType_SignExtendsCorrectly(0)" fullname="ExtenderTests.Evaluate_BType_SignExtendsCorrectly(0)" methodname="Evaluate_BType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1696877922" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000310" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1085" name="Evaluate_BType_SignExtendsCorrectly(2)" fullname="ExtenderTests.Evaluate_BType_SignExtendsCorrectly(2)" methodname="Evaluate_BType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1739297443" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000029" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1086" name="Evaluate_BType_SignExtendsCorrectly(-2)" fullname="ExtenderTests.Evaluate_BType_SignExtendsCorrectly(-2)" methodname="Evaluate_BType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1593784400" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000017" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1087" name="Evaluate_BType_SignExtendsCorrectly(4094)" fullname="ExtenderTests.Evaluate_BType_SignExtendsCorrectly(4094)" methodname="Evaluate_BType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1947028748" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000016" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1088" name="Evaluate_BType_SignExtendsCorrectly(-4096)" fullname="ExtenderTests.Evaluate_BType_SignExtendsCorrectly(-4096)" methodname="Evaluate_BType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="442248047" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000017" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1076" name="Evaluate_IType_SignExtendsCorrectly" fullname="ExtenderTests.Evaluate_IType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000827" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1071" name="Evaluate_IType_SignExtendsCorrectly(0)" fullname="ExtenderTests.Evaluate_IType_SignExtendsCorrectly(0)" methodname="Evaluate_IType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1305106845" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000149" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1072" name="Evaluate_IType_SignExtendsCorrectly(1)" fullname="ExtenderTests.Evaluate_IType_SignExtendsCorrectly(1)" methodname="Evaluate_IType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1394507411" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000025" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1073" name="Evaluate_IType_SignExtendsCorrectly(-1)" fullname="ExtenderTests.Evaluate_IType_SignExtendsCorrectly(-1)" methodname="Evaluate_IType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="45472951" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000018" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1074" name="Evaluate_IType_SignExtendsCorrectly(2047)" fullname="ExtenderTests.Evaluate_IType_SignExtendsCorrectly(2047)" methodname="Evaluate_IType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1239204947" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000015" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1075" name="Evaluate_IType_SignExtendsCorrectly(-2048)" fullname="ExtenderTests.Evaluate_IType_SignExtendsCorrectly(-2048)" methodname="Evaluate_IType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1155062379" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000016" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1095" name="Evaluate_JType_SignExtendsCorrectly" fullname="ExtenderTests.Evaluate_JType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000891" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1090" name="Evaluate_JType_SignExtendsCorrectly(0)" fullname="ExtenderTests.Evaluate_JType_SignExtendsCorrectly(0)" methodname="Evaluate_JType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="2144996402" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000166" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1091" name="Evaluate_JType_SignExtendsCorrectly(2)" fullname="ExtenderTests.Evaluate_JType_SignExtendsCorrectly(2)" methodname="Evaluate_JType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1308715177" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000025" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1092" name="Evaluate_JType_SignExtendsCorrectly(-2)" fullname="ExtenderTests.Evaluate_JType_SignExtendsCorrectly(-2)" methodname="Evaluate_JType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1036030850" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000016" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1093" name="Evaluate_JType_SignExtendsCorrectly(1048574)" fullname="ExtenderTests.Evaluate_JType_SignExtendsCorrectly(1048574)" methodname="Evaluate_JType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1570077502" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000016" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1094" name="Evaluate_JType_SignExtendsCorrectly(-1048576)" fullname="ExtenderTests.Evaluate_JType_SignExtendsCorrectly(-1048576)" methodname="Evaluate_JType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="769366959" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000015" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1083" name="Evaluate_SType_SignExtendsCorrectly" fullname="ExtenderTests.Evaluate_SType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000717" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1077" name="Evaluate_SType_SignExtendsCorrectly(0)" fullname="ExtenderTests.Evaluate_SType_SignExtendsCorrectly(0)" methodname="Evaluate_SType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1697271285" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000120" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1078" name="Evaluate_SType_SignExtendsCorrectly(1)" fullname="ExtenderTests.Evaluate_SType_SignExtendsCorrectly(1)" methodname="Evaluate_SType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="878412462" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000026" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1079" name="Evaluate_SType_SignExtendsCorrectly(-1)" fullname="ExtenderTests.Evaluate_SType_SignExtendsCorrectly(-1)" methodname="Evaluate_SType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="967466061" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000017" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1080" name="Evaluate_SType_SignExtendsCorrectly(2047)" fullname="ExtenderTests.Evaluate_SType_SignExtendsCorrectly(2047)" methodname="Evaluate_SType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="1697262754" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000015" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1081" name="Evaluate_SType_SignExtendsCorrectly(-2048)" fullname="ExtenderTests.Evaluate_SType_SignExtendsCorrectly(-2048)" methodname="Evaluate_SType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="456669464" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000016" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1082" name="Evaluate_SType_SignExtendsCorrectly(1234)" fullname="ExtenderTests.Evaluate_SType_SignExtendsCorrectly(1234)" methodname="Evaluate_SType_SignExtendsCorrectly" classname="ExtenderTests" runstate="Runnable" seed="562539241" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000016" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1096" name="Evaluate_UnknownControlCode_ReturnsZero" fullname="ExtenderTests.Evaluate_UnknownControlCode_ReturnsZero" methodname="Evaluate_UnknownControlCode_ReturnsZero" classname="ExtenderTests" runstate="Runnable" seed="1238348861" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000120" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1097" name="MultiplexerTests" fullname="MultiplexerTests" classname="MultiplexerTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.001143" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1099" name="Select2To1_ControlFalse_ReturnsSecondInput" fullname="MultiplexerTests.Select2To1_ControlFalse_ReturnsSecondInput" methodname="Select2To1_ControlFalse_ReturnsSecondInput" classname="MultiplexerTests" runstate="Runnable" seed="2108218685" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000101" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1098" name="Select2To1_ControlTrue_ReturnsFirstInput" fullname="MultiplexerTests.Select2To1_ControlTrue_ReturnsFirstInput" methodname="Select2To1_ControlTrue_ReturnsFirstInput" classname="MultiplexerTests" runstate="Runnable" seed="1373647952" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000084" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1103" name="SelectNto1_ReturnsInputAtControlIndex" fullname="MultiplexerTests.SelectNto1_ReturnsInputAtControlIndex" classname="MultiplexerTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000524" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1100" name="SelectNto1_ReturnsInputAtControlIndex(0,10)" fullname="MultiplexerTests.SelectNto1_ReturnsInputAtControlIndex(0,10)" methodname="SelectNto1_ReturnsInputAtControlIndex" classname="MultiplexerTests" runstate="Runnable" seed="556632500" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000203" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1101" name="SelectNto1_ReturnsInputAtControlIndex(1,20)" fullname="MultiplexerTests.SelectNto1_ReturnsInputAtControlIndex(1,20)" methodname="SelectNto1_ReturnsInputAtControlIndex" classname="MultiplexerTests" runstate="Runnable" seed="1672441864" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000035" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1102" name="SelectNto1_ReturnsInputAtControlIndex(2,30)" fullname="MultiplexerTests.SelectNto1_ReturnsInputAtControlIndex(2,30)" methodname="SelectNto1_ReturnsInputAtControlIndex" classname="MultiplexerTests" runstate="Runnable" seed="1664733121" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000016" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="1104" name="RegisterFileTests" fullname="RegisterFileTests" classname="RegisterFileTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.007294" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="ParameterizedMethod" id="1115" name="Clock_WriteAddressOutOfRange_IsIgnoredSafely" fullname="RegisterFileTests.Clock_WriteAddressOutOfRange_IsIgnoredSafely" classname="RegisterFileTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.001641" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1113" name="Clock_WriteAddressOutOfRange_IsIgnoredSafely(-1)" fullname="RegisterFileTests.Clock_WriteAddressOutOfRange_IsIgnoredSafely(-1)" methodname="Clock_WriteAddressOutOfRange_IsIgnoredSafely" classname="RegisterFileTests" runstate="Runnable" seed="414953706" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.001306" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1114" name="Clock_WriteAddressOutOfRange_IsIgnoredSafely(32)" fullname="RegisterFileTests.Clock_WriteAddressOutOfRange_IsIgnoredSafely(32)" methodname="Clock_WriteAddressOutOfRange_IsIgnoredSafely" classname="RegisterFileTests" runstate="Runnable" seed="124426677" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000050" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1112" name="Clock_WriteDisabled_DoesNotModifyRegisters" fullname="RegisterFileTests.Clock_WriteDisabled_DoesNotModifyRegisters" methodname="Clock_WriteDisabled_DoesNotModifyRegisters" classname="RegisterFileTests" runstate="Runnable" seed="1506513185" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000196" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1111" name="Clock_WriteEnabled_StoresDataAtWriteAddress" fullname="RegisterFileTests.Clock_WriteEnabled_StoresDataAtWriteAddress" methodname="Clock_WriteEnabled_StoresDataAtWriteAddress" classname="RegisterFileTests" runstate="Runnable" seed="512187774" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000184" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1105" name="Constructor_CreatesThirtyTwoRegistersInitializedToZero" fullname="RegisterFileTests.Constructor_CreatesThirtyTwoRegistersInitializedToZero" methodname="Constructor_CreatesThirtyTwoRegistersInitializedToZero" classname="RegisterFileTests" runstate="Runnable" seed="152025829" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000822" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1117" name="InitializeRegisters_CopiesValues_AndDoesNotAliasSourceArray" fullname="RegisterFileTests.InitializeRegisters_CopiesValues_AndDoesNotAliasSourceArray" methodname="InitializeRegisters_CopiesValues_AndDoesNotAliasSourceArray" classname="RegisterFileTests" runstate="Runnable" seed="44714254" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.001291" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1109" name="ReadRegisters_AddressAtOrAboveThirtyTwo_ReturnsZero" fullname="RegisterFileTests.ReadRegisters_AddressAtOrAboveThirtyTwo_ReturnsZero" methodname="ReadRegisters_AddressAtOrAboveThirtyTwo_ReturnsZero" classname="RegisterFileTests" runstate="Runnable" seed="835701538" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000364" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1108" name="ReadRegisters_NegativeAddress_ReturnsZero" fullname="RegisterFileTests.ReadRegisters_NegativeAddress_ReturnsZero" methodname="ReadRegisters_NegativeAddress_ReturnsZero" classname="RegisterFileTests" runstate="Runnable" seed="1706588516" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000173" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1110" name="ReadRegisters_ReadsBothPortsIndependently" fullname="RegisterFileTests.ReadRegisters_ReadsBothPortsIndependently" methodname="ReadRegisters_ReadsBothPortsIndependently" classname="RegisterFileTests" runstate="Runnable" seed="1470257172" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000227" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1106" name="ReadRegisters_RegisterZero_AlwaysReadsAsZero" fullname="RegisterFileTests.ReadRegisters_RegisterZero_AlwaysReadsAsZero" methodname="ReadRegisters_RegisterZero_AlwaysReadsAsZero" classname="RegisterFileTests" runstate="Runnable" seed="1135072709" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000174" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1107" name="ReadRegisters_ValidAddress_ReturnsStoredValue" fullname="RegisterFileTests.ReadRegisters_ValidAddress_ReturnsStoredValue" methodname="ReadRegisters_ValidAddress_ReturnsStoredValue" classname="RegisterFileTests" runstate="Runnable" seed="441556312" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000186" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1116" name="WriteThenRead_AcrossTwoClockCycles_ReturnsWrittenValue" fullname="RegisterFileTests.WriteThenRead_AcrossTwoClockCycles_ReturnsWrittenValue" methodname="WriteThenRead_AcrossTwoClockCycles_ReturnsWrittenValue" classname="RegisterFileTests" runstate="Runnable" seed="6453236" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000144" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1118" name="RegisterTests" fullname="RegisterTests" classname="RegisterTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.002865" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1124" name="Clock_WithoutPriorPreClockUpdate_DoesNotPickUpNewInput" fullname="RegisterTests.Clock_WithoutPriorPreClockUpdate_DoesNotPickUpNewInput" methodname="Clock_WithoutPriorPreClockUpdate_DoesNotPickUpNewInput" classname="RegisterTests" runstate="Runnable" seed="1866916910" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000266" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1122" name="ClockCycle_WriteDisabled_KeepsPreviousOutput" fullname="RegisterTests.ClockCycle_WriteDisabled_KeepsPreviousOutput" methodname="ClockCycle_WriteDisabled_KeepsPreviousOutput" classname="RegisterTests" runstate="Runnable" seed="401106617" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000133" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1121" name="ClockCycle_WriteEnabled_StoresInputAsNewOutput" fullname="RegisterTests.ClockCycle_WriteEnabled_StoresInputAsNewOutput" methodname="ClockCycle_WriteEnabled_StoresInputAsNewOutput" classname="RegisterTests" runstate="Runnable" seed="561414308" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000122" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1119" name="Constructor_Default_OutputIsZero" fullname="RegisterTests.Constructor_Default_OutputIsZero" methodname="Constructor_Default_OutputIsZero" classname="RegisterTests" runstate="Runnable" seed="2078060740" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000141" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1120" name="Constructor_WithInitialValue_OutputIsInitialValue" fullname="RegisterTests.Constructor_WithInitialValue_OutputIsInitialValue" methodname="Constructor_WithInitialValue_OutputIsInitialValue" classname="RegisterTests" runstate="Runnable" seed="886924241" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000168" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1125" name="MultipleClockCycles_UpdateSequentially" fullname="RegisterTests.MultipleClockCycles_UpdateSequentially" methodname="MultipleClockCycles_UpdateSequentially" classname="RegisterTests" runstate="Runnable" seed="994273738" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000238" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1126" name="Reset_ImmediatelyOverridesOutput" fullname="RegisterTests.Reset_ImmediatelyOverridesOutput" methodname="Reset_ImmediatelyOverridesOutput" classname="RegisterTests" runstate="Runnable" seed="241706458" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000169" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1127" name="Reset_ThenClockWithoutWrite_KeepsResetValue" fullname="RegisterTests.Reset_ThenClockWithoutWrite_KeepsResetValue" methodname="Reset_ThenClockWithoutWrite_KeepsResetValue" classname="RegisterTests" runstate="Runnable" seed="2023015600" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000145" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1123" name="SettingInput_WithoutClocking_DoesNotChangeOutput" fullname="RegisterTests.SettingInput_WithoutClocking_DoesNotChangeOutput" methodname="SettingInput_WithoutClocking_DoesNotChangeOutput" classname="RegisterTests" runstate="Runnable" seed="1987889675" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000100" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1128" name="RiscVDecoderTests" fullname="RiscVDecoderTests" classname="RiscVDecoderTests" runstate="Runnable" testcasecount="28" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.008433" total="28" passed="28" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1129" name="CommandBuilder_Add_ReturnsAddMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Add_ReturnsAddMnemonic" methodname="CommandBuilder_Add_ReturnsAddMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="309038546" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.001242" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1135" name="CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate" fullname="RiscVDecoderTests.CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate" classname="RiscVDecoderTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000961" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1133" name="CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate(5,&quot;addi x1, x2, 5&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate(5,&quot;addi x1, x2, 5&quot;)" methodname="CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate" classname="RiscVDecoderTests" runstate="Runnable" seed="1251135349" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000457" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1134" name="CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate(-5,&quot;addi x1, x2, -5&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate(-5,&quot;addi x1, x2, -5&quot;)" methodname="CommandBuilder_Addi_ReturnsAddiMnemonicWithSignedImmediate" classname="RiscVDecoderTests" runstate="Runnable" seed="173982216" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000215" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1131" name="CommandBuilder_And_ReturnsAndMnemonic" fullname="RiscVDecoderTests.CommandBuilder_And_ReturnsAndMnemonic" methodname="CommandBuilder_And_ReturnsAndMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="1251552161" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000084" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1143" name="CommandBuilder_Andi_ReturnsAndiMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Andi_ReturnsAndiMnemonic" methodname="CommandBuilder_Andi_ReturnsAndiMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="1458379130" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000071" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1162" name="CommandBuilder_AtOrAboveMinValidInstruction_IsTreatedAsAnInstruction" fullname="RiscVDecoderTests.CommandBuilder_AtOrAboveMinValidInstruction_IsTreatedAsAnInstruction" methodname="CommandBuilder_AtOrAboveMinValidInstruction_IsTreatedAsAnInstruction" classname="RiscVDecoderTests" runstate="Runnable" seed="925408679" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000134" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1160" name="CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber" fullname="RiscVDecoderTests.CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber" classname="RiscVDecoderTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000547" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1158" name="CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber(uint.MinValue,&quot;0&quot;)" fullname="RiscVDecoderTests.CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber(uint.MinValue,&quot;0&quot;)" methodname="CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber" classname="RiscVDecoderTests" runstate="Runnable" seed="1659664627" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000204" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1159" name="CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber(500,&quot;500&quot;)" fullname="RiscVDecoderTests.CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber(500,&quot;500&quot;)" methodname="CommandBuilder_BelowMinValidInstruction_ReturnsPlainNumber" classname="RiscVDecoderTests" runstate="Runnable" seed="1027174251" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000036" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1152" name="CommandBuilder_Beq_ReturnsBranchMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Beq_ReturnsBranchMnemonic" classname="RiscVDecoderTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000552" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1150" name="CommandBuilder_Beq_ReturnsBranchMnemonic(8,&quot;beq x2, x3, 8&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Beq_ReturnsBranchMnemonic(8,&quot;beq x2, x3, 8&quot;)" methodname="CommandBuilder_Beq_ReturnsBranchMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="995934989" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000162" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1151" name="CommandBuilder_Beq_ReturnsBranchMnemonic(-8,&quot;beq x2, x3, -8&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Beq_ReturnsBranchMnemonic(-8,&quot;beq x2, x3, -8&quot;)" methodname="CommandBuilder_Beq_ReturnsBranchMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="297341060" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000028" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1155" name="CommandBuilder_Jal_ReturnsJumpMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Jal_ReturnsJumpMnemonic" classname="RiscVDecoderTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000385" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1153" name="CommandBuilder_Jal_ReturnsJumpMnemonic(100,&quot;jal x1, 100&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Jal_ReturnsJumpMnemonic(100,&quot;jal x1, 100&quot;)" methodname="CommandBuilder_Jal_ReturnsJumpMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="891909881" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000111" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1154" name="CommandBuilder_Jal_ReturnsJumpMnemonic(-100,&quot;jal x1, -100&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Jal_ReturnsJumpMnemonic(-100,&quot;jal x1, -100&quot;)" methodname="CommandBuilder_Jal_ReturnsJumpMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="537691122" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000023" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1156" name="CommandBuilder_Jalr_ReturnsJumpRegisterMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Jalr_ReturnsJumpRegisterMnemonic" methodname="CommandBuilder_Jalr_ReturnsJumpRegisterMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="836327345" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000092" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1161" name="CommandBuilder_JustBelowMinValidInstruction_ReturnsPlainNumber" fullname="RiscVDecoderTests.CommandBuilder_JustBelowMinValidInstruction_ReturnsPlainNumber" methodname="CommandBuilder_JustBelowMinValidInstruction_ReturnsPlainNumber" classname="RiscVDecoderTests" runstate="Runnable" seed="66321710" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000149" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1146" name="CommandBuilder_Lw_ReturnsLoadMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Lw_ReturnsLoadMnemonic" classname="RiscVDecoderTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000411" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1144" name="CommandBuilder_Lw_ReturnsLoadMnemonic(8,&quot;lw x5, 8(x2)&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Lw_ReturnsLoadMnemonic(8,&quot;lw x5, 8(x2)&quot;)" methodname="CommandBuilder_Lw_ReturnsLoadMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="1261145283" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000097" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1145" name="CommandBuilder_Lw_ReturnsLoadMnemonic(-4,&quot;lw x5, -4(x2)&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Lw_ReturnsLoadMnemonic(-4,&quot;lw x5, -4(x2)&quot;)" methodname="CommandBuilder_Lw_ReturnsLoadMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="245962246" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000034" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1142" name="CommandBuilder_Ori_ReturnsOriMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Ori_ReturnsOriMnemonic" methodname="CommandBuilder_Ori_ReturnsOriMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="244383412" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000083" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1136" name="CommandBuilder_Slli_ReturnsShiftAmountRatherThanRawImmediate" fullname="RiscVDecoderTests.CommandBuilder_Slli_ReturnsShiftAmountRatherThanRawImmediate" methodname="CommandBuilder_Slli_ReturnsShiftAmountRatherThanRawImmediate" classname="RiscVDecoderTests" runstate="Runnable" seed="2025386129" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000071" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1137" name="CommandBuilder_Slti_ReturnsSltiMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Slti_ReturnsSltiMnemonic" methodname="CommandBuilder_Slti_ReturnsSltiMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="822319145" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000069" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1138" name="CommandBuilder_Sltiu_TreatsImmediateAsUnsigned" fullname="RiscVDecoderTests.CommandBuilder_Sltiu_TreatsImmediateAsUnsigned" methodname="CommandBuilder_Sltiu_TreatsImmediateAsUnsigned" classname="RiscVDecoderTests" runstate="Runnable" seed="675110162" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000066" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1141" name="CommandBuilder_Srai_WhenBit30Set_IsArithmeticShift" fullname="RiscVDecoderTests.CommandBuilder_Srai_WhenBit30Set_IsArithmeticShift" methodname="CommandBuilder_Srai_WhenBit30Set_IsArithmeticShift" classname="RiscVDecoderTests" runstate="Runnable" seed="1180753674" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000065" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1140" name="CommandBuilder_Srli_WhenBit30Clear_IsLogicalShift" fullname="RiscVDecoderTests.CommandBuilder_Srli_WhenBit30Clear_IsLogicalShift" methodname="CommandBuilder_Srli_WhenBit30Clear_IsLogicalShift" classname="RiscVDecoderTests" runstate="Runnable" seed="401990685" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000063" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1130" name="CommandBuilder_Sub_ReturnsSubMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Sub_ReturnsSubMnemonic" methodname="CommandBuilder_Sub_ReturnsSubMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="1098158836" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000066" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1149" name="CommandBuilder_Sw_ReturnsStoreMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Sw_ReturnsStoreMnemonic" classname="RiscVDecoderTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000407" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1147" name="CommandBuilder_Sw_ReturnsStoreMnemonic(8,&quot;sw x5, 8(x2)&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Sw_ReturnsStoreMnemonic(8,&quot;sw x5, 8(x2)&quot;)" methodname="CommandBuilder_Sw_ReturnsStoreMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="347473988" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000130" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1148" name="CommandBuilder_Sw_ReturnsStoreMnemonic(-4,&quot;sw x5, -4(x2)&quot;)" fullname="RiscVDecoderTests.CommandBuilder_Sw_ReturnsStoreMnemonic(-4,&quot;sw x5, -4(x2)&quot;)" methodname="CommandBuilder_Sw_ReturnsStoreMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="991863620" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000024" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1157" name="CommandBuilder_UnrecognizedOpcode_ReturnsUnknownWithHexValue" fullname="RiscVDecoderTests.CommandBuilder_UnrecognizedOpcode_ReturnsUnknownWithHexValue" methodname="CommandBuilder_UnrecognizedOpcode_ReturnsUnknownWithHexValue" classname="RiscVDecoderTests" runstate="Runnable" seed="4326076" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000068" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1132" name="CommandBuilder_UnrecognizedRTypeFunctCodes_ReturnsUnknownR" fullname="RiscVDecoderTests.CommandBuilder_UnrecognizedRTypeFunctCodes_ReturnsUnknownR" methodname="CommandBuilder_UnrecognizedRTypeFunctCodes_ReturnsUnknownR" classname="RiscVDecoderTests" runstate="Runnable" seed="73220026" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000068" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1139" name="CommandBuilder_Xori_ReturnsXoriMnemonic" fullname="RiscVDecoderTests.CommandBuilder_Xori_ReturnsXoriMnemonic" methodname="CommandBuilder_Xori_ReturnsXoriMnemonic" classname="RiscVDecoderTests" runstate="Runnable" seed="1336124343" result="Passed" start-time="2026-10-22 21:49:57Z" end-time="2026-10-22 21:49:57Z" duration="0.000073" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/sardo/AppData/LocalLow/com_FachbereichDidaktik_Bachelorarbeit/RiscvAdventure\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

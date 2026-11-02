@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-22 22:29:45Z" end-time="2026-10-22 22:30:23Z" duration="38,9550466">
+  <test-suite type="TestSuite" id="1007" name="RiscvAdventure" fullname="RiscvAdventure" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-22 22:29:45Z" end-time="2026-10-22 22:30:23Z" duration="38.955047" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1003" name="Adventure.Slice.PlayMode.Tests.dll" fullname="C:/Users/sardo/riscv-architecture-educational-game/Library/ScriptAssemblies/Adventure.Slice.PlayMode.Tests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-22 22:29:45Z" end-time="2026-10-22 22:30:23Z" duration="38.938258" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22596" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="AdventureSlicePlayModeTests" fullname="AdventureSlicePlayModeTests" classname="AdventureSlicePlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-22 22:29:45Z" end-time="2026-10-22 22:30:23Z" duration="38.934866" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="LowAndHighDiagnosisUseRealLessonAndRegisterLevel" fullname="AdventureSlicePlayModeTests.LowAndHighDiagnosisUseRealLessonAndRegisterLevel" methodname="LowAndHighDiagnosisUseRealLessonAndRegisterLevel" classname="AdventureSlicePlayModeTests" runstate="Runnable" seed="593951287" result="Passed" start-time="2026-10-22 22:29:45Z" end-time="2026-10-22 22:30:23Z" duration="38.916463" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[[Achievements] Not authenticated (editor / non-Android / sign-in failed).
+The controller has loaded 2 bus segments.
+Printing complete!
+Printing complete!
+Printing complete!
+Printing complete!
+Printing complete!
+Printing complete!
+Printing complete!
+Manifest aliases:
+name: External Dependency Manager --> aliases: [External Dependency Manager]
+name: play-services-resolver --> aliases: [External Dependency Manager]
+name: GooglePlayGamesPlugin --> aliases: []
+Flattened manifest aliases:
+name: External Dependency Manager --> alias: External Dependency Manager
+name: play-services-resolver --> alias: External Dependency Manager
+name: GooglePlayGamesPlugin --> alias: GooglePlayGamesPlugin
+Add manifests to package 'External Dependency Manager':
+file: Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.182_manifest.txt, version: 1.2.182
+Add manifests to package 'GooglePlayGamesPlugin':
+file: Assets\GooglePlayGames\com.google.play.games\Editor\GooglePlayGamesPlugin_v2.1.0.txt, version: 2.1.0
+Parsing manifest 'Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.182_manifest.txt' of package 'External Dependency Manager'
+'External Dependency Manager' Manifest:
+Current files:
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.IOSResolver.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.IOSResolver.pdb
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.JarResolver.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.JarResolver.pdb
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.PackageManagerResolver.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.PackageManagerResolver.pdb
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.VersionHandlerImpl.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.VersionHandlerImpl.pdb
+Assets\ExternalDependencyManager\Editor\CHANGELOG.md
+Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll
+Assets\ExternalDependencyManager\Editor\Google.VersionHandler.pdb
+Assets\ExternalDependencyManager\Editor\LICENSE
+Assets\ExternalDependencyManager\Editor\README.md
+Parsing manifest 'Assets\GooglePlayGames\com.google.play.games\Editor\GooglePlayGamesPlugin_v2.1.0.txt' of package 'GooglePlayGamesPlugin'
+'GooglePlayGamesPlugin' Manifest:
+Current files:
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.IOSResolver.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.IOSResolver.pdb
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.JarResolver.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.JarResolver.pdb
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.PackageManagerResolver.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.PackageManagerResolver.pdb
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.VersionHandlerImpl.dll
+Assets\ExternalDependencyManager\Editor\1.2.182\Google.VersionHandlerImpl.pdb
+Assets\ExternalDependencyManager\Editor\CHANGELOG.md
+Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.182_manifest.txt
+Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll
+Assets\ExternalDependencyManager\Editor\Google.VersionHandler.pdb
+Assets\ExternalDependencyManager\Editor\LICENSE
+Assets\ExternalDependencyManager\Editor\README.md
+Assets\GooglePlayGames\AssemblyInfo.cs
+Assets\GooglePlayGames\com.google.play.games\current-build\GooglePlayGamesPlugin-2.0.0.unitypackage
+Assets\GooglePlayGames\com.google.play.games\Editor\Google.Play.Games.Editor.asmdef
+Assets\GooglePlayGames\com.google.play.games\Editor\GooglePlayGamesPluginDependencies.xml
+Assets\GooglePlayGames\com.google.play.games\Editor\GPGSAndroidSetupUI.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\GPGSDocsUI.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\GPGSPostBuild.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\GPGSProjectSettings.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\GPGSStrings.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\GPGSUpgrader.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\GPGSUtil.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.pom
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.pom.md5
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.pom.sha1
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.pom.sha256
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.pom.sha512
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.srcaar
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.srcaar.md5
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.srcaar.sha1
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.srcaar.sha256
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\2.1.0\gpgs-plugin-support-2.1.0.srcaar.sha512
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\maven-metadata.xml
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\maven-metadata.xml.md5
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\maven-metadata.xml.sha1
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\maven-metadata.xml.sha256
+Assets\GooglePlayGames\com.google.play.games\Editor\m2repository\com\google\games\gpgs-plugin-support\maven-metadata.xml.sha512
+Assets\GooglePlayGames\com.google.play.games\Editor\NearbyConnectionUI.cs
+Assets\GooglePlayGames\com.google.play.games\Editor\template-AndroidManifest.txt
+Assets\GooglePlayGames\com.google.play.games\Editor\template-Constants.txt
+Assets\GooglePlayGames\com.google.play.games\Editor\template-GameInfo.txt
+Assets\GooglePlayGames\com.google.play.games\package.json
+Assets\GooglePlayGames\com.google.play.games\Proguard\games.txt
+Assets\GooglePlayGames\com.google.play.games\Runtime\Google.Play.Games.asmdef
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Achievement.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\AuthResponse.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\AuthScope.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\CommonStatusCodes.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\CommonTypes.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\DummyClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Events\Event.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Events\IEvent.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Events\IEventsClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\IPlayGamesClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\LeaderboardScoreData.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Nearby\AdvertisingResult.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Nearby\ConnectionRequest.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Nearby\ConnectionResponse.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Nearby\DummyNearbyConnectionClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Nearby\EndpointDetails.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Nearby\INearbyConnectionClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Nearby\NearbyConnectionConfiguration.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\Player.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\PlayerProfile.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\PlayerStats.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\RecallAccess.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\SavedGame\ISavedGameClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\SavedGame\ISavedGameMetadata.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\SavedGame\SavedGameMetadataUpdate.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\ScorePageToken.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\SignInInteractivity.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\BasicApi\SignInStatus.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\GameInfo.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\ISocialPlatform\PlayGamesAchievement.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\ISocialPlatform\PlayGamesLeaderboard.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\ISocialPlatform\PlayGamesLocalUser.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\ISocialPlatform\PlayGamesPlatform.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\ISocialPlatform\PlayGamesScore.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\ISocialPlatform\PlayGamesUserProfile.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\OurUtils\Logger.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\OurUtils\Misc.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\OurUtils\NearbyHelperObject.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\OurUtils\PlatformUtils.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\OurUtils\PlayGamesHelperObject.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidEventsClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidHelperFragment.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidJavaConverter.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidNearbyConnectionClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidSavedGameClient.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidSnapshotMetadata.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\Android\AndroidTaskUtils.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\NearbyConnectionClientFactory.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\Platforms\PlayGamesClientFactory.cs
+Assets\GooglePlayGames\com.google.play.games\Runtime\Scripts\PluginVersion.cs
+Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.137.0.txt
+Assets\Plugins\Android\GooglePlayGamesManifest.androidlib\project.properties
+Printing complete!
+[DialogueManager] Dialogue sequence finished.
+The controller has loaded 2 bus segments.
+[DialogueManager] Dialogue sequence finished.
+The controller has loaded 2 bus segments.
+[DialogueManager] Dialogue sequence finished.
+The controller has loaded 2 bus segments.
+Printing complete!
+Saving results to: C:\Users\sardo\riscv-architecture-educational-game\docs\development\adventure-slice-playmode-results.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

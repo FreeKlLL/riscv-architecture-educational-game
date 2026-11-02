@@ -19,48 +19,415 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 111713996800
-    m_Localized: <anim:wave><color=yellow>Willkommen im neuen Kapitel!</color></anim>.
-      Hier dreht sich alles um deinen ersten Prozessor - den Eintaktprozessor.
+    m_Localized: "<anim:wave><color=yellow>Willkommen an Bord!</color></anim> Charlie
+      hier. Dieser Prozessor macht N\xE4gel mit K\xF6pfen: <color=orange>ein Befehl,
+      ein Takt</color>. Den Anfang macht <color=#48DBFB>addi x6, x6, 4</color> an
+      Adresse 0."
     m_Metadata:
       m_Items: []
   - m_Id: 140197515264
-    m_Localized: "Leider sind die Dialoge f\xFCr dieses Kapitel noch nicht ganz fertig
-      :(\\nAber keine Sorge, ich arbeite bereits flei\xDFig daran !"
+    m_Localized: "Der <color=yellow>PC</color> adressiert den Instruction Memory.
+      Das RegisterFile liefert x6, der Extender die 4, und die ALU addiert beides.
+      Das Ergebnis gelangt <color=orange>innerhalb desselben Taktes</color> zur\xFCck
+      nach x6. Daf\xFCr brauchen wir hier weder ein Instruction Register noch ein
+      ALUOut-Register mit einem zus\xE4tzlichen Takt."
     m_Metadata:
       m_Items: []
   - m_Id: 150624555008
-    m_Localized: "Das Gute ist: Alle Level des Kapitels sind bereits spielbar und
-      l\xF6sbar. Aktuell musst du nur leider noch ohne Hinweise und Erkl\xE4rungen
-      auskommen."
+    m_Localized: "Wir starten mit <color=yellow>PC = 0</color> und <color=yellow>x6
+      = 8</color>. Schreibe <color=green>12 nach x6</color>. Im Data Memory stehen
+      an 0, 4, 8, 12 die Werte 1, 2, 3, 4; ADDI l\xE4sst sie unver\xE4ndert. Der
+      normale n\xE4chste PC ist 4."
     m_Metadata:
       m_Items: []
   - m_Id: 160497946624
-    m_Localized: "Im Kapitel \"Mehrtaktprozessor\" ist daf\xFCr schon alles komplett
-      fertig!"
+    m_Localized: 'Alles klar, Chef im Kontrollraum! <color=yellow>Was hilft dir jetzt?</color>
+      Stelle den ganzen Datenpfad vor dem Takt ein: Die wandernden Signale zeigen
+      Teile <color=#48DBFB>eines Taktes</color>, keine eigenen Prozessortakte.'
     m_Metadata:
       m_Items: []
   - m_Id: 2183191941894144
-    m_Localized: Bearbeite den Wert aus Instruction Memory an die Adresse 0 korrekt.
+    m_Localized: "ADDI an Adresse 0 in einem Takt ausf\xFChren: x6 = 8 + 4 = 12."
     m_Metadata:
       m_Items: []
   - m_Id: 2183264188780544
-    m_Localized: Bearbeite den Wert aus Instruction Memory an die Adresse 0 korrekt.
+    m_Localized: "ADD an Adresse 0 in einem Takt ausf\xFChren: x4 = x1 + x3 = 44."
     m_Metadata:
       m_Items: []
   - m_Id: 2183290549981184
-    m_Localized: Bearbeite den Wert aus Instruction Memory an die Adresse 8 korrekt.
+    m_Localized: "Adresse 8 erreichen, dann ORI in einem Takt ausf\xFChren: x12 ODER
+      25 = 63."
     m_Metadata:
       m_Items: []
   - m_Id: 2183300763111424
-    m_Localized: Bearbeite den Wert aus Instruction Memory an die Adresse 0 korrekt.
+    m_Localized: "SW an Adresse 0 ausf\xFChren: x4 = 5 nach Data Memory[4] schreiben."
     m_Metadata:
       m_Items: []
   - m_Id: 2183309646647296
-    m_Localized: Bearbeite den Wert aus Instruction Memory an die Adresse 12 korrekt.
+    m_Localized: 'BEQ an Adresse 12: x1 != x3, also in einem Takt weiter zu PC =
+      16.'
     m_Metadata:
       m_Items: []
   - m_Id: 2183319201271808
-    m_Localized: Bearbeite den Wert aus Instruction Memory an die Adresse 12 korrekt.
+    m_Localized: 'JAL an Adresse 12: x1 = 16. Ziel-PC 256 widerspricht Ergebnis 268;
+      siehe Charlies Tipp.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483477852160
+    m_Localized: 'Alles klar, Chef im Kontrollraum! <color=yellow>Was hilft dir jetzt?</color>
+      Stelle den ganzen Datenpfad vor dem Takt ein: Die wandernden Signale zeigen
+      Teile <color=#48DBFB>eines Taktes</color>, keine eigenen Prozessortakte.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904064
+    m_Localized: Ich bin bereit!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904065
+    m_Localized: "Erkl\xE4r mir den Datenpfad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904066
+    m_Localized: Zeig mir die Steuersignale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904067
+    m_Localized: "Zur\xFCck zur Auswahl."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904068
+    m_Localized: Noch ein Tipp, bitte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904069
+    m_Localized: "<anim:wave><color=yellow>Jetzt bist du dran! Du schaffst das.</color></anim>
+      Klicke die Bausteine an, pr\xFCfe ihre Anzeigen und w\xE4hle die Steuersignale.
+      Erst dann geht es einen Takt weiter. Mit dem R\xFCckw\xE4rtspfeil kannst du
+      einen Schritt zur\xFCckgehen. <color=orange>Check</color> pr\xFCft das gespeicherte
+      Aufgabenziel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904070
+    m_Localized: "<anim:wave>Charlie eilt zur Hilfe!</anim> Wo hakt es beim <color=orange>Eintaktprozessor</color>?
+      W\xE4hle deinen Befehl. Diese Tipps f\xFChren selbst keinen Takt aus."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904071
+    m_Localized: Arithmetik / Logik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904072
+    m_Localized: In den Speicher schreiben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904073
+    m_Localized: Verzweigung / Sprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904074
+    m_Localized: "<color=orange>ADDI</color> addiert einen Sofortwert, <color=orange>ADD</color>
+      zwei Register, und <color=orange>ORI</color> verkn\xFCpft Bits. Welchen Befehl
+      bearbeitest du?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904075
+    m_Localized: "Zur Speicheraufgabe dieses Kapitels geh\xF6rt <color=orange>SW</color>.
+      Instruction Memory liefert den Befehl, Data Memory erh\xE4lt den gespeicherten
+      Wert. Das sind getrennte Bausteine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904076
+    m_Localized: "<color=orange>BEQ</color> h\xE4ngt von einem Vergleich ab. <color=orange>JAL</color>
+      springt und sichert eine R\xFCckkehradresse. Hier w\xE4hlst du den PC-MUX selbst;
+      die Verzweigung wird nicht automatisch ausgew\xE4hlt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904077
+    m_Localized: "<anim:wave><color=yellow>Zur\xFCck an die Steuerung!</color></anim>
+      Pr\xFCfe MUX-Auswahl und Schreibfreigaben vor dem n\xE4chsten Takt. Du kannst
+      dieses Hilfemen\xFC jederzeit wieder \xF6ffnen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904078
+    m_Localized: "Zur\xFCck zum Prozessor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904079
+    m_Localized: "<anim:wave><color=yellow>Willkommen an Bord!</color></anim> Charlie
+      hier. Dieser Prozessor macht N\xE4gel mit K\xF6pfen: <color=orange>ein Befehl,
+      ein Takt</color>. Den Anfang macht <color=#48DBFB>addi x6, x6, 4</color> an
+      Adresse 0."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904080
+    m_Localized: "Der <color=yellow>PC</color> adressiert den Instruction Memory.
+      Das RegisterFile liefert x6, der Extender die 4, und die ALU addiert beides.
+      Das Ergebnis gelangt <color=orange>innerhalb desselben Taktes</color> zur\xFCck
+      nach x6. Daf\xFCr brauchen wir hier weder ein Instruction Register noch ein
+      ALUOut-Register mit einem zus\xE4tzlichen Takt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904081
+    m_Localized: "Wir starten mit <color=yellow>PC = 0</color> und <color=yellow>x6
+      = 8</color>. Schreibe <color=green>12 nach x6</color>. Im Data Memory stehen
+      an 0, 4, 8, 12 die Werte 1, 2, 3, 4; ADDI l\xE4sst sie unver\xE4ndert. Der
+      normale n\xE4chste PC ist 4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904082
+    m_Localized: "Der <color=orange>I-Format-Sofortwert</color> ist die Zahl 4, keine
+      zweite Registeradresse. SrcB kommt deshalb vom Extender, Result von der Haupt-ALU.
+      PC+4 hat in dieser Szene eine eigene ALU; die Haupt-ALU muss also nicht zus\xE4tzlich
+      den PC erh\xF6hen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904083
+    m_Localized: "Steuerrezept: <color=orange>Extender I; SrcB-MUX 1 (Sofortwert);
+      Haupt-ALU ADD; Result-MUX 0 (ALU)</color>. RegisterFile-Schreiben ein, Data-Memory-Schreiben
+      aus. F\xFCr den normalen Ablauf: PC-ALU ADD, PC-MUX 0 (PC+4), PC-Schreiben
+      ein. Die MUX-Zahlen sind die angezeigten Eingangsnummern ab 0. Erst alles einstellen,
+      dann <color=#48DBFB>ein Takt</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904084
+    m_Localized: "<anim:shake>Diesmal kein Flie\xDFband mit mehreren Takten!</anim>
+      Auch die lange Signalanimation geh\xF6rt zu einer einzigen Taktaktion. \xC4ndert
+      sich x6 nicht, pr\xFCfe zuerst RegisterFile-Schreibfreigabe und Result-MUX.
+      Takte nicht einfach in die Nullw\xF6rter hinter Adresse 0 weiter."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904085
+    m_Localized: <anim:wave>Zwei Register kommen in eine ALU...</anim> Kein Witz,
+      nur <color=orange>ADD</color>! An Adresse 0 steht <color=#48DBFB>add x4, x1,
+      x3</color>. Bringen wir die beiden Operanden in einem Takt zusammen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904086
+    m_Localized: "Ein <color=orange>R-Typ-Befehl</color> liefert zwei Quellregisteradressen
+      und eine Zieladresse. RD1 f\xFChrt direkt zur Haupt-ALU. RD2 muss durch den
+      SrcB-MUX. Das ALU-Ergebnis gelangt \xFCber den Result-MUX zum Ziel, bevor dieselbe
+      Taktflanke die Register aktualisiert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904087
+    m_Localized: "<color=yellow>PC = 0, x1 = 1, x3 = 43</color>. Ersetze den Anfangswert
+      x4 = 5 durch <color=green>44</color>. Data Memory bleibt bei 12, 16, -16, -12.
+      Ein Befehl braucht einen Ausf\xFChrungstakt; mit dem normalen PC+4 wird PC
+      = 4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904088
+    m_Localized: "Anders als ADDI hat <color=orange>ADD keinen Sofortwert als Operanden</color>.
+      Mit dem Extender-Ausgang w\xFCrdest du Befehlsbits statt x3 addieren. Die Extender-Einstellung
+      beeinflusst das Ergebnis nicht, wenn SrcB RD2 und der PC PC+4 ausw\xE4hlt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904089
+    m_Localized: "W\xE4hle <color=orange>SrcB-MUX 0 (RD2), Haupt-ALU ADD, Result-MUX
+      0 (ALU)</color>. RegisterFile-Schreiben ein, Data-Memory-Schreiben aus. PC-ALU
+      ADD und PC-MUX 0 w\xE4hlen, PC-Schreiben ein. Ein Takt schreibt dann 1 + 43
+      nach x4. Das Ziel steht im Befehl; x4 w\xE4hlst du nicht von Hand."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904090
+    m_Localized: "Denk an <color=#48DBFB>RegisterFile \u2192 ALU \u2192 RegisterFile</color>.
+      Data Memory ist kein Zwischenstopp auf diesem Weg. Result-MUX-Eingang 1 w\xFCrde
+      Speicherdaten statt der Summe ausw\xE4hlen. <anim:wave>Alle Bausteine kennst
+      du schon!</anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904091
+    m_Localized: "<anim:wave>Zeit f\xFCr ein bisschen Bit-Magie!</anim> <color=#48DBFB>ori
+      x12, x12, 25</color> wartet an Adresse 8, aber <color=yellow>der PC startet
+      bei 0</color>. Erst den richtigen Befehl erreichen, dann in einem Takt ausf\xFChren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904092
+    m_Localized: "<color=orange>ORI</color> verkn\xFCpft die einzelnen Bits mit logischem
+      ODER. Es addiert nicht 25! Der I-Format-Sofortwert gelangt durch den SrcB-MUX
+      zur Haupt-ALU. Hier gilt <color=yellow>63 ODER 25 = 63</color>: Jedes gesetzte
+      Bit von 25 ist in 63 bereits gesetzt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904093
+    m_Localized: "An den Adressen 0 und 4 stehen <color=yellow>Nullw\xF6rter, nicht
+      der ORI-Befehl</color>. Lass RegisterFile- und Data-Memory-Schreiben aus, w\xE4hrend
+      zwei PC+4-Taktaktionen den PC von 0 \xFCber 4 nach 8 bringen. F\xFChre den
+      Befehl an Adresse 8 dann in einem Takt aus. Die zwei Vorbereitungsschritte
+      sind keine zus\xE4tzlichen ORI-Ausf\xFChrungsphasen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904094
+    m_Localized: "Die Bitoperation lautet <color=#48DBFB>111111 ODER 011001 = 111111</color>.
+      W\xE4hle OR, nicht ADD. Das gespeicherte Ziel pr\xFCft nur x12 = 63, und das
+      stimmt bereits am Anfang. Diese Pr\xFCfung allein belegt keine Ausf\xFChrung;
+      gehe bis Adresse 8 und pr\xFCfe deine Steuersignale."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904095
+    m_Localized: "Vorbereitung: PC-ALU ADD, PC-MUX 0, PC-Schreiben ein; RegisterFile-
+      und Data-Memory-Schreiben aus. Zwei Takte bis PC = 8. Dann <color=orange>Extender
+      I, SrcB-MUX 1, Haupt-ALU OR, Result-MUX 0</color> w\xE4hlen und RegisterFile-Schreiben
+      einschalten. Ein weiterer Takt f\xFChrt ORI aus; PC wird 12."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904096
+    m_Localized: "<color=yellow>x12 bleibt auch bei korrekter Ausf\xFChrung 63.</color>
+      Das ist bei diesen Anfangswerten zu erwarten. Eine Erfolgsmeldung vor der Ausf\xFChrung
+      ist eine Einschr\xE4nkung des gespeicherten Aufgabenziels, kein Beleg f\xFCr
+      einen ausgef\xFChrten Befehl. Data Memory startet mit Nullen und bleibt unver\xE4ndert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904097
+    m_Localized: "<anim:wave>Auch Zahlen brauchen ein Zuhause!</anim> Diesmal legt
+      <color=#48DBFB>sw x4, 1(x8)</color> an Adresse 0 einen Wert im <color=orange>Data
+      Memory</color> ab. Instruction Memory beh\xE4lt seine eigene Aufgabe: den Befehl
+      liefern."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904098
+    m_Localized: "SW nutzt <color=yellow>x8 als Basisadresse</color> und <color=yellow>x4
+      als Daten</color>. Die Haupt-ALU addiert den S-Format-Offset zu x8. RD2 liefert
+      x4 direkt an den Schreibdateneingang des Data Memory. Adressberechnung und
+      Speichern geh\xF6ren zu <color=#48DBFB>einem Takt</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904099
+    m_Localized: "Wir starten bei <color=yellow>PC = 0, x8 = 3, x4 = 5</color>. Die
+      effektive Adresse ist 3 + 1 = <color=green>4</color>. Schreibe <color=green>5
+      nach Data Memory[4]</color>, dort steht anfangs 0. Schreibe weder Adresse noch
+      Ergebnis in ein Register. Die anderen Datenw\xF6rter bleiben 0."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483586904100
+    m_Localized: "<color=orange>SW hat kein Zielregister.</color> Die Bits, die in
+      anderen Formaten rd hei\xDFen, geh\xF6ren hier zum Speicher-Offset. RegisterFile-Schreibfreigabe
+      bleibt aus. Der Result-MUX steuert die gespeicherten Daten nicht: RD2 f\xFChrt
+      direkt zu Data Memory WD."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098368
+    m_Localized: "W\xE4hle <color=orange>Extender S, SrcB-MUX 1 (Sofortwert), Haupt-ALU
+      ADD</color>. Data-Memory-Schreiben ein, RegisterFile-Schreiben aus. F\xFCr
+      den n\xE4chsten PC: PC-ALU ADD, PC-MUX 0 und PC-Schreiben ein. Der Result-MUX
+      ist bei gesperrtem RegisterFile-Schreiben unerheblich. Ein Takt speichert x4
+      = 5 an Adresse 4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098369
+    m_Localized: "Verwechsle nicht <color=yellow>Adresse 4</color> mit <color=yellow>Wert
+      5</color>. Die ALU berechnet die Adresse, x4 liefert den Wert. Dieser Prozessor
+      braucht keinen eigenen Adressberechnungstakt vor dem Speichertakt. <anim:wave>Einmal
+      einstellen, in einem Takt ausf\xFChren!</anim>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098370
+    m_Localized: "<anim:wave>Zeit f\xFCr eine Entscheidung!</anim> <color=#48DBFB>beq
+      x1, x3, 1028</color> wartet bei <color=yellow>PC = 12</color>. Ein Branch ist
+      noch kein Versprechen zu springen: Pr\xFCfe zuerst seine Bedingung."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098371
+    m_Localized: "BEQ bedeutet <color=orange>Branch if Equal</color>. Durch Subtraktion
+      der Quellwerte erkennen wir Gleichheit: Null bedeutet ja. In dieser Szene <color=yellow>w\xE4hlst
+      du den PC-MUX selbst</color>; das berechnete Zero-Flag w\xE4hlt den n\xE4chsten
+      PC nicht automatisch. Vergleich und PC-Aktualisierung geh\xF6ren trotzdem zu
+      einem Takt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098372
+    m_Localized: "<color=yellow>x1 = 1, x3 = 43</color>, also 1 - 43 = -42, nicht
+      0. Dieser Branch wird <color=orange>nicht genommen</color>. W\xE4hle den normalen
+      Nachfolger <color=green>PC = 12 + 4 = 16</color>. RegisterFile und Data Memory
+      bleiben unver\xE4ndert; das gespeicherte Ziel pr\xFCft PC = 16."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098373
+    m_Localized: "Mit B-Format-Erweiterung betr\xE4gt der Offset <color=yellow>1028</color>.
+      Ein genommener Branch w\xFCrde PC + Offset = 1040 nutzen, berechnet von der
+      eigenen BTA-ALU. Diese Operanden sind aber ungleich; richtig ist hier PC+4.
+      RegisterFile-R\xFCckschreiben geh\xF6rt nicht zu BEQ."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098374
+    m_Localized: Stelle <color=orange>Extender B, SrcB-MUX 0 (RD2), Haupt-ALU SUB</color>
+      ein. RegisterFile- und Data-Memory-Schreiben bleiben aus. PC-ALU ADD, PC-MUX
+      0 (PC+4), PC-Schreiben ein. BTA-ALU ADD berechnet das ungenutzte Sprungziel.
+      Der Result-MUX ist hier unerheblich. Ein Takt sollte den PC auf 16 setzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098375
+    m_Localized: "<anim:shake>BEQ hei\xDFt nicht: immer springen!</anim> Das ALU-Ergebnis
+      -42 ist nur das Vergleichsergebnis; schreibe es weder in ein Register noch
+      in den Speicher. Der PC-MUX ist in diesem Lernmodell manuell. Entscheide anhand
+      des Vergleichs, statt auf eine automatische Branch-Steuerung zu warten."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098376
+    m_Localized: "<anim:wave>Jetzt springen, sp\xE4ter zur\xFCckkommen!</anim> <color=orange>JAL</color>
+      hilft bei Unterprogrammen: Es lenkt den PC um und sichert eine R\xFCckkehradresse.
+      Hier steht <color=#48DBFB>jal x1, 256</color> bei <color=yellow>PC = 12</color>.
+      Dabei gibt es einen Konfigurationshaken, den wir offen besprechen m\xFCssen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098377
+    m_Localized: "JAL hat zwei Ergebnisse in <color=#48DBFB>einem Ausf\xFChrungstakt</color>:
+      <color=yellow>rd = PC+4</color> und <color=yellow>n\xE4chster PC = PC + J-Sofortwert</color>.
+      Eigene PC- und BTA-ALUs liefern die Werte parallel. Der Result-MUX schickt
+      PC+4 nach x1, der PC-MUX das Ziel zum PC."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098378
+    m_Localized: "Die R\xFCckkehradresse ist <color=green>12 + 4 = 16</color>. Der
+      J-Sofortwert ist aber ein relativer Offset: 12 + 256 = <color=yellow>268</color>.
+      Das unver\xE4nderte gespeicherte Aufgabenziel fordert <color=orange>x1 = 16
+      und PC = 256</color>. Diese PC-Werte widersprechen sich; korrekte Eintaktausf\xFChrung
+      kann dieses gespeicherte Ziel nicht erf\xFCllen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098379
+    m_Localized: "<color=orange>256 ist der Offset, keine absolute Zieladresse.</color>
+      Ersetze den PC nicht direkt durch den Sofortwert und erfinde keinen zus\xE4tzlichen
+      Takt. Korrektes JAL addiert die Adresse des aktuellen Befehls. Der erwartete
+      Link-Wert 16 stimmt; nur der gespeicherte Ziel-PC widerspricht dem Befehl."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483591098380
+    m_Localized: "F\xFCr JAL: <color=orange>Extender J, PC-ALU ADD, BTA-ALU ADD,
+      Result-MUX 2 (PC+4), PC-MUX 1 (BTA)</color>. PC- und RegisterFile-Schreiben
+      ein, Data-Memory-Schreiben aus. Haupt-ALU und SrcB sind daf\xFCr unerheblich.
+      Ein Takt ergibt x1 = 16, PC = 268. Check fordert aber PC = 256: ein Konfigurationsfehler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599483599486976
+    m_Localized: "<anim:wave>Du hast den Haken entdeckt, keinen Rechenfehler!</anim>
+      Diese PC-MUX-Pfade k\xF6nnen PC = 256 mit diesem Befehl nicht in einem korrekten
+      Takt erzeugen. Untersuche hier JAL, bis die Konfiguration korrigiert wird.
+      Ein Steuerbit-Trick ersetzt kein richtiges Ziel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668928
+    m_Localized: addi x6, x6, 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668929
+    m_Localized: add x4, x1, x3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668930
+    m_Localized: ori x12, x12, 25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668931
+    m_Localized: sw x4, 1(x8)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668932
+    m_Localized: beq x1, x3, 1028
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19599568588668933
+    m_Localized: jal x1, 256
     m_Metadata:
       m_Items: []
   references:

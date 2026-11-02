@@ -67,6 +67,12 @@ public class DialogueManager : MonoBehaviour
         OnBackAvailabilityChanged -= ui.SetBackAvailable;
     }
 
+    public bool FinishedNaturally { get; private set; }
+    public int CurrentNodeIndex => _currentNodeIndex;
+    public DialogueGraph ActiveGraph => activeGraph;
+    public event Action<int> OnNodeShown;
+    public void SkipDialogue() => EndDialogue();
+    public void ResumeAtNode(int index) { if (activeGraph != null && index >= 0 && index < activeGraph.nodes.Count) SetNode(index); }
     public event Action OnDialogueEnd;
     public event Action OnDialogueBegin;
     public event Action OnHintEnabled;
@@ -93,7 +99,7 @@ public class DialogueManager : MonoBehaviour
         if (nextIndex < activeGraph.nodes.Count)
             SetNode(nextIndex);
         else
-            EndDialogue();
+            EndDialogue(true);
     }
 
     /// <summary>
@@ -158,6 +164,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        FinishedNaturally = false;
         activeGraph = graph;
         _history.Clear();
         _currentNode = null;
@@ -185,6 +192,7 @@ public class DialogueManager : MonoBehaviour
         _currentNodeIndex = index;
         _currentNode = node;
         ui.UpdateVisuals(node);
+        OnNodeShown?.Invoke(index);
     }
     
     private void RaiseBackAvailability()
@@ -192,8 +200,9 @@ public class DialogueManager : MonoBehaviour
         OnBackAvailabilityChanged?.Invoke(_history.Count > 0);
     }
 
-    private void EndDialogue()
+    private void EndDialogue(bool natural = false)
     {
+        FinishedNaturally = natural;
         CustomLog.LogEditor("[DialogueManager] Dialogue sequence finished.");
         _history.Clear();
         RaiseBackAvailability();

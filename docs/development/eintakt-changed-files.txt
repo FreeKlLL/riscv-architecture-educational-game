@@ -1,0 +1,160 @@
+Assets/Locales/ChaptersLocalization/Chapter 8/Chapter 8 text Shared Data.asset
+Assets/Locales/ChaptersLocalization/Chapter 8/Chapter 8 text_de.asset
+Assets/Locales/ChaptersLocalization/Chapter 8/Chapter 8 text_en.asset
+Assets/Scenes/Levels/Eintaktprozessor/Level 10.unity
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/HintGraph 8 placeholder.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 0.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 1.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 1.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 10.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 10.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 11.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 11.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 12.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 12.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 13.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 13.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 14.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 14.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 15.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 15.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 16.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 16.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 2.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 2.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 3.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 3.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 4.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 4.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 5.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 5.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 6.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 6.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 7.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 7.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 8.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 8.asset.meta
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 9.asset
+Assets/Scriptable objects/Dialogues/HintDialogueSample 1/Level 8/Node 9.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Graph 8 placeholder.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 4.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 4.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 5.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 5.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 6.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 6.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 7.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-0/Node 7.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Graph 11-1.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Graph 11-1.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 0.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 0.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 1.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 1.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 2.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 2.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 3.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 3.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 4.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 4.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 5.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 5.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 6.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 6.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 7.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-1/Node 7.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Graph 11-2.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Graph 11-2.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 0.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 0.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 1.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 1.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 2.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 2.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 3.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 3.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 4.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 4.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 5.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 5.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 6.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 6.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 7.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-2/Node 7.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Graph 11-3.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Graph 11-3.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 0.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 0.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 1.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 1.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 2.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 2.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 3.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 3.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 4.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 4.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 5.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 5.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 6.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 6.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 7.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-3/Node 7.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Graph 11-4.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Graph 11-4.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 0.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 0.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 1.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 1.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 2.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 2.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 3.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 3.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 4.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 4.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 5.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 5.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 6.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 6.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 7.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-4/Node 7.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Graph 11-5.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Graph 11-5.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 0.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 0.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 1.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 1.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 2.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 2.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 3.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 3.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 4.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 4.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 5.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 5.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 6.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 6.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 7.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Level 11-5/Node 7.asset.meta
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Node 0.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Node 1.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Node 2.asset
+Assets/Scriptable objects/Dialogues/Level 8 (Eintakt)/Node 3.asset
+Assets/Scriptable objects/One Tick Processor level entry information/Level 11-1.asset
+Assets/Scriptable objects/One Tick Processor level entry information/Level 11-2.asset
+Assets/Scriptable objects/One Tick Processor level entry information/Level 11-3.asset
+Assets/Scriptable objects/One Tick Processor level entry information/Level 11-4.asset
+Assets/Scriptable objects/One Tick Processor level entry information/Level 11-5.asset
+docs/development/eintakt-changed-files.txt
+docs/development/eintakt-dialogue-content.json
+docs/development/eintakt-dialogues.md
+docs/development/eintakt-validation-results.json
+docs/development/screenshots/eintakt-runtime-01.png
+docs/development/screenshots/eintakt-runtime-02.png
+docs/development/verify-eintakt-dialogues.csx
+docs/development/verify-eintakt-goals.csx

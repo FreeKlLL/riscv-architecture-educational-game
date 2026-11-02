@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005aec3f029d47b409adf5eb8cb6a86d, type: 3}
+  m_Name: RegistersSlice
+  m_EditorClassIdentifier: Adventure.Foundation::RiscVAdventure.Adventure.AdventureSliceConfiguration
+  skipLessonThreshold: 80
+  easyReward: 5
+  mediumReward: 8
+  hardReward: 12
+  errorPenalty: 1
+  hintPenalty: 2
+  failurePenalty: 2
+  maxFailureLoss: 10
+  charlie: {fileID: 21300000, guid: ea7e105653667524c8cbe88247b7c5f4, type: 3}
+  chapters:
+  - topicId: registers
+    implemented: 1
+    exerciseIds:
+    - registers.transfer
+    - registers.hold
+    - registers.negative
+  - topicId: multiplexer
+    implemented: 0
+    exerciseIds: []
+  - topicId: alu
+    implemented: 0
+    exerciseIds: []
+  - topicId: memory
+    implemented: 0
+    exerciseIds: []
+  - topicId: extender
+    implemented: 0
+    exerciseIds: []
+  - topicId: register-file
+    implemented: 0
+    exerciseIds: []
+  - topicId: eintaktprozessor
+    implemented: 0
+    exerciseIds: []
+  - topicId: mehrtaktprozessor
+    implemented: 0
+    exerciseIds: []
+  questions:
+  - english: 'Charlie: Before we begin, what does a register do at a clock edge when
+      WE = 0?'
+    german: 'Charlie: Bevor wir anfangen: Was macht ein Register an der Taktflanke
+      bei WE = 0?'
+    answersEnglish:
+    - It keeps its previous value.
+    - It always becomes zero.
+    - It copies its input.
+    answersGerman:
+    - "Es beh\xE4lt seinen bisherigen Wert."
+    - Es wird immer null.
+    - "Es \xFCbernimmt den Eingang."
+    correctAnswer: 0
+  - english: 'Three registers form a chain: R1 = 4, R2 = 0, R3 = 0. All WE signals
+      are 1. What is R3 immediately after one clock edge?'
+    german: 'Drei Register bilden eine Kette: R1 = 4, R2 = 0, R3 = 0. Alle WE-Signale
+      sind 1. Welchen Wert hat R3 direkt nach einer Taktflanke?'
+    answersEnglish:
+    - 4
+    - '0: it takes the old value of R2.'
+    - The value is undefined.
+    answersGerman:
+    - 4
+    - "0: Es \xFCbernimmt den alten Wert von R2."
+    - Der Wert ist undefiniert.
+    correctAnswer: 1
+  - english: With the same initial chain, how many clock edges transfer the original
+      4 from R1 into R3?
+    german: "Wie viele Taktflanken braucht dieselbe Kette, um die urspr\xFCngliche
+      4 von R1 nach R3 zu \xFCbertragen?"
+    answersEnglish:
+    - None
+    - One
+    - Two
+    answersGerman:
+    - Keine
+    - Eine
+    - Zwei
+    correctAnswer: 2
+  exercises:
+  - id: registers.transfer
+    topicId: registers
+    scenePath: Assets/Scenes/Levels/RegisterLevels/Level 0.unity
+    difficulty: 0
+  - id: registers.hold
+    topicId: registers
+    scenePath: Assets/Scenes/Levels/RegisterLevels/Level 0-1.unity
+    difficulty: 1
+  - id: registers.negative
+    topicId: registers
+    scenePath: Assets/Scenes/Levels/RegisterLevels/Level 0-2.unity
+    difficulty: 2

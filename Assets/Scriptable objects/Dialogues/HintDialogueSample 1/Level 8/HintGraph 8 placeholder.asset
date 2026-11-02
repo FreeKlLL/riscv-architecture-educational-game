@@ -14,3 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueGraph
   nodes:
   - {fileID: 11400000, guid: 9554bdf0898b89c4baacd5a85e620489, type: 2}
+  - {fileID: 11400000, guid: 7c87a8458d60e8943b7005d0402ff44a, type: 2}
+  - {fileID: 11400000, guid: 9df8017551c81dd47ae107132ed241a3, type: 2}
+  - {fileID: 11400000, guid: 5de9a0e02047a024e84bd3163d5b877a, type: 2}
+  - {fileID: 11400000, guid: 78a815e2bb209c54face47b2c738e66c, type: 2}
+  - {fileID: 11400000, guid: e8e854442bd24754d8cf31c65da6f2b6, type: 2}
+  - {fileID: 11400000, guid: 666215f054966764888451c360ca74e1, type: 2}
+  - {fileID: 11400000, guid: e052fadc9709607478ff6fecae4e1400, type: 2}
+  - {fileID: 11400000, guid: c47cb5f75bdb75b4eac5a441324e6126, type: 2}
+  - {fileID: 11400000, guid: 60170fea315d9be47917dcced0f5f3ac, type: 2}
+  - {fileID: 11400000, guid: 95e5f52552d420544bd3f9db6fdbe393, type: 2}
+  - {fileID: 11400000, guid: 2292953f9b98d774abb01f228779a237, type: 2}
+  - {fileID: 11400000, guid: eedea836d7d27e34f92bb5b4f3fb79af, type: 2}
+  - {fileID: 11400000, guid: ace8b0859dadb9641a1588988cce6edb, type: 2}
+  - {fileID: 11400000, guid: 685ce0a52425bb448a38db5320eb885a, type: 2}
+  - {fileID: 11400000, guid: f4144d9cf6ba92a498778745d9b70413, type: 2}
+  - {fileID: 11400000, guid: 958dd78d5c220954fa95ab1fac111dbe, type: 2}

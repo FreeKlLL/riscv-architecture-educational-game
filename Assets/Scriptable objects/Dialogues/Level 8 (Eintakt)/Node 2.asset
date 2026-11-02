@@ -16,12 +16,12 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:93f6bf3b27ccfbe489a979e40cca16e1
     m_TableEntryReference:
-      m_KeyId: 150624555008
-      m_Key: 
+      m_KeyId: 0
+      m_Key: eintakt.11-0.goal
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
-  emotionIndex: 7
+  emotionIndex: 4
   firstAnswer:
     m_TableReference:
       m_TableCollectionName: 

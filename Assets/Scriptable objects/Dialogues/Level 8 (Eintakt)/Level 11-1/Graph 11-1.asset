@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6400de37cca69745a04ec416a264778, type: 3}
+  m_Name: Graph 11-1
+  m_EditorClassIdentifier: RISCadventure::DialogueGraph
+  nodes:
+  - {fileID: 11400000, guid: 7efddfcfa0ad49b479f9b4c2244cd452, type: 2}
+  - {fileID: 11400000, guid: 3085b9ca0285cb94c99ad797b3e705af, type: 2}
+  - {fileID: 11400000, guid: 4193f65854b482e49a575db9cf1ef1b5, type: 2}
+  - {fileID: 11400000, guid: af584dd40d0b9b241bc6336291f36d50, type: 2}
+  - {fileID: 11400000, guid: b999566bd1330f34a9060532a5bfef5c, type: 2}
+  - {fileID: 11400000, guid: 73c48c4f8b8f8d74983d614467c89eac, type: 2}
+  - {fileID: 11400000, guid: 40ff450591593ec478e8a56f29c169ab, type: 2}
+  - {fileID: 11400000, guid: cfbadbe79a39b584b8d6b91d30061a98, type: 2}

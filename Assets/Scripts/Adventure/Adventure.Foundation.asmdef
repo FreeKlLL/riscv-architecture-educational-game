@@ -1,0 +1,6 @@
+{
+  "name": "Adventure.Foundation",
+  "rootNamespace": "RiscVAdventure.Adventure",
+  "references": [],
+  "autoReferenced": true
+}
